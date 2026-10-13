@@ -1,0 +1,37 @@
+id: abbvie-natrelle
+order: 51
+category: Breast Tissue Expanders
+manufacturer: AbbVie
+devices: "Natrelle 133S Expanders"
+title: Natrelle Tissue Expander Directions for Use
+covers: NATRELLE 133S tissue expanders with MAGNA-SITE injection sites, and the older Natrelle 133, 133 Plus, and 133-T lines that patients may still have.
+verified_on: "2026-10-02"
+summary: >-
+  AbbVie (Allergan Aesthetics) publishes the US directions for use for Natrelle tissue expanders
+  on its prescribing information site. The integrated injection site contains a magnet, and the
+  labeling contraindicates MRI.
+where:
+  - label: Natrelle 133S Directions for Use (US)
+    url: https://www.rxabbvie.com/pdf/natrelle-plus_dfu.pdf
+    note: Current US directions for use. The file name says "plus", but the document covers 133S.
+steps:
+  - Find out which expander the patient has and when it was placed, from the operative note or implant card. Ask about both breasts.
+  - Open the current US directions for use and read the caution box and the warning on the magnetic field.
+  - For older expanders, such as 133 Plus or textured 133 models, compare with the labeling the operative record names.
+check:
+  - 'The back page shows the document number and date, "L3831rev05 01/2026", for the current US 133S directions for use.'
+  - 'US editions state "CAUTION: U.S. Federal law restricts this device to sale by or on the order of a licensed physician" and give the Irvine, California address.'
+traps:
+  - 'AbbVie states: "Diagnostic testing with Magnetic Resonance Imaging (MRI) is contraindicated in patients with NATRELLE 133S Tissue Expanders in place." The directions for use do not use the term "MR Unsafe". Report the contraindication as written.'
+  - Older editions remain online on AbbVie's sites, such as LDOC-04824 Rev.01 (2018) for 133S and 133 Plus. Their MRI wording matches, but use the current edition.
+  - The textured Natrelle 133, 133 Plus, and 133-T expanders were recalled in 2019 and are no longer distributed, but patients may still have them.
+  - FDA warned health care providers in 2016 that magnetic injection ports can interfere with implanted pacemakers and ICDs. Mention any such device to the team.
+also:
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: FDA's list of recalls and early alerts, including the 2019 textured expander recall.
+watch:
+- document: Natrelle 133S Directions for Use (US)
+  type: pdf
+  url: https://www.rxabbvie.com/pdf/natrelle-plus_dfu.pdf
+  expect: L3831rev05

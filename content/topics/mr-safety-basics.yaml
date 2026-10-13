@@ -1,0 +1,107 @@
+id: mr-safety-basics
+order: 2
+audience: Fundamentals
+title: "MR Safety Basics"
+summary: >-
+  The core concepts of MR safety, using the definitions in the ACR Manual on MR Safety and FDA
+  guidance.
+verified_on: "2026-10-01"
+sources:
+  - key: acr
+    label: ACR Manual on MR Safety (2026)
+    url: https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/Clinical/Radiology-Safety/Manual-on-MR-Safety.pdf
+  - key: fda-risks
+    label: 'FDA, "MRI (Magnetic Resonance Imaging): Benefits and Risks"'
+    url: https://www.fda.gov/radiation-emitting-products/mri-magnetic-resonance-imaging/benefits-and-risks
+  - key: fda-pro
+    label: 'FDA, "MRI: Information for Professionals"'
+    url: https://www.fda.gov/radiation-emitting-products/mri-magnetic-resonance-imaging/information-professionals
+  - key: fda-labeling
+    label: 'FDA, "Testing and Labeling Medical Devices for Safety in the Magnetic Resonance (MR) Environment" (2023)'
+    url: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/testing-and-labeling-medical-devices-safety-magnetic-resonance-mr-environment
+sections:
+  - heading: Three Fields, Three Kinds of Risk
+    text: An MRI scanner uses three electromagnetic fields. Each can interact with people, implants, and objects in a different way.
+    table:
+      columns: [Field, What it does, Main safety concerns]
+      rows:
+        - [Static magnetic field (B0), "Always on in a superconducting scanner, measured in tesla (T). It is strongest, and changes most sharply, close to the scanner.", "Pulls and twists ferromagnetic objects, which can become projectiles. Affects some implanted devices."]
+        - [Gradient fields, Switch rapidly during imaging to encode the image.,"Loud acoustic noise, peripheral nerve stimulation (twitching), and effects on implanted devices."]
+        - [Radiofrequency (RF) field, Transmits energy to create the MR signal.,"Heating of the body, and of implants or other conductors, which can cause burns."]
+    sources: [acr, fda-risks, fda-pro]
+  - heading: The Four MR Safety Zones
+    text: The ACR divides an MRI facility into four zones, with access becoming stricter closer to the scanner.
+    table:
+      columns: [Zone, What it is]
+      rows:
+        - [Zone I, "Areas freely accessible to the general public, outside the MR facility itself."]
+        - [Zone II, "The interface between public Zone I and the strictly controlled Zones III and IV, such as waiting, preparation, and locker areas. Screening often happens here."]
+        - [Zone III, "An MR Controlled Access Area between Zone II and the fields of Zone IV, typically including the operator console. Unscreened Non-MR Personnel and ferromagnetic objects may not enter freely. Access is controlled by Level 2 MR Personnel."]
+        - [Zone IV, "The MRI scanner room itself, where there is a definite, potentially lethal projectile risk."]
+    tip: The area around external cryogen vents is a separate Cryogen Venting Zone that also needs signage and controlled access.
+    sources: [acr]
+  - heading: "Who Can Enter: MR Personnel Levels"
+    text: The ACR sorts people into three groups by their MR safety training. The group sets how they may move through Zones III and IV.
+    table:
+      columns: [Group, Who they are, Access]
+      rows:
+        - [Non-MR Personnel, "Patients, visitors, and facility staff who do not meet the Level 1 or Level 2 criteria.", "Must pass screening before Zone III, and must be accompanied and directly supervised by Level 2 MR Personnel in Zones III and IV."]
+        - [Level 1 MR Personnel, "People who have passed the facility's MR safety education, so that they are not a danger to themselves or others in the MR environment.", "May move through Zones III and IV unaccompanied after screening. Cannot admit Non-MR Personnel."]
+        - [Level 2 MR Personnel, "People with more extensive training in the broader aspects of MR safety, including RF heating and burns and nerve stimulation from the gradients.", "May move through Zones III and IV unaccompanied after screening, and have the final say on admitting Non-MR Personnel."]
+    tip: Each facility's MR Medical Director (MRMD) defines the training for these levels and appoints the MR Safety Officer (MRSO). The levels are facility roles, separate from professional certification.
+    sources: [acr]
+  - heading: Screening Before Zones III and IV
+    items:
+      - Every patient, visitor, and staff member who is not MR Personnel must pass MR safety screening before entering Zone III. It includes a written form and a verbal interview.
+      - Conscious patients who are not emergencies are screened twice, at least once by Level 2 MR Personnel.
+      - MR Personnel are screened when they start and reviewed every year. They must report changes, such as a new implant, before returning to the MR environment.
+      - The ACR recommends checking for ferromagnetic objects by direct inspection and with a ferromagnetic detection system (FMDS) before Zones III and IV. Conventional metal detectors, which cannot tell ferromagnetic metal from other metals, are not recommended.
+    after: >-
+      An FMDS supports thorough screening and does not replace it. Implanted and on-body devices,
+      whether MR Conditional or MR Unsafe, may contain ferromagnetic parts, including batteries, that
+      set off the detector. The ACR offers a sample screening form on its MR Safety webpage.
+    sources: [acr]
+  - heading: "Emergencies: Key Principles"
+    text: Every MR facility should have written emergency procedures and practice them in regular drills. The ACR describes these principles.
+    items:
+      - Assume the magnet is on. In a fire or other emergency, the magnetic field is present and fully operational. Air tanks, axes, conventional fire extinguishers, and other ordinary equipment must stay out of Zones III and IV.
+      - Control access. Emergency calls from the MR facility should also reach a designated member of the MR staff, who keeps responders from entering Zones III and IV freely.
+      - Move the patient out for resuscitation. In a cardiac arrest or other medical emergency in Zone IV, the patient is moved at once to a predetermined, magnetically safe location for life support. MR Unsafe items such as defibrillators are not brought into Zone IV.
+      - Quench only for danger that cannot wait. The Emergency Magnet Off (quench) is for imminent risk of injury or death in Zone IV when the person cannot be removed safely, such as entrapment against the scanner by a ferromagnetic object. A medical emergency alone is not a reason to quench.
+      - Know what each switch does. Emergency Table Stop and Emergency Power Off do not turn off the magnetic field. A quench does, but not instantly, and it has its own hazards, such as cryogen gas in the room if venting fails.
+    after: >-
+      These are principles, not a procedure. In an emergency, follow your facility's emergency
+      procedures.
+    sources: [acr]
+  - heading: "Device Labels: MR Safe, MR Conditional, MR Unsafe"
+    items:
+      - "MR Safe: the object or device is safe in all MR environments. It must be nonmetallic, nonconducting, and nonmagnetic."
+      - "MR Conditional: the object or device may be safe in the MR environment if its conditions for safe use are met. Every condition in its labeling must be followed."
+      - "MR Unsafe: the object or device presents safety risks in the MR environment."
+      - "Safety in MRI Not Evaluated: FDA labeling for some passive devices that have not been tested in the MR environment. Their labeling states that safety in the MR environment is unknown."
+    after: >-
+      The FDA advises that any device with an unknown MRI safety status should be assumed to be MR
+      Unsafe until its status is established. For implanted systems, such as a pulse generator with
+      leads, the ACR notes that "if any element of the system is not MR Conditional, the entire
+      system is not MR Conditional."
+    sources: [acr, fda-risks, fda-pro, fda-labeling]
+  - heading: "Measuring RF Exposure: SAR and B1+rms"
+    items:
+      - "SAR (specific absorption rate) estimates the rate of RF energy absorbed per unit mass of tissue, in watts per kilogram (W/kg). The scanner estimates it with vendor-specific models that can vary widely."
+      - "Operating modes set SAR limits. Normal Operating Mode limits whole-body SAR to less than 2 W/kg. First Level Controlled Operating Mode allows less than 4 W/kg and requires medical supervision of the patient."
+      - "B1+rms describes the transmitted RF field itself, in microtesla (µT). Because it is not a vendor-specific estimate, it is increasingly used as an MR condition for scanning implants."
+    after: >-
+      The operating mode does not prevent burns from focal heating, for example from incorrect
+      patient positioning or a conductor placed on the patient. SAR and B1+rms are different
+      measures, and one cannot simply be converted to the other. Follow the measure that the device
+      labeling specifies.
+    sources: [acr]
+  - heading: The 9-Gauss Line
+    text: >-
+      The static field extends beyond the scanner room, including to floors above and below. The
+      ACR uses the 9-gauss line, consistent with the current IEC standard, to mark the area of
+      static-field hazard for people with certain active implants. Older guidance used 5 gauss.
+    sources: [acr]
+note: >-
+  This page explains general concepts. It does not give scan conditions for any person or device.
+  Those come from the device's labeling and review by the facility's MRMD and MR safety team.

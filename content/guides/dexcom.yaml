@@ -1,0 +1,51 @@
+id: dexcom
+order: 31
+category: Diabetes Devices
+manufacturer: Dexcom
+devices: "Continuous Glucose Monitors"
+title: Dexcom CGM User Guides
+covers: Dexcom G7, G7 15 Day, G6, and G6 Pro, and the Stelo over-the-counter biosensor.
+verified_on: "2026-10-02"
+summary: >-
+  Dexcom puts the MRI statement in the Contraindications section near the front of each CGM user
+  guide. Its US guides pages link the current PDF for each system.
+where:
+  - label: Dexcom user guides (US)
+    url: https://www.dexcom.com/en-us/guides
+    note: Current user guides for G7, G7 15 Day, G6, and G6 Pro, in English and US Spanish.
+  - label: Stelo user guides
+    url: https://www.stelo.com/guides
+    note: Current guide for the over-the-counter Stelo biosensor.
+steps:
+  - Find out which Dexcom system the patient wears, such as G7, G7 15 Day, G6, or Stelo. The app, receiver, or sensor packaging shows the name.
+  - Open the US guides page, or the Stelo guides page, and download the user guide for that exact system.
+  - Read the Contraindications section near the front of the guide. It covers MRI, CT, and diathermy in one statement.
+  - Check the symbols table near the end of the guide for the MR Unsafe symbol.
+check:
+  - 'The back cover ends with the document number, revision, and date, for example "AW00078-10 Rev 005 MT-00078-10 Rev Date: 05/2026" for the US G7 guide.'
+  - US prescription guides state that "U.S. law restricts the sale of" the system. US English document numbers end in -10.
+  - US guides use mg/dL and list no EC REP or UK REP.
+traps:
+  - The San Diego address is printed on UK and Canadian editions too. A UK G7 guide, "AW00046-05 Rev 006", lists European and UK representatives and uses mmol/L. Use the US edition.
+  - CT rules differ between generations. G7, G7 15 Day, and Stelo allow a CT scan with the sensor kept out of the scanned area and covered by a lead apron. The G6 guides say not to wear the CGM for CT at all. Every heading reads "No MRI/CT/diathermy", so read the full statement.
+  - Safety summary pages can link older editions. Stelo's safety page linked Rev 002 of the user guide (03/2025), while its guides page linked Rev 004 (07/2026). Start from the guides pages.
+also:
+  - label: G6 and G7 receiver safety notice (US)
+    url: https://www.dexcom.com/en-us/faqs/what-is-the-g6-g7-receiver-field-safety-notice-about
+    note: Dexcom's US page for its 2025 receiver correction.
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: Dexcom has no single US notice index. Check FDA's lists.
+watch:
+- document: Dexcom G7 User Guide (US)
+  type: pdf
+  url: https://dexcompdf.s3.us-west-2.amazonaws.com/en-us/G7-CGM-Users-Guide.pdf
+  expect: AW00078-10 Rev 005
+- document: Dexcom G7 15 Day User Guide (US)
+  type: pdf
+  url: https://dexcompdf.s3.us-west-2.amazonaws.com/en-us/G7-15-CGM-Users-Guide.pdf
+  expect: AW-1000411-10 Rev 002
+- document: Stelo User Guide (stelo.com/guides link)
+  type: page
+  url: https://www.stelo.com/guides
+  expect: AW-1000421-10+app3+Stelo+User+Guide.pdf

@@ -1,0 +1,47 @@
+id: tandem
+order: 35
+category: Diabetes Devices
+manufacturer: Tandem Diabetes Care
+devices: "Insulin Pumps"
+title: Tandem Insulin Pump User Guides
+covers: Tandem Mobi and t:slim X2 insulin pumps with Control-IQ+ technology. Each guide matches a pump software version.
+verified_on: "2026-10-02"
+summary: >-
+  Tandem publishes a User Guide and a longer Technical User Guide for each pump and software
+  version. Both include the MRI warning. Its US documents page lists current and previous editions.
+where:
+  - label: Tandem documents (US)
+    url: https://www.tandemdiabetes.com/support/resources/documents
+    note: Current User Guides and Technical User Guides, followed by previous editions for older software versions.
+  - label: Important Safety Information (US)
+    url: https://www.tandemdiabetes.com/legal/important-safety-information
+    note: Safety summaries for each pump. Their MRI wording can differ from the current guide.
+steps:
+  - Find out which pump the patient uses, Tandem Mobi or t:slim X2, and its software version. On t:slim X2, open Options, then My Pump, then Pump Info. On Tandem Mobi, open the app's pump settings.
+  - Open the US documents page and download the User Guide or Technical User Guide for that pump and software version.
+  - Read the "Magnetic Resonance Imaging Safety" and "Radiology and Medical Procedures" sections in the safety chapter.
+  - For a paired CGM, open the CGM's own US user guide. The current Tandem guides refer readers to the CGM manufacturer.
+check:
+  - 'The back cover shows the document number, revision, and date, for example "AW-1019077_B 2026-MAY-05" for the US t:slim X2 User Guide.'
+  - US editions show "MG/DL" on the cover and print no European, UK, or Swiss representative addresses.
+  - 'The cover shows only the main software version, such as "Control-IQ+ 7.10", for both 7.10.3 and 7.10.4. Match the AW number and date to the documents page.'
+traps:
+  - Non-US editions of the same software version have different AW numbers and different lists. The non-US t:slim X2 guide AW-1020085_B uses mmol/L and adds diathermy to its radiology list. Use the US edition.
+  - Wording about the CGM differs by source. The current US Tandem Mobi guide says to take off the pump, while the older v7.7 guide and the Tandem Mobi safety page say to take off the pump and CGM components. Check the guide for the patient's software version and the CGM's own guide.
+  - Some links on the documents page open a different document than their label suggests, such as a quick start guide. Check the title and AW number on the PDF.
+also:
+  - label: Company updates (US)
+    url: https://www.tandemdiabetes.com/about-us/news-room/company-update
+    note: Tandem's notices, including device corrections for Tandem Mobi and t:slim X2.
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: FDA's list of recalls and early alerts.
+watch:
+- document: Tandem Mobi User Guide v7.9 (US documents page)
+  type: page
+  url: https://www.tandemdiabetes.com/support/resources/documents
+  expect: aw1017802
+- document: t:slim X2 User Guide v7.10.4 (US documents page)
+  type: page
+  url: https://www.tandemdiabetes.com/support/resources/documents
+  expect: aw1019077

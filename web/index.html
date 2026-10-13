@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MR Safety Agent — Find Your Next Step</title>
+  <meta name="description" content="Find manufacturer MRI documents for implants and devices, explore MR safety resources, and plan US certification with an open-source research skill.">
+  <link rel="icon" type="image/svg+xml" href="assets/mr-safety-agent-logo.svg">
+  <link rel="stylesheet" href="style.css?v=palette-1"><script src="app.js?v=palette-1" defer></script>
+</head>
+<body>
+  <a class="skip" href="#resources">Skip to resources</a>
+  <header><div class="nav wrap">
+    <a class="brand" href="./"><img class="brand-mark" src="assets/mr-safety-agent-logo.svg" alt="" width="40" height="40"><span><b>MR Safety</b> Agent</span></a>
+    <nav aria-label="Main navigation"><a href="#topics">Learn</a><a href="#guides">Guides</a><a href="#resources">References</a><a href="#agent">Use the Agent</a></nav>
+    <button class="contribute" data-contribute>Contribute <span aria-hidden="true">→</span></button>
+  </div></header>
+  <main>
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="small-line"></span> MAKING EVERY MRI A SAFER MRI</div>
+        <h1>Your AI Companion<br>for <span>MR Safety</span></h1>
+        <p class="intro">Prepare for an MRI, find the right MRI manual for a device, and plan your MR safety certification. Browse the guides here, or add the agent to your own AI tool for answers grounded in primary sources.</p>
+        <form class="hero-search" role="search"><label class="sr-only" for="search">Search guides and references</label><span class="search-symbol" aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search a manufacturer, device, or topic…"><button type="submit" aria-label="Search resources">→</button></form>
+        <div class="suggestions"><span>Try</span><button data-query="Medtronic">Medtronic</button><a href="topics/before-your-mri.html">Before Your MRI</a><button data-query="MRSO">MRSO Certification</button></div>
+      </div>
+      <figure class="hero-art"><img src="assets/mr-safety-agent.png" alt="MR Safety Agent mascot holding a blue shield in front of an MRI scanner" width="1254" height="1254"><figcaption class="install-card"><div class="install-heading"><strong>Install With One Command</strong><span>Claude Code · Codex · Gemini CLI</span></div><div class="install-cmd"><code id="install-command" tabindex="0">npx skills add mri-commons/mr-safety-agent --skill mr-safety-agent</code><button class="copy-cmd" id="copy-install" type="button">Copy</button></div><p class="install-alt">Using a chat app? <a href="assets/mr-safety-agent.zip" download>Download the skill</a> and upload it. <button type="button" data-install-help>See install options</button></p><span id="install-status" role="status" aria-live="polite"></span></figcaption></figure>
+    </section>
+
+
+    <section class="topics wrap" id="topics">
+      <div class="section-head"><div><div class="eyebrow">LEARN</div><h2>Understand MR Safety</h2></div></div>
+      <div class="topic-grid" id="topic-grid"><p>Loading topics…</p></div>
+    </section>
+
+    <section class="band" id="guides"><div class="guides wrap">
+      <div class="section-head"><div><div class="eyebrow">GUIDES</div><h2>Find the Right MRI Safety Manual</h2></div></div>
+      <div class="guide-groups" id="guide-grid"><p>Loading guides…</p></div>
+      <div class="guide-group crosscheck"><h3 class="group-title">Cross-Check Tools</h3><div class="tool-grid" id="tool-grid"></div></div>
+    </div></section>
+
+    <section class="resources wrap" id="resources">
+      <div class="section-head"><div><div class="eyebrow">REFERENCES</div><h2>Start With Primary Sources</h2></div></div>
+      
+      <div id="active-query" hidden></div>
+      <div id="guide-matches" class="guide-matches" hidden></div>
+      <div id="resource-grid" class="resource-grid"></div>
+      <div id="empty" hidden><h3>No Matches Yet</h3><p>Try a manufacturer, “screening,” “FDA,” or “certification.”</p><button class="button outline" id="reset">Show All References</button></div>
+      <p class="library-note"><span aria-hidden="true">ⓘ</span> These links help you find evidence. A listing does not establish device eligibility for an MRI scan.</p>
+    </section>
+
+    <section class="agent wrap" id="agent">
+      <div><div class="eyebrow">USE THE AGENT</div><h2>Research With MR Safety Agent</h2><p>Add the skill to Claude, ChatGPT, or Gemini. Ask about a device or an MR safety question, and it finds the source, checks the edition, and tells you what is still unverified.</p><div class="agent-actions"><a class="button light" href="assets/mr-safety-agent.zip" download>Download the Skill <span>↓</span></a><button class="text-link" id="how-use">Install Options <span>→</span></button></div><span class="agent-note">The agent runs in your own AI tool. This site has no live chat.</span></div>
+      <div class="prompt-card"><div class="prompt-header"><span>TRY AN EXAMPLE</span><span class="spark">✦</span></div><div class="prompt-tabs" role="tablist" aria-label="Example questions" id="prompt-tabs"></div><p id="prompt-text" role="tabpanel" aria-live="polite">Find the current US MRI technical guide for a Boston Scientific ACCOLADE MRI L311 pacemaker with INGEVITY MRI 7741 and 7742 leads. Confirm the edition, check for safety notices, and list what is still unverified.</p><button id="copy-prompt">Copy Prompt <span>⧉</span></button><span id="copy-status" role="status" aria-live="polite"></span></div>
+    </section>
+    <section class="community wrap"><div><span class="eyebrow">CONTRIBUTE</span><h2>Help Make MRI Safer</h2><p>Share a missing source, suggest a correction, or contribute your expertise.</p></div><button class="button outline" data-contribute>Ways to Contribute <span>→</span></button></section>
+  </main>
+  <footer><div class="wrap footer-top"><a class="brand" href="./"><img class="brand-mark" src="assets/mr-safety-agent-logo.svg" alt="" width="40" height="40"><span><b>MR Safety</b> Agent</span></a><span>An Open-Source Project for Safer MRI</span><span class="preview-badge">v0.1.0-alpha</span></div><div class="wrap footer-bottom"><p>For research and education. Individual MRI decisions belong with the facility's MRMD and MR safety team. Source checks are not clinical expert review.</p><a href="topics/how-we-check-sources.html">How We Check Sources</a><a href="https://github.com/mri-commons/mr-safety-agent" target="_blank" rel="noopener">GitHub ↗</a></div></footer>
+  <dialog id="detail"><div class="dialog-top"><span class="eyebrow" id="dialog-label">RESOURCE DETAILS</span><button id="close-dialog" aria-label="Close dialog">×</button></div><div id="dialog-content"></div></dialog>
+</body></html>

@@ -1,0 +1,60 @@
+id: medtronic-neuromodulation
+order: 10
+category: Neuromodulation
+manufacturer: Medtronic
+devices: "Deep Brain · Spinal Cord · Sacral"
+title: Medtronic Neuromodulation MRI Guidelines
+covers: Deep brain stimulation (Percept and Activa), spinal cord stimulation for chronic pain, and InterStim sacral neuromodulation. Medtronic cardiac devices and shunt valves have separate guides.
+verified_on: "2026-10-02"
+summary: >-
+  Medtronic publishes one MRI guidelines manual for each neuromodulation therapy. Its US MRI
+  Resource Library finds the right one by neurostimulator model number.
+where:
+  - label: MRI Resource Library (US)
+    url: https://manuals.medtronic.com/manuals/mri/en_US/home/index
+    note: Search by neurostimulator model number. The address should contain en_US. Other regions serve different editions.
+  - label: DBS MRI information for healthcare professionals (US)
+    url: https://www.medtronic.com/en-us/healthcare-professionals/specialties/neurology/therapies-procedures/deep-brain-stimulation/mri-information.html
+    note: Overview of MR Conditional DBS systems. Its library links open a region picker.
+  - label: InterStim MRI information for healthcare professionals (US)
+    url: https://www.medtronic.com/en-us/healthcare-professionals/specialties/bladder-bowel-solutions/therapies-procedures/sacral-neuromodulation/mri-information.html
+    note: Overview of InterStim MRI eligibility, with forms for lead fragments and end of service.
+steps:
+  - Get the neurostimulator model and every lead and extension model from the patient ID card or the implanting clinic. Note where the neurostimulator is implanted and whether any abandoned leads or lead fragments remain.
+  - Open the MRI Resource Library with the United States region and search by the neurostimulator model number.
+  - Open the MRI guidelines for that therapy. Each manual covers several models. The DBS guidelines, for example, cover 37601, 37602, 37603, 37612, B35200, and B35300.
+  - Work through the manual's eligibility section first. It decides whether the full-body or head-only conditions apply. The chronic pain guidelines call it "START HERE", and the InterStim guidelines call it "ELIGIBILITY IDENTIFICATION".
+  - For DBS, ask the patient's DBS physician for the MRI Eligibility Report. The DBS physician determines scan eligibility, and the MRI team confirms it from this report or from the programmer's MRI workflow.
+check:
+  - 'The back cover shows the document number, revision, and date, for example "M056974C001 Rev A" and "2024-01-15" for the US DBS guidelines.'
+  - These manuals do not carry the "Federal law (USA)" caution found on Medtronic cardiac manuals. Confirm the edition by matching its document number to the US library listing. The US chronic pain and InterStim editions also list a "For USA audiences only" symbol.
+  - "Medtronic states that copies \"may not be the most up-to-date version if not received directly from the website or in another manner from Medtronic the same day of the patient's MRI appointment.\" Download a fresh copy on the day of the scan."
+traps:
+  - Other regions' libraries serve manuals with the same title but different document numbers. The UK library, for example, lists DBS guidelines M929535A103 Rev A, dated 2022-08-01, in six languages. Use the US edition.
+  - Medtronic's therapy pages link to the library's region picker, not to the US library itself. Choose the United States before searching.
+  - 'Medtronic notes: "Neurostimulators that are not full-body eligible may still be head-only eligible." The two sections have different conditions. Use the one the eligibility check points to.'
+  - "For DBS, Medtronic states: \"If a programmer cannot communicate with the neurostimulator or if the neurostimulator has reached EOS (end of service), then MRI eligibility cannot be established.\""
+  - FDA lists a correction, Z-2427-2024, for some versions of the A610 clinician programmer app. It states that patients with a 64001 or 64002 pocket adaptor "are limited to HEAD ONLY MRI eligibility." Confirm whether a pocket adaptor is implanted.
+also:
+  - label: Product advisories and performance (US)
+    url: https://www.medtronic.com/en-us/healthcare-professionals/product-resources/product-advisories-performance.html
+    note: Device notices, with a link to neuromodulation product performance data.
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: FDA's list of recalls and early alerts.
+watch:
+- document: DBS MRI guidelines (US library, B35200)
+  type: medtronic
+  by: model
+  query: B35200
+  expect: M056974C_a_001
+- document: Chronic pain MRI guidelines (US library, 97715)
+  type: medtronic
+  by: model
+  query: '97715'
+  expect: M939858A_a_028
+- document: InterStim MRI guidelines (US library, 97810)
+  type: medtronic
+  by: model
+  query: '97810'
+  expect: M980291A_a_040

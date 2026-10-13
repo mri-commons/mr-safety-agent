@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mr-safety-agent",
+  "version": "0.1.0-alpha",
+  "description": "Finds US manufacturer MRI manuals for implants and devices, answers MR safety questions and MRI suite emergencies from ACR and FDA guidance, and explains MRSO and other US MR safety credentials.",
+  "author": {
+    "name": "MR Safety Agent contributors"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/mri-commons/mr-safety-agent",
+  "keywords": [
+    "mri",
+    "mr-safety",
+    "medical-devices",
+    "radiology"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "MR Safety Agent",
+        "shortDescription": "Your AI Companion for MR Safety",
+        "longDescription": "Finds the US manufacturer MRI manual for an implant or device and checks its edition, market, and safety notices. Answers MR safety questions from ACR and FDA guidance and explains US MR safety certification. Each answer separates what was verified from what is still missing. It does not clear scans.",
+        "developerName": "MR Safety Agent contributors",
+        "brandColor": "#255BE6",
+        "composerIcon": "./assets/icon-128.png",
+        "logo": "./assets/icon-512.png",
+        "defaultPrompt": [
+          "Find the current US MRI manual for this implant and list its conditions with page references.",
+          "Explain this MR safety question with primary sources and plain-language next steps.",
+          "Compare US MR safety certification pathways using the issuer's own pages."
+        ]
+      }
+    }
+  }
+}

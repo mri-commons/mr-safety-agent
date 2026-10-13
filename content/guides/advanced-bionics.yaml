@@ -1,0 +1,40 @@
+id: advanced-bionics
+order: 23
+category: Hearing Implants
+manufacturer: Advanced Bionics
+devices: "HiRes Cochlear Implants"
+title: Advanced Bionics MRI Safety Information
+covers: HiRes Ultra 3D, HiRes Ultra, and earlier HiRes 90K and Clarion cochlear implants
+verified_on: "2026-10-01"
+summary: >-
+  Advanced Bionics publishes MRI safety information on a page for each country, and the full
+  device instructions for use in a separate US library.
+where:
+  - label: MRI Safety Information (United States)
+    url: https://www.advancedbionics.com/mri/us/en
+    note: The page heading should read United States. It links a HiRes Ultra 3D MRI safety document and per-implant information that loads with JavaScript.
+  - label: Instructions for Use library (United States)
+    url: https://www.advancedbionics.com/ifu/us/en
+    note: US device instructions, filterable by product and sortable by revision date. It needs JavaScript.
+steps:
+  - Get the exact implant model and electrode from the patient card or operative record, such as CI-1601 for HiRes Ultra 3D or CI-1600 for HiRes Ultra.
+  - Open the US MRI Safety Information page directly. The general advancedbionics.com/mri address opens a country picker instead.
+  - Open the MRI information for the exact implant. For HiRes Ultra 3D, download the numbered MRI safety document under Downloads.
+  - Cross-check with the implant's US instructions for use, filtered by product and sorted newest first.
+check:
+  - 'The numbered US MRI document ends with its number, revision, and date, for example "029-Q721-03 Rev A 2021-10-20".'
+  - The US instructions for use carry a Federal law caution, and their library is marked for use within the United States.
+  - Some per-implant pages are image-only captures without a document number. Compare them with the numbered document and the instructions for use.
+traps:
+  - "Advanced Bionics states: \"Conditions vary by geography.\" The country picker lists many regional pages with similar file names. Use only the United States page."
+  - HiRes Ultra and HiRes Ultra 3D have different MRI pathways, and electrode variants have separate instructions. Use the documents for the exact model.
+  - An older edition can differ from the current one by a single character in its document number, with the same revision letter. Check the full number and date against the US library.
+also:
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: Advanced Bionics does not keep a separate US safety-notice page. Check FDA's lists.
+watch:
+- document: HiRes Ultra 3D MRI Safety Information (US)
+  type: pdf
+  url: https://www.advancedbionics.com/content/dam/advancedbionics/documents/regional/us/professionals/hires-ultra-3d-mri-safety-information.pdf
+  expect: 029-Q721-03 Rev A

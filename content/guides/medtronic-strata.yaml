@@ -1,0 +1,46 @@
+id: medtronic-strata
+order: 41
+category: Shunt Valves
+manufacturer: Medtronic
+devices: "Strata · StrataMR Valves"
+title: Medtronic Strata Valve Instructions for Use
+covers: Strata II and Strata NSC adjustable valves, StrataMR and StrataMR II valves, and their adjustment tools. Medtronic cardiac and neuromodulation devices have separate guides.
+verified_on: "2026-10-02"
+summary: >-
+  Medtronic publishes the instructions for its Strata valve families in its Manual Library. The
+  MRI Resource Library covers only some of them, and its model searches return international
+  editions.
+where:
+  - label: Medtronic Manual Library (US)
+    url: https://manuals.medtronic.com/manuals/main/en_US/home/index
+    note: The full library. Search by model or document number. It is the only library that lists StrataMR II.
+  - label: Neurological shunts MR status (US)
+    url: https://www.medtronic.com/en-us/healthcare-professionals/mri-resources/neurological-shunts.html
+    note: Medtronic's US summary of MR status for each Strata family, with model lists.
+steps:
+  - Get the valve family and model number from the operative record or the patient's valve card, such as 42866 for Strata II or 46955MR for StrataMR II, and the last recorded setting.
+  - Find the family and model on Medtronic's US neurological shunts page.
+  - Search the Manual Library by model number and open the valve instructions for use. For Strata II and Strata NSC, the US English edition is "Strata Products", M972510A001 B.
+  - Read the MRI warnings and the instructions for checking the performance level setting. The adjustment tools and StrataVarius system are MR Unsafe.
+check:
+  - 'The back page shows the document number, revision, and date, for example "M972510A001 B 2018-10" for the US Strata Products IFU.'
+  - 'The US Strata edition states "Caution: U. S. federal law restricts this device to sale by or on the order of a physician." and lists only the Minneapolis address, with no European representative.'
+  - StrataMR II has one global multilingual edition, M020827CDOC4 Rev. A (2023-10), that carries both the US Federal law sentence and European markings.
+traps:
+  - Model searches in the MRI Resource Library return the multilingual international editions, such as M972504A001 B for Strata II. Their MRI wording matches, but they are not the US edition. Search the Manual Library or the MRI library's "Strata" product name for M972510A001 B.
+  - 'Strata and StrataMR II behave differently in MRI. The Strata II IFU states that MRI "can change the performance level setting." The StrataMR II IFU states the mechanism "is resistant to unintended changes" at 3 Tesla. Both say to verify the setting after MRI.'
+  - The US Strata IFU warns that "The reading from the Strata II Indicator tool or the StrataVarius system may be reversed (180 degrees opposite) from the radiographic image." An older 3.0 Tesla addendum, 17140-1E, still attached in the library, lacks this warning.
+  - The first-generation StrataMR valves were recalled in 2017. Do not confuse StrataMR with StrataMR II.
+also:
+  - label: StrataMR recall (FDA)
+    url: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/medtronic-announces-voluntary-worldwide-recall-its-stratamr-adjustable-valves-and-shunts
+    note: The 2017 recall of first-generation StrataMR valves and shunts.
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: FDA's list of recalls and early alerts, including later Strata corrections.
+watch:
+- document: Strata Products IFU (US library, product "Strata")
+  type: medtronic
+  by: brand
+  query: Strata
+  expect: CONTRIB_250941

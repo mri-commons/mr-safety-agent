@@ -1,0 +1,40 @@
+id: sientra
+order: 53
+category: Breast Tissue Expanders
+manufacturer: Sientra
+devices: "AlloX2 · Dermaspan Expanders"
+title: Sientra Tissue Expander Directions for Use
+covers: Sientra AlloX2 and Dermaspan breast tissue expanders, now supported by Tiger Aesthetics, including magnetic and remote port versions.
+verified_on: "2026-10-02"
+summary: >-
+  Tiger Aesthetics now hosts the US directions for use for Sientra tissue expanders. Expanders
+  with magnetic injection or drain ports are contraindicated for MRI.
+where:
+  - label: Tiger Aesthetics instructions for use
+    url: https://tiger-aesthetics.com/instructions-for-use/
+    note: Index of directions for use for Sientra products, including AlloX2 and Dermaspan.
+steps:
+  - Find out which Sientra expander the patient has, whether its port is magnetic or remote, and when it was placed.
+  - Open the Tiger Aesthetics index and download the directions for use for that expander.
+  - Read the warnings on magnetic fields and the symbol glossary.
+check:
+  - The documents carry a DFU number and revision, for example "DFU-0016 R2" for AlloX and AlloX2, and "DFU-0013 R3" for Dermaspan.
+  - 'US editions state "CAUTION: Federal (USA) law restricts" sale and include "Rx Only".'
+traps:
+  - 'Sientra states: "Diagnostic testing with Magnetic Resonance Imaging (MRI) is contraindicated in patients with magnetic injection/drain port expanders in place."'
+  - The newer AlloX2 Pro was cleared by FDA with MR Conditional labeling, but its directions for use were not found online. Do not apply the AlloX2 contraindication or any assumed conditions to it. Ask the surgeon or Tiger Aesthetics for its labeling.
+  - Remote port Dermaspan models are labeled differently from magnetic port models. Confirm the port type from the operative record.
+  - The documents still carry Sientra copyright dates from 2018 and 2020. Confirm with Tiger Aesthetics that they are the current editions if it matters for the decision.
+also:
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: FDA's list of recalls and early alerts.
+watch:
+- document: AlloX2 Directions for Use
+  type: pdf
+  url: https://tiger-aesthetics.com/wp-content/uploads/2024/12/Directions-For-Use-AlloX2.pdf
+  expect: DFU-0016 R2
+- document: Dermaspan Instructions for Use
+  type: pdf
+  url: https://tiger-aesthetics.com/wp-content/uploads/2024/12/DFU-0013-R3-Dermaspan-Instructions-For-Use.pdf
+  expect: DFU-0013 R3

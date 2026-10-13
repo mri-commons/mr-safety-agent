@@ -1,0 +1,48 @@
+id: boston-scientific-sicd
+order: 5
+category: Cardiac Devices
+manufacturer: Boston Scientific
+devices: "Subcutaneous ICD"
+title: Boston Scientific ImageReady S-ICD MRI Technical Guide
+covers: EMBLEM S-ICD (A209) and EMBLEM MRI S-ICD (A219) pulse generators with Boston Scientific or Cameron Health subcutaneous electrodes. Transvenous pacing and defibrillation systems have a separate guide.
+verified_on: "2026-10-02"
+summary: >-
+  Boston Scientific publishes one MRI Technical Guide for its subcutaneous ICD systems. The
+  US edition covers 1.5 T scanning of the complete system, with the pulse generator in MRI
+  Protection Mode.
+where:
+  - label: Product literature library (United States)
+    url: https://www.bostonscientific.com/elabeling/us/en/home/healthcare-professionals.html
+    note: Search for "EMBLEM" and choose the MRI Information document. The page should show the United States. It needs JavaScript.
+  - label: ImageReady S-ICD Systems (US)
+    url: https://www.bostonscientific.com/imageready/en-US/emblem-mri-home.html
+    note: S-ICD MRI overview and checklists. Its manual link can open another country's library.
+  - label: ImageReady Model Lookup (US)
+    url: https://www.bostonscientific.com/imageready/en-US/model-lookup.html
+    note: Lists S-ICD generators and electrodes with their MR Conditional field strength.
+steps:
+  - Get the pulse generator model and the electrode model from the patient ID card or device clinic records, and ask whether any other leads, adaptors, or abandoned devices are implanted.
+  - Open the US product literature library and search for "EMBLEM". Open the MRI Technical Guide listed as MRI Information.
+  - Confirm the generator and electrode appear in the guide's table of ImageReady S-ICD System components. For an A209, confirm the firmware upgrade the table requires.
+  - Read the cardiology and radiology conditions, and the MRI Protection Mode section, including its time-out.
+check:
+  - 'The back cover shows the document number, language, market, and date, "92346926-001 EN US 2019-07", for the US guide.'
+  - 'The cover carries "CAUTION: Federal law (USA) restricts this device to sale by or on the order of a physician".'
+  - The guide's component table lists "All models" of Boston Scientific and Cameron Health S-ICD electrodes.
+traps:
+  - The edition found most easily by web search reads "92346927-001 EN Europe 2020-09" on its back cover. Its conditions match, but it lists specific electrodes and is not US labeling.
+  - 'Boston Scientific states: "Only A209 models that have been upgraded (firmware version 3.1.529 or later upgrade to add MRI protections mode) are MRI compatible."'
+  - The older Cameron Health SQ-RX Model 1010 pulse generator is not in the guide's component table. Electrode manuals that call an electrode "compatible" with it are describing the connection, not MRI status.
+  - The ImageReady page's manual link can redirect to another country's library. Choose the United States before searching.
+also:
+  - label: Product advisories (US)
+    url: https://www.bostonscientific.com/en-US/pprc/product-advisories.html
+    note: Device notices for Boston Scientific cardiac rhythm devices.
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: FDA's list of recalls and early alerts, including the 2020 EMBLEM 3501 electrode recall.
+watch:
+- document: S-ICD MRI Technical Guide (US)
+  type: pdf
+  url: https://www.bostonscientific.com/content/dam/elabeling/crm/92346926-001_IMAGEREADY_MRITG_en-USA_S.pdf
+  expect: 92346926-001 EN US 2019-07

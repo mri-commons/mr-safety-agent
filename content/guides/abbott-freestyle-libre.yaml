@@ -1,0 +1,56 @@
+id: abbott-freestyle-libre
+order: 32
+category: Diabetes Devices
+manufacturer: Abbott
+devices: "FreeStyle Libre CGMs"
+title: FreeStyle Libre User Manuals
+covers: FreeStyle Libre 3 Plus, Libre 3, Libre 2 Plus, Libre 2, and Libre 14 day systems, with the Libre app, older apps, or a Reader. Abbott cardiac and neuromodulation devices have separate guides.
+verified_on: "2026-10-02"
+summary: >-
+  Abbott publishes a user manual for each app and Reader that works with a FreeStyle Libre sensor.
+  The MRI statement is in the Important Safety Information near the front, and it differs between
+  sensor generations and apps.
+where:
+  - label: FreeStyle Libre 3 system support (US)
+    url: https://www.freestyle.abbott/us-en/freestyle-libre-3-resources.html
+    note: Manuals for the Libre app and the Reader, with older app versions further down the page.
+  - label: FreeStyle Libre 2 system support (US)
+    url: https://www.freestyle.abbott/us-en/freestyle-libre-2-resources.html
+    note: The same layout for Libre 2 and Libre 2 Plus sensors.
+  - label: Important Safety Information (US)
+    url: https://www.freestyle.abbott/us-en/safety-information.html
+    note: Safety text for each current US system, including the MRI tables.
+steps:
+  - Find out which sensor the patient wears, such as Libre 3 Plus, Libre 3, Libre 2 Plus, Libre 2, or Libre 14 day, and whether they read it with the Libre app, an older FreeStyle Libre app, or a Reader.
+  - Open the US support page for that system and download the user manual for the app or Reader the patient uses.
+  - Read the Important Safety Information near the front. Where the sensor has MR Conditional labeling, the conditions are in a table there.
+  - Compare with Abbott's US Important Safety Information page, which collects the MRI text for each current system.
+check:
+  - 'The last page shows the document number, revision, and date, for example "©2026 Abbott ART48742-103 Rev. A 03/26" for the US Libre app manual for Libre 3 sensors.'
+  - 'US editions state "CAUTION: Federal law restricts this device to sale by or on the order of a physician." and use mg/dL. Many US app manuals are in English and Spanish.'
+  - Abbott's download links always serve the latest edition. Record the ART number and revision from the PDF itself.
+traps:
+  - Manuals for older apps give different MRI labeling for the same sensors. On the US Libre 3 support page, the FreeStyle Libre 3 app manual (ART49044-301 Rev. A 04/26) says the system "must be removed prior to" MRI. The Libre app and Reader manuals give MR Conditional conditions. Use the manual for the app or Reader the patient actually uses, and resolve conflicts with the MR safety team.
+  - Similar names have different labeling. The FreeStyle Libre 14 day system "must be removed prior to" MRI, CT, or diathermy, while the current Libre app and Reader manuals give MR Conditional conditions for Libre 2, 2 Plus, 3, and 3 Plus sensors.
+  - 'MR Conditional labeling covers the sensor only. Abbott states: "Leave your phone and Reader outside of the exam room."'
+  - The Libre Duo 10 Day system has its own MRI conditions on the Important Safety Information page, with a shorter 3 T scan time. Do not apply the Libre 3 table to it.
+also:
+  - label: Sensor recall check (US)
+    url: https://www.freestylecheck.com/us-en/home.html
+    note: Abbott's US page for current sensor corrections.
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: FDA's list of recalls and early alerts.
+watch:
+- document: Libre app User Manual for Libre 3 sensors (US latest link)
+  type: redirect
+  url: https://freestyleserver.com/distribution/fxaa20.aspx?product=NS_fsl3usermanual&version=latest&os=all&region=us&language=xx_yy
+  expect: ART48742-103_rev-A
+- document: Libre app User Manual for Libre 2 sensors (US latest link)
+  type: redirect
+  url: https://freestyleserver.com/distribution/fxaa20.aspx?product=NS_usermanual&version=latest&os=all&region=us&language=xx_yy
+  expect: ART47276-003_rev-B
+- document: FreeStyle Libre 3 app User Manual, older app (US latest link)
+  type: redirect
+  url: https://freestyleserver.com/distribution/fxaa20.aspx?product=fslibre3_pluscompapp_usermanual&version=latest&os=all&region=us&language=xx_yy
+  expect: ART49044-301_rev-A

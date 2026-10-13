@@ -1,0 +1,52 @@
+id: boston-scientific-neuromodulation
+order: 12
+category: Neuromodulation
+manufacturer: Boston Scientific
+devices: "Spinal Cord and Deep Brain Stimulation"
+title: Boston Scientific ImageReady MRI Guidelines for Neuromodulation
+covers: Spinal cord stimulation (WaveWriter Alpha, Precision Montage MRI, and head-only systems such as Spectra WaveWriter) and deep brain stimulation (Vercise Genus and Vercise Gevia). Boston Scientific cardiac devices have a separate guide.
+verified_on: "2026-10-02"
+summary: >-
+  Boston Scientific publishes a separate ImageReady MRI Guidelines manual for each neuromodulation
+  system, and sometimes for each configuration. Its US product literature library holds the
+  current US editions.
+where:
+  - label: Product literature library (United States)
+    url: https://www.bostonscientific.com/elabeling/us/en/home.html
+    note: Search for "ImageReady MRI" with the system name. The page should show the United States. It needs JavaScript.
+  - label: ImageReady SCS Systems (US)
+    url: https://www.bostonscientific.com/imageready/en-US/scsmriinfo.html
+    note: Lists full-body and head-only SCS systems, with patient eligibility checklists.
+  - label: ImageReady DBS Systems (US)
+    url: https://www.bostonscientific.com/imageready/en-US/dbs-system.html
+    note: DBS MRI overview, with a checklist and a conditions chart.
+steps:
+  - Get the stimulator (IPG) model and every lead, extension, and adapter model from the patient ID card or the implanting clinic. Note where the IPG is implanted and whether any abandoned leads remain.
+  - Open the US product literature library and search for "ImageReady MRI" with the system name, such as WaveWriter Alpha or Vercise Genus.
+  - Choose the manual for the exact configuration. WaveWriter Alpha has one manual for systems without adapters and another for systems with adapters. Some older SCS systems have head-only guidelines.
+  - Confirm that every implanted component appears in the manual's component tables, then follow the manual's eligibility checklist.
+check:
+  - 'The first page carries "CAUTION: Federal law restricts this device to sale, distribution and use by or on the order of a physician."'
+  - 'The back cover ends with the document number and date, for example "92438760-12 2024-12" for the US DBS guidelines.'
+  - The US editions are English-only manuals. A cover that lists many language codes, such as "en fr es pt-br", is an edition for other markets.
+traps:
+  - An edition for other markets can be newer than the US one. The multilingual DBS guidelines 92920697-17 are dated 2025-05 and have no Federal law caution, while the US edition is 92438760-12, dated 2024-12. Do not choose by date alone.
+  - 'The WaveWriter Alpha full body manual states: "No Lead Extensions, Splitters, and Adapters are allowed." Systems with adapters use the separate "with Adapters" manual, 97201550-01.'
+  - "Boston Scientific states that patients with its DBS systems \"without ImageReady™ MRI Technology should not be exposed to Magnetic Resonance Imaging (MRI).\""
+  - The library builds its search results with JavaScript and may look empty in some tools.
+also:
+  - label: Product advisories (US)
+    url: https://www.bostonscientific.com/en-US/pprc/product-advisories.html
+    note: Includes a neuromodulation section with notices for Vercise Genus and WaveWriter Alpha.
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: FDA's list of recalls and early alerts.
+watch:
+- document: WaveWriter Alpha MRI Full Body Guidelines (US)
+  type: pdf
+  url: https://www.bostonscientific.com/content/dam/elabeling/nm/92583897-01_B_MRI_Guidelines_for_WW_Alpha_en-US_s.pdf
+  expect: 92583897-01 2024-02
+- document: DBS ImageReady MRI Guidelines (US)
+  type: pdf
+  url: https://www.bostonscientific.com/content/dam/elabeling/nm/92438760-12_Rev_A_ImageReady_DBS_MRI_Info_IFU_EN_s.pdf
+  expect: 92438760-12 2024-12

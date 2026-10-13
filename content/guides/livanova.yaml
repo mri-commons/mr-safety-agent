@@ -1,0 +1,38 @@
+id: livanova
+order: 14
+category: Neuromodulation
+manufacturer: LivaNova
+devices: "Vagus Nerve Stimulation"
+title: LivaNova VNS Therapy MRI Guidance
+covers: VNS Therapy generators such as SenTiva, AspireSR, AspireHC, DemiPulse, and Pulse, with Model 300-series leads
+verified_on: "2026-10-01"
+summary: >-
+  LivaNova publishes its US MRI guidance for the VNS Therapy System as a physician's manual in an
+  e-labeling portal. The PDFs and decision tool on its website are summaries.
+where:
+  - label: LivaNova e-labeling portal
+    url: https://dynamic.livanova.com/
+    note: Choose English-US. The page should say it shows manuals for the United States only. The MRI manual is under the generator and lead components. It needs JavaScript.
+  - label: MRI Safety for healthcare professionals (US)
+    url: https://www.livanova.com/epilepsy-vnstherapy/en-us/hcp/mri-safety
+    note: Patient MRI form, a summary MRI guideline, and a decision tool. It points to the full MRI instructions for special cases.
+steps:
+  - Get the generator model and the lead model from the patient's records or ID card, and note where the generator is implanted.
+  - Open the e-labeling portal, choose English-US, and confirm the page says it shows United States manuals.
+  - Download the MRI manual marked "(US)". The portal creates the file on request, so download a fresh copy each time.
+  - Confirm the generator and lead models are listed in the manual's applicability section, then follow the manual for that setup.
+  - Check the field safety notices listed in the same English-US portal view.
+check:
+  - The edition label on the cover and in each page footer should end in "(US)", together with a month and year.
+  - The portal offers no version history or fixed link, so the identity line printed on the PDF is the way to tell editions apart.
+traps:
+  - Other regions' editions of the same manual share its title. An English-EU view serves a "(CE)" edition. Make sure the label says "(US)".
+  - "LivaNova's MRI page says that special cases such as \"potential lead breaks, partially explanted systems, remaining lead segments\" need the MRI Instructions for Use, not the summary or decision tool."
+  - Older summary PDFs remain online and appear in search results. Start from the portal.
+also:
+  - label: Archived safety alerts (US)
+    url: https://dynamic.livanova.com/SafetyAlerts?lang=English-US
+    note: Earlier safety letters for VNS Therapy generators and leads.
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: FDA's list of recalls and early alerts.

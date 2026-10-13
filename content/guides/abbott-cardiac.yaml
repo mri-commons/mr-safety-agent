@@ -1,0 +1,53 @@
+id: abbott-cardiac
+order: 2
+category: Cardiac Devices
+manufacturer: Abbott
+devices: "Pacemakers · ICDs · CRT · AVEIR"
+title: Abbott Cardiac Device MRI Manuals
+covers: Abbott MR Conditional pacemakers, ICDs, CRT devices, AVEIR leadless pacemakers, and leads. Abbott neuromodulation systems have a separate guide.
+verified_on: "2026-10-01"
+summary: >-
+  Abbott publishes MRI-Ready Systems manuals for its cardiac devices in its electronic
+  instructions-for-use library. Different device families use different manuals, some with the
+  same title.
+where:
+  - label: MRI Safety for healthcare professionals (US)
+    url: https://www.cardiovascular.abbott/us/en/hcp/mri-safety.html
+    note: Checklists, guides, and links to the manual library and the product search tool.
+  - label: MRI Ready product search
+    url: https://mri.merlin.net/
+    note: Enter the country, device, and leads to see whether the combination is an MR Conditional system. It needs JavaScript.
+  - label: Abbott eIFU manual library
+    url: https://manuals.eifu.abbott/en/index.html
+    note: Choose the United States, English, and Health Care Professional, then search for "MRI-Ready" or the device name.
+steps:
+  - Get the exact generator model and every lead model and length, including capped or abandoned leads, from the device interrogation or patient ID card.
+  - Use the MRI Ready product search to check the device and lead combination.
+  - In the eIFU library, select the United States and search for "MRI-Ready" with the device name, such as Assurity MRI, Gallant, or AVEIR.
+  - Open the manual whose combination tables name your device family, and confirm every lead model and length is listed for the field strength you need.
+  - Download a fresh copy for each scan.
+check:
+  - 'The cover carries the US caution, for example "CAUTION: Federal (USA) law restricts this device to sale by or on the order of a physician."'
+  - 'The back page shows the date and document number, for example "2026-01" and "ARTEN600381891 A".'
+  - US editions sit under a /global/US/en/ path in the library. Other country codes are other markets' editions.
+traps:
+  - Two current US manuals share the title "MRI-Ready Systems Manual". On 2026-10-01, ARTEN600381891 A covered pacemakers such as Assurity MRI and Endurity MRI, and ARTEN600356465 A covered ICDs and CRT-Ds such as Avant and Gallant. Check the device family in the tables, not just the title.
+  - AVEIR leadless pacemakers and insertable cardiac monitors have their own MRI manuals.
+  - English-language editions for European countries sit beside the US ones, and retired US editions remain in the library. Being in English does not make a manual the US edition.
+  - "Abbott states: \"If a device is not shown in the list, it is not MR Conditional.\""
+also:
+  - label: Product advisories (US cardiovascular)
+    url: https://www.cardiovascular.abbott/us/en/hcp/product-advisories.html
+    note: Advisories and corrections for cardiac rhythm devices.
+  - label: Manuals and technical resources (US)
+    url: https://www.cardiovascular.abbott/us/en/hcp/manuals-and-technical-resources.html
+    note: Abbott advises downloading the instructions for use each time you need them.
+watch:
+- document: MRI-Ready Systems Manual, pacemakers (US eIFU)
+  type: pdf
+  url: https://manuals.eifu.abbott/content/dam/av/manuals-eifu/global/US/en/ARTEN600381891_A.PDF
+  expect: ARTEN600381891 A
+- document: MRI-Ready Systems Manual, ICDs and CRT-Ds (US eIFU)
+  type: pdf
+  url: https://manuals.eifu.abbott/content/dam/av/manuals-eifu/global/US/en/ARTEN600356465_A.PDF
+  expect: ARTEN600356465 A

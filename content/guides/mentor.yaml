@@ -1,0 +1,34 @@
+id: mentor
+order: 52
+category: Breast Tissue Expanders
+manufacturer: Mentor
+devices: "CPX4 · ARTOURA Expanders"
+title: Mentor Tissue Expander Instructions for Use
+covers: MENTOR CPX4, CPX4 with Suture Tabs, CPX4 PLUS Enhance, and ARTOURA breast tissue expanders (Johnson & Johnson MedTech).
+verified_on: "2026-10-02"
+summary: >-
+  Johnson & Johnson MedTech publishes the US instructions for Mentor breast tissue expanders on
+  its eIFU portal. The injection dome contains a magnet, and the labeling says MRI is not to be
+  used.
+where:
+  - label: Johnson & Johnson eIFU portal
+    url: https://www.e-ifu.com
+    note: Choose healthcare professional and the United States, then search for the product name. Each entry shows its document number, version, and date.
+steps:
+  - Find out which Mentor expander the patient has and when it was placed, from the operative note or implant card.
+  - Open the eIFU portal, choose the United States, and search for the product name, such as CPX4 or ARTOURA.
+  - Choose the entry whose reference numbers match the US models, and read the warning on magnetic fields.
+check:
+  - Each US instruction carries a LAB document number and version, for example "LAB100835493v3" for CPX4.
+  - 'US editions state "Caution: Federal (U.S.A.) law restricts this device to sale by or on the order of a licensed healthcare practitioner" and list the Irving, Texas address with no European representative.'
+  - The symbol glossary includes MR Unsafe.
+traps:
+  - 'Mentor states: "MRI is not to be used on a patient implanted with these devices because movement could occur causing patient pain or expander displacement that could require revision surgery."'
+  - A CE-marked multilingual CPX4 edition, LAB100745420, appears in the same US search results. It uses different reference numbers and lists a European representative.
+  - Older 2021 versions, LAB100835493v1 and LAB100835497v1, are still listed in US results with the same product codes. Choose the highest version, v3 as of October 2026.
+  - The "MENTOR Smooth Tissue Expanders" with a remote dome are a different product for scar revision and tissue defects. They have MR Conditional labeling. Do not confuse them with the breast expanders.
+  - The old mentorwwllc.com address redirects away from the instructions. Use the eIFU portal.
+also:
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: FDA's list of recalls and early alerts.

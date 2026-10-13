@@ -1,0 +1,42 @@
+id: integra-codman
+order: 42
+category: Shunt Valves
+manufacturer: Integra
+devices: "CERTAS Plus · HAKIM"
+title: Codman Programmable Valve Instructions for Use
+covers: CODMAN CERTAS Plus and CODMAN HAKIM programmable valves, including the HAKIM lumboperitoneal valve, and their tool kits.
+verified_on: "2026-10-02"
+summary: >-
+  Integra publishes the instructions for Codman valves on its eIFU portal, filtered by country.
+  CERTAS Plus has two catalog-number families, and each has its own instructions with different MRI
+  conditions.
+where:
+  - label: Integra eIFU portal
+    url: https://labeling.integralife.com/eifu/
+    note: Choose United States as the country, then search by product. Each document's page says whether it is the most recent or superseded.
+steps:
+  - Get the valve model and catalog number from the operative record or the patient's valve card, such as 828801PL for a CERTAS Plus valve, and the last recorded setting.
+  - Open the Integra eIFU portal, choose United States, and search for the valve name.
+  - Open the IFU the portal lists for the patient's catalog number. Confirm the portal marks it as the most recent edition.
+  - Read the MRI section and the instructions for verifying the valve setting after MRI.
+check:
+  - 'The back page shows the document number, revision, and date, for example "209026001 Rev B 2024-05" for the US CERTAS Plus IFU.'
+  - On the portal, the US CERTAS Plus IFU is titled "USA" and is listed for catalog numbers ending in PL.
+  - Each document page on the portal shows "Most recent" or names the edition that supersedes it.
+traps:
+  - CERTAS Plus valves without the PL suffix have other instructions, 206521-001 and 208878-001, with a lower spatial gradient limit. The outside-US twin of the US IFU, 209027001 Rev A OUS, also gives 1,000 Gauss/cm (10 T/m) instead of 20 T/m. Match the catalog number to the IFU.
+  - 'HAKIM and CERTAS Plus behave differently in MRI. The HAKIM IFU states that MR systems up to 3 T "may change the setting of the valve." The CERTAS Plus IFU states the mechanism "is resistant to unintended changes in the setting in a 3 Tesla MRI." Both require confirming the setting after MRI.'
+  - The HAKIM lumboperitoneal valve has its own IFU with different MRI conditions from the HAKIM ventricular valves.
+  - The tool kits and programmers are MR Unsafe and must stay out of the MR suite.
+also:
+  - label: FDA recall database
+    url: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm
+    note: Integra has no US notice page for these valves. Search FDA records by product name, such as CERTAS Plus.
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: FDA's list of recalls and early alerts.
+watch:
+- document: CERTAS Plus IFU Rev B USA
+  type: pdf
+  url: https://labeling.integralife.com/eifu/63ffb97e2888a65b906bc493/Codman/Programmable%20Valves/CERTAS%C2%AE%20Plus%20Program%20IFU%20%28Rev%20B%29%20USA.pdf
+  expect: 209026001 Rev B

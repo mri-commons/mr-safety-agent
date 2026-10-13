@@ -1,0 +1,47 @@
+id: biotronik
+order: 4
+category: Cardiac Devices
+manufacturer: BIOTRONIK
+devices: "Pacemakers · ICDs · CRT · Leads"
+title: BIOTRONIK ProMRI Technical Manuals
+covers: BIOTRONIK ProMRI pacemakers, CRT-Ps, ICDs, CRT-Ds, and leads in the US. Insertable cardiac monitors have MRI details in their own manuals.
+verified_on: "2026-10-01"
+summary: >-
+  BIOTRONIK puts its US MRI labeling for cardiac systems in one document, the ProMRI System
+  Technical Manual. Its Manual Library shows the current US revision and every earlier one.
+where:
+  - label: BIOTRONIK Manual Library
+    url: https://manuals.biotronik.com/emanuals-professionals/
+    note: Choose United States (USA), then the product "ProMRI System". The page shows each revision and its publication date. It needs JavaScript.
+  - label: ProMRI (US)
+    url: https://www.biotronik.com/en-us/professionals/featured-technologies/promri
+    note: Overview with links to the Manual Library and ProMRI SystemCheck.
+  - label: ProMRI SystemCheck
+    url: https://www.promricheck.com/
+    note: Checks whether an implanted BIOTRONIK system is MR Conditional in a chosen country. It needs JavaScript.
+steps:
+  - Get the generator model and every lead and port plug, with order numbers, from the patient ID card or implant records.
+  - In the Manual Library, choose United States (USA) and open "ProMRI System". US entries end in _US. Download the newest revision.
+  - Find the generator and every lead in the manual's tables, and read the footnotes on lead position. All parts must appear together as one listed system.
+  - Also open the generator's own US technical manual. It refers to the ProMRI manual for MR conditions of use.
+  - Cross-check the system in ProMRI SystemCheck with the United States selected.
+check:
+  - 'The back cover shows the document number with its revision letter and date, for example "M4197-V 06/26".'
+  - 'US editions carry "Federal (U.S.A.) law restricts this device to sale by, or on the order of, a physician" and name BIOTRONIK, Inc. as distributor.'
+  - The revision letter in the PDF should match the revision the library marks as current for the United States.
+traps:
+  - International editions look similar. A search can return a "ProMRI MR Conditional device systems Technical Manual" with a CE mark and a different document number. It is not US labeling, and its system combinations differ.
+  - "BIOTRONIK states: \"approval is only given for the specific combinations of lead(s) and devices\" and \"the approval status may vary between countries.\""
+  - Older US revisions and an older US checklist still open from direct links. Reach the manual through the library with the United States selected.
+also:
+  - label: CRM product advisories (US)
+    url: https://www.biotronik.com/en-us/professionals/services/crm-product-advisories
+    note: Current advisories and an archive.
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: FDA's list of recalls and early alerts.
+watch:
+- document: ProMRI System Technical Manual, current US revision in the Manual Library
+  type: page
+  url: https://manuals.biotronik.com/emanuals-professionals/getManuals?country=US&id=ProMri/ProMRI/ProMRI_US&allRev=false&addlangs=
+  expect: M4197-V_06-26

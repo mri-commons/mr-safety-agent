@@ -1,0 +1,633 @@
+{
+  "schema_version": 1,
+  "default_jurisdiction": "US",
+  "verification_note": "verified_on means the official landing page was opened and its topic checked. It is not a device-label verification, expert clinical review, or guarantee of current content. Reopen relevant sources during use.",
+  "sources": [
+    {
+      "id": "acr-mr-safety",
+      "title": "MR Safety Resources",
+      "publisher": "American College of Radiology",
+      "url": "https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/radiology-safety/mr-safety",
+      "kind": "professional-guidance",
+      "jurisdiction": "US",
+      "topics": ["safety", "screening", "manual", "facility"],
+      "scope": "Entry point for the current ACR Manual on MR Safety and related professional resources. Follow through to the applicable document.",
+      "verified_on": "2026-10-01",
+      "navigation": [
+        "Follow the manual link on this page rather than older direct PDF URLs: on 2026-10-01 the former www.acr.org and cs.acr.org manual PDF addresses returned a site-platform HTML page, and the page linked the current manual and a \"What's New\" change summary on edge.sitecorecloud.io.",
+        "Identify the edition from the preface and revision history, not the cover text alone; the 2026 edition states it replaces all earlier versions and its revision history lists chapter-level changes. Third-party copies of earlier editions circulate."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "tjc-npg13-imaging",
+      "title": "National Performance Goal 13: Protecting Patients and Providers in Imaging",
+      "publisher": "The Joint Commission",
+      "url": "https://www.jointcommission.org/en-us/standards/national-performance-goals/protecting-patients-and-providers-in-imaging",
+      "kind": "professional-guidance",
+      "jurisdiction": "US",
+      "topics": ["safety", "facility", "screening", "accreditation"],
+      "scope": "Joint Commission accreditation goal for hospitals on imaging safety, including MRI site access restriction, screening of staff and patients, staff qualifications, and incident tracking. The detailed requirements are in its accreditation standards.",
+      "verified_on": "2026-10-02",
+      "navigation": [
+        "NPG 13 is part of the National Performance Goals, effective January 2026 for the hospital program ('The hospital safely performs imaging services.'). They replace the former National Patient Safety Goals chapter and regroup existing requirements.",
+        "jointcommission.org may block automated tools or show a maintenance page. The two-page NPG 13 brief is a public PDF: https://digitalassets.jointcommission.org/api/public/content/87bc7bbdbeeb479795c6391acd5f463c",
+        "Sentinel Event Alert 38 (2008, MRI suite) is retired. Joint Commission points to copies on other sites and cites the ACR Manual on MR Safety in the NPG 13 brief.",
+        "Use this for facility and accreditation questions, not device labeling."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "fda-mri-professionals",
+      "title": "MRI: Information for Professionals",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/radiation-emitting-products/mri-magnetic-resonance-imaging/information-professionals",
+      "kind": "regulator",
+      "jurisdiction": "US",
+      "topics": ["safety", "screening", "devices", "labeling"],
+      "scope": "Professional MRI safety overview with links to safety communications. It is not a model-specific implant label.",
+      "verified_on": "2026-09-21",
+      "review_status": "source-checked"
+    },
+    {
+      "id": "fda-mr-labeling-guidance",
+      "title": "Testing and Labeling Medical Devices for Safety in the MR Environment",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/testing-and-labeling-medical-devices-safety-magnetic-resonance-mr-environment",
+      "kind": "regulator",
+      "jurisdiction": "US",
+      "topics": ["devices", "labeling", "safety"],
+      "scope": "FDA guidance on MR safety testing and the format of MRI Safety Information in device labeling, including MR Safe, MR Unsafe, MR Conditional, and Safety in MRI Not Evaluated. It explains labeling, not any individual device.",
+      "verified_on": "2026-10-02",
+      "navigation": [
+        "Final guidance issued October 10, 2023 (originally May 20, 2021), docket FDA-2019-D-2837. PDF: https://www.fda.gov/media/74201/download. It contains nonbinding recommendations.",
+        "It supersedes FDA's 'Establishing Safety and Compatibility of Passive Implants in the Magnetic Resonance (MR) Environment' (December 11, 2014).",
+        "The MRI Safety Labeling section defines MR Safe, MR Unsafe, MR Conditional, and Safety in MRI Not Evaluated. Appendix 2 gives MR Conditional labeling examples. Use it to explain label terms, then read the device's own labeling."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "fda-mri-risks",
+      "title": "MRI: Benefits and Risks",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/radiation-emitting-products/mri-magnetic-resonance-imaging/benefits-and-risks",
+      "kind": "regulator",
+      "jurisdiction": "US",
+      "topics": ["safety", "patient-education", "hazards"],
+      "scope": "Overview of MRI benefits and safety concerns.",
+      "verified_on": "2026-09-21",
+      "review_status": "source-checked"
+    },
+    {
+      "id": "radiologyinfo-mri-safety",
+      "title": "MRI Safety",
+      "publisher": "RadiologyInfo.org (ACR and RSNA)",
+      "url": "https://www.radiologyinfo.org/en/info/safety-mr",
+      "kind": "patient-education",
+      "jurisdiction": "US",
+      "topics": ["patient-education", "preparation", "screening"],
+      "scope": "Patient-facing explanations and preparation information. Individualized preparation remains with the imaging team.",
+      "verified_on": "2026-09-21",
+      "review_status": "source-checked"
+    },
+    {
+      "id": "ibmrs-faq",
+      "title": "Certification FAQs",
+      "publisher": "International Board of Magnetic Resonance Safety",
+      "url": "https://ibmrs.org/faqs/",
+      "kind": "credentialing-body",
+      "jurisdiction": "US-and-international",
+      "topics": ["certification", "mrso", "mrmd", "mrse", "mrst", "eligibility", "renewal"],
+      "scope": "Role and examination guidance from the credentialing body. Select the US pathway and verify current requirements.",
+      "verified_on": "2026-09-21",
+      "review_status": "source-checked"
+    },
+    {
+      "id": "ibmrs-exam-content",
+      "title": "Examination Content",
+      "publisher": "International Board of Magnetic Resonance Safety",
+      "url": "https://ibmrs.org/examination-content-syllabus/",
+      "kind": "credentialing-body",
+      "jurisdiction": "US-and-international",
+      "topics": ["certification", "syllabus", "study-plan"],
+      "scope": "Entry point for exam content. Check the credential and the linked syllabus version.",
+      "verified_on": "2026-09-21",
+      "review_status": "source-checked"
+    },
+    {
+      "id": "medtronic-mri-resources",
+      "title": "MRI Resources",
+      "publisher": "Medtronic",
+      "url": "https://www.medtronic.com/en-us/healthcare-professionals/mri-resources.html",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "medtronic"],
+      "scope": "US entry point linking to MRI manuals and device resources. Product overview claims do not replace exact model/system instructions.",
+      "verified_on": "2026-10-01",
+      "navigation": [
+        "With Python, scripts/find_documents.py medtronic --model <model> runs the US MRI Resource Library search below, and scripts/find_documents.py pdf <url> downloads Medtronic manual PDFs that reject browser-like command-line requests.",
+        "The MRI Resource Library at https://manuals.medtronic.com/manuals/mri/en_US/home/index is region-specific; confirm the US/English region before searching by model.",
+        "The library search is a plain HTML form: load the home page for its SYNCHRONIZER_TOKEN, then POST to /manuals/mri/en_US/search/index with findby=model and querymodel=<model>. Results link the MRI technical manual PDF (observed 2026-10-01).",
+        "Manual PDFs under www.medtronic.com/content/dam/emanuals/ may return an 'Incorrect Browser' HTML page to command-line downloads; a host fetch tool may retrieve the PDF. Check that the file is a PDF before extracting.",
+        "The MR Conditional Search Tool renders with JavaScript and may show no table to non-browser tools.",
+        "Summary charts and B1+rms overviews are dated secondary documents (some are years old); use the model-specific MRI technical manual for conditions.",
+        "Aurora EV-ICD (DVEA3E4): US MRI Technical Manual M000022C001 C (2023-04-28), found by model search. 1.5 T SAR limits in Normal Operating Mode; at 3 T, B1+RMS <= 2.0 uT when the isocenter is inferior to C7; SureScan mode turns off automatically after 6 hours (the Azure pacemaker manual states 24 hours). The en_GB library serves M000016C001 D (CE). FDA correction Z-0726-2026 (delayed high-voltage therapy) was open when checked."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "medtronic-neuromodulation-mri",
+      "title": "MRI Resource Library: Neuromodulation MRI Guidelines",
+      "publisher": "Medtronic",
+      "url": "https://manuals.medtronic.com/manuals/mri/en_US/home/index",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "medtronic", "neuromodulation"],
+      "scope": "US MRI guidelines for Medtronic deep brain stimulation, spinal cord stimulation for chronic pain, and InterStim sacral neuromodulation, found by neurostimulator model number.",
+      "verified_on": "2026-10-02",
+      "navigation": [
+        "With Python, scripts/find_documents.py medtronic --model <neurostimulator model> lists the US guidelines; pdf <url> downloads and reads them.",
+        "Use the same library search as for cardiac devices (findby=model). Each neuromodulation therapy has one MRI guidelines manual covering several neurostimulator models: DBS 37601, 37602, 37603, 37612, B35200, B35300 (US M056974C001 Rev A, 2024-01-15), chronic pain SCS such as 97714 and 97715 (US M939858A028 Rev A, 2022-04-15), and InterStim 97810, 97800, 3058, 3023 (US M980291A040 Rev A, 2025-04-15), as listed on 2026-10-02.",
+        "These neuromodulation manuals carry Rx only but no 'Federal law (USA)' caution, and they list a European authorized representative. Establish the US edition by matching the document number to the en_US library listing. The US SCS and InterStim editions also list a 'For USA audiences only' symbol.",
+        "Other regions serve same-titled editions with different document numbers, for example en_GB DBS M929535A103 Rev A (2022-08-01, multilingual) and en_GB SCS M939858A047A. In other regions the search may first return a manual-language page (follow /search/selectLang?manualLang=en).",
+        "Medtronic therapy pages link to manuals.medtronic.com/manuals/mri/region, a region picker. Use the en_US library.",
+        "Each manual's eligibility section decides full-body versus head-only conditions. For DBS, eligibility comes from the DBS physician's MRI Eligibility Report (M953422A, listed with the guidelines) or the A610/A620 MRI workflow, and cannot be established if a programmer cannot communicate with the neurostimulator or it has reached end of service.",
+        "FDA correction Z-2427-2024 (opened 2024-05-15, Open when checked 2026-10-02) covers A610 clinician programmer app versions 2.0.x, 3.0.x, and 4.0.x with Percept and Activa SC neurostimulators: patients with a 64001 or 64002 pocket adaptor are limited to head-only MRI eligibility.",
+        "Manual PDFs under www.medtronic.com/content/dam/emanuals/neuro/ may return an 'Incorrect Browser' HTML page to command-line downloads. A host fetch tool may retrieve the PDF."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "abbott-neuromodulation-mri",
+      "title": "MRI Support",
+      "publisher": "Abbott Neuromodulation",
+      "url": "https://www.neuromodulation.abbott/us/en/healthcare-professionals/mri-support.html",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "abbott", "neuromodulation"],
+      "scope": "US neuromodulation systems and links to MRI procedure manuals. This entry does not cover all Abbott device categories.",
+      "verified_on": "2026-10-01",
+      "navigation": [
+        "With Python, scripts/find_documents.py abbott '<document title words>' searches the US eIFU library and lists current editions, their effective dates, and the editions they replaced (--all adds superseded ones).",
+        "Per-system US MRI support pages under /us/en/healthcare-professionals/mri-support/ summarize conditions; the MRI Procedure Information clinician's manual is the governing document.",
+        "Manuals are in the Abbott eIFU library (manuals.eifu.abbott; manuals.sjm.com redirects there). The library renders with JavaScript. Observed 2026-10-01: its public search service https://services.abbott/api/public/search/sitesearch, called with headers x-application-id: manualseifu, x-country-code: US, x-preferred-language: en, returns each document's effectivebegindate and previousversions, which establish currency and supersession.",
+        "US PDFs follow https://manuals.eifu.abbott/content/dam/av/manuals-eifu/global/US/en/<DOCUMENT>_<REV>.PDF; the same path with another country code is a different market's edition. Downloads may arrive wrapped in a multipart envelope; strip everything before %PDF before extraction.",
+        "Unofficial copies of Abbott manuals circulate on third-party sites and may be superseded; do not use them as labeling."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "boston-scientific-imageready-cardiac",
+      "title": "ImageReady MR-Conditional Systems",
+      "publisher": "Boston Scientific",
+      "url": "https://www.bostonscientific.com/imageready/en-US/home.html",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "boston-scientific", "cardiac"],
+      "scope": "US transvenous pacing and defibrillation resources. Use the technical guide for the exact system. Other device families need their own sources.",
+      "verified_on": "2026-10-01",
+      "navigation": [
+        "With Python, scripts/find_documents.py bsci '<product name>' searches the US product literature library directly and shows each result's markets; use it before guessing file names.",
+        "The Manuals link redirects to the JavaScript-rendered product literature portal (/elabeling.html); it may show no list to non-browser tools.",
+        "Technical guide PDFs are hosted under https://www.bostonscientific.com/content/dam/elabeling/crm/ for several markets. Read the back-cover identity line (for example 'EN US 2024-10' versus 'EN Europe 2020-01') before use.",
+        "Newer US editions have used new document numbers (the pacing guide moved from 360167-003, 2019-07, to 51897537-001, 2024-10). Search the domain by guide title, 'EN US', and recent years; do not only probe the old number's revisions.",
+        "The ImageReady Model Lookup page (/imageready/en-US/model-lookup.html) lists 1.5 T/3 T configurations and states its own as-of date; use it for navigation, not conditions.",
+        "Check device advisories as well as MRI labeling: Boston Scientific posts letters under its Recent Product Advisories documents and FDA lists corrections on its recalls pages.",
+        "S-ICD: the US MRI Technical Guide is 92346926-001 (back cover '92346926-001 EN US 2019-07', filename ..._en-USA_S.pdf, Federal law caution), covering EMBLEM A209 (only with firmware 3.1.529 or later) and EMBLEM MRI A219 with all Boston Scientific and Cameron Health S-ICD electrodes. It is 1.5 T only, 30 T/m, Normal Operating Mode SAR limits, MRI Protection Mode with a programmable time-out. The copy found first by web search, 92346927-001 'EN Europe 2020-09', is not US labeling. In the US library, search 'EMBLEM'; 'MRI Technical Guide' returns nothing.",
+        "The SQ-RX Model 1010 generator is not in the S-ICD component table; electrode manuals calling an electrode compatible with it describe the connection, not MRI status. EMBLEM 3501 electrode recall: FDA Z-0879-2021 (terminated 2024)."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "boston-scientific-imageready-neuromodulation",
+      "title": "ImageReady MRI Guidelines for Neuromodulation",
+      "publisher": "Boston Scientific",
+      "url": "https://www.bostonscientific.com/elabeling/us/en/home.html",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "boston-scientific", "neuromodulation"],
+      "scope": "US ImageReady MRI guidelines for Boston Scientific spinal cord stimulation and deep brain stimulation systems, one manual per system or configuration.",
+      "verified_on": "2026-10-02",
+      "navigation": [
+        "US editions observed on 2026-10-02 (product literature library, United States): DBS Vercise Genus and Vercise Gevia 92438760-12 Rev A (2024-12); WaveWriter Alpha and Alpha Prime full body 92583897-01 Rev B (2024-02); WaveWriter Alpha with Adapters 97201550-01 Rev A (2024-04); Precision Montage MRI full body 91035972-02 Rev A; head-only guidelines for Spectra WaveWriter 91171762-02 and Precision Spectra 91057049-04. PDFs are under https://www.bostonscientific.com/content/dam/elabeling/nm/.",
+        "US editions carry 'CAUTION: Federal law restricts this device to sale, distribution and use by or on the order of a physician' and are English-only. Multilingual editions (cover lists language codes) are for other markets and can be newer: DBS 92920697-17 (2025-05) and WaveWriter Alpha 92959608-03 Rev B (2025-05) have no Federal law caution.",
+        "The WaveWriter Alpha full body manual allows no lead extensions, splitters, or adapters. Systems with adapters use 97201550-01. Choose the manual by configuration, not only by IPG.",
+        "Search the US library with scripts/find_documents.py bsci '<product name>' when Python is available. It reads the search token from the library page and lists each result with its US publish date and markets. Without it, the JavaScript library may look empty to tools. www.IFU-BSCI.com redirects to /elabeling.html, which asks for a country.",
+        "The US ImageReady SCS and DBS pages (/imageready/en-US/scsmriinfo.html and /imageready/en-US/dbs-system.html) link checklists and a conditions chart, and send 'Directions for Use' to the library. Use the guidelines manual for conditions.",
+        "Neuromodulation advisories (Vercise Genus, WaveWriter Alpha) are listed on https://www.bostonscientific.com/en-US/pprc/product-advisories.html."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "cochlear-nucleus-mri-us",
+      "title": "MRI Guidelines for Professionals",
+      "publisher": "Cochlear",
+      "url": "https://www.cochlear.com/us/en/professionals/resources-and-training/mri-guidelines",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "cochlear", "cochlear-implant", "hearing"],
+      "scope": "US page linking the Nucleus implants MRI guidelines for health professionals. Check the exact implant model's tables.",
+      "verified_on": "2026-10-01",
+      "navigation": [
+        "The US page links the 'Nucleus System MRI Guidelines (US)'; on 2026-10-01 this was D2044134-V2 (2025-05), whose cover reads 'United States of America'.",
+        "Cochlear publishes separate editions for other regions, such as Canada and Asia Pacific; confirm the cover says United States of America."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "fda-accessgudid",
+      "title": "AccessGUDID Device Lookup",
+      "publisher": "US National Library of Medicine and FDA",
+      "url": "https://accessgudid.nlm.nih.gov/",
+      "kind": "regulator",
+      "jurisdiction": "US",
+      "topics": ["devices", "labeling", "identity", "udi"],
+      "scope": "Public device identifier database. Each record states what MRI safety information the labeling contains. It confirms identity and label category, not scan conditions.",
+      "verified_on": "2026-10-01",
+      "navigation": [
+        "Search by model or brand, then open the device record; the field 'What MRI safety information does the labeling contain?' gives the labeling category (for example MR Conditional)."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "fda-device-recalls",
+      "title": "Medical Device Recalls and Early Alerts",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts",
+      "kind": "regulator",
+      "jurisdiction": "US",
+      "topics": ["safety", "devices", "recalls", "notices"],
+      "scope": "FDA list of medical device recalls and early alerts. Check whether a notice names the device before relying on its MRI labeling.",
+      "verified_on": "2026-10-01",
+      "review_status": "source-checked"
+    },
+    {
+      "id": "abbott-cardiac-mri",
+      "title": "MRI Safety (cardiac rhythm devices)",
+      "publisher": "Abbott",
+      "url": "https://www.cardiovascular.abbott/us/en/hcp/mri-safety.html",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "abbott", "cardiac", "pacemaker", "icd"],
+      "scope": "US entry point for Abbott cardiac MRI-Ready systems: checklists, the MRI Ready product search, and the manual library. Neuromodulation systems use a separate entry.",
+      "verified_on": "2026-10-01",
+      "navigation": [
+        "With Python, scripts/find_documents.py abbott '<document title words>' searches the US eIFU library and lists current editions, their effective dates, and the editions they replaced (--all adds superseded ones).",
+        "Manuals are in the Abbott eIFU library (manuals.eifu.abbott; search 'MRI-Ready' with the United States selected). US PDFs sit under /global/US/en/; other country codes are other markets.",
+        "Two current US manuals share the title 'MRI-Ready Systems Manual': on 2026-10-01, ARTEN600381891 A (2026-01) covered pacemakers such as Assurity MRI and Endurity MRI, and ARTEN600356465 A (2025-09) covered ICDs and CRT-Ds such as Avant and Gallant. Choose by the device family in the combination tables.",
+        "AVEIR leadless pacemakers and insertable cardiac monitors have their own MRI manuals.",
+        "The MRI Ready product search (mri.merlin.net) checks a device and lead combination; it needs JavaScript. Abbott states: 'If a device is not shown in the list, it is not MR Conditional.'",
+        "Advisories: https://www.cardiovascular.abbott/us/en/hcp/product-advisories.html"
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "biotronik-promri",
+      "title": "ProMRI",
+      "publisher": "BIOTRONIK",
+      "url": "https://www.biotronik.com/en-us/professionals/featured-technologies/promri",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "biotronik", "cardiac", "pacemaker", "icd"],
+      "scope": "US overview of BIOTRONIK ProMRI systems with links to the Manual Library and ProMRI SystemCheck.",
+      "verified_on": "2026-10-01",
+      "navigation": [
+        "With Python, scripts/find_documents.py biotronik 'ProMRI System' lists the current US revision from the library's JSON (add --all for earlier revisions).",
+        "US MRI labeling is one document, the ProMRI System Technical Manual, in the Manual Library (https://manuals.biotronik.com/emanuals-professionals/; choose United States (USA), product 'ProMRI System'; US entries end in _US). On 2026-10-01 the current US revision was M4197-V (06/26).",
+        "US editions carry 'Federal (U.S.A.) law restricts…' and name BIOTRONIK, Inc.; international editions are titled 'ProMRI MR Conditional device systems Technical Manual' with a CE mark and a different number, and their combinations differ.",
+        "BIOTRONIK states approval is 'only given for the specific combinations of lead(s) and devices' and 'may vary between countries'. Check every lead and port plug against the tables and lead-position footnotes.",
+        "Advisories: https://www.biotronik.com/en-us/professionals/services/crm-product-advisories"
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "nevro-product-manuals",
+      "title": "Product Manuals for healthcare professionals",
+      "publisher": "Nevro",
+      "url": "https://www.nevro.com/providers/product-manuals/",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "nevro", "neuromodulation", "spinal-cord-stimulator"],
+      "scope": "Nevro's manual list by region and literature type, including US MRI guidelines for Senza systems.",
+      "verified_on": "2026-10-01",
+      "navigation": [
+        "Select United States, 'MRI Guidelines', English; the list loads with JavaScript. US guidelines are split by generator: on 2026-10-01, 10001162 Rev D covered Senza HFX iQ (NIPG3000) and a separate document covered Senza, Senza II, and Senza Omnia.",
+        "US PDFs state 'For United States of America only' on the cover and give the document number and revision in the footer. A CE statement inside a US document does not make it a European edition.",
+        "Choose by IPG model, not the HFX brand name. Superseded US revisions still load from old addresses; use the revision the page lists. Nevro states: 'Use only product literature from the region where the patient procedure was performed.'"
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "livanova-vns-mri",
+      "title": "MRI Safety (VNS Therapy)",
+      "publisher": "LivaNova",
+      "url": "https://www.livanova.com/epilepsy-vnstherapy/en-us/hcp/mri-safety",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "livanova", "neuromodulation", "vns"],
+      "scope": "US page with an MRI summary, a decision tool, and links to the full MRI instructions for VNS Therapy systems.",
+      "verified_on": "2026-10-01",
+      "navigation": [
+        "The full US physician's manual is in the e-labeling portal (https://dynamic.livanova.com/; choose English-US; it should state it shows United States manuals). The portal generates the PDF on request and needs JavaScript; there is no fixed link, so the identity line on the PDF is the way to tell editions apart.",
+        "Use the edition labeled '(US)'; other regions' editions share the title, and an English-EU view serves a '(CE)' edition.",
+        "LivaNova's page states special cases such as 'potential lead breaks, partially explanted systems, remaining lead segments' need the MRI Instructions for Use rather than the summary or decision tool.",
+        "Field safety notices appear in the same English-US portal view; archived alerts: https://dynamic.livanova.com/SafetyAlerts?lang=English-US"
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "inspire-mri-guidelines-us",
+      "title": "e-Labeling: MRI Guidelines for Inspire Therapy",
+      "publisher": "Inspire Medical Systems",
+      "url": "https://manuals.inspiresleep.com/",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "neuromodulation", "inspire"],
+      "scope": "US MRI guidelines for Inspire hypoglossal nerve stimulation systems (generators 3028 and 3150, leads 4063, 4323, 4340).",
+      "verified_on": "2026-10-02",
+      "navigation": [
+        "With Python, scripts/find_documents.py inspire --query MRI lists the current English - US MRI guidelines with document number and revision.",
+        "The portal defaults to 'English - US'. The current US manual on 2026-10-02 was 'Inspire MRI Guidelines for Inspire Therapy', 200-556-101_EN Rev E (back cover '200-556-101 REV E 2026 01', portal date 10-Mar-2026). It covers 3028 and 3150. Download links are ID-based (manual.php?...), so check the list for the current revision.",
+        "Rev E allows 1.5T for Scan Conditions 1-6 and 3.0T only for Scan Conditions 1-4 (head, neck, extremity with local transmit/receive coils, and whole-body transmit with isocenter at or inferior to T12). Earlier US revisions (200-556-101 Rev B and C, 200-261-101) are 1.5T only and still appear in search results.",
+        "Requirements include a confirmed functioning system, therapy OFF, generator in the approved location, Normal Operating Mode, and lead and fragment rules in Tables 5 and 6. Generator 3024 is not eligible for MRI, and an abandoned generator is MR Unsafe.",
+        "US documents end in -101 and list only the Golden Valley, MN address. UK and EU editions end in -008 or -010, for example 200-239-008 REV F 2022-10 (3028 only, 1.5T).",
+        "No Inspire notice page; FDA recall database product code MNQ lists a 2024 Class 1 recall of some 3028 generators (Z-2159-2024). The portal and PDFs may reject requests without a browser User-Agent."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "med-el-isi-us",
+      "title": "Important Safety Information",
+      "publisher": "MED-EL",
+      "url": "https://www.medel.com/en-us/important-safety-information",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "med-el", "cochlear-implant", "hearing"],
+      "scope": "US page linking MED-EL's US Medical Procedures manual, MRI checklist, and MRI safety status overview after a system is chosen.",
+      "verified_on": "2026-10-01",
+      "navigation": [
+        "Confirm United States, choose the system (for example Cochlear Implant Systems); links appear only after choosing and need JavaScript.",
+        "US documents show '(English US)' with the number, for example 'AW33290_9.0 (English US)', and a revision and issue date on the back page ('Document revision 9.0 (issued 2024-08)' on 2026-10-01).",
+        "The short link medel.com/isi printed in some documents redirects to the international page, which serves European editions. European documents use model names such as CONCERTO; US documents use MED-EL CONCERT.",
+        "Each model, including PIN variants, has its own section; do not read across sections."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "dexcom-user-guides-us",
+      "title": "User Guides",
+      "publisher": "Dexcom",
+      "url": "https://www.dexcom.com/en-us/guides",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "diabetes", "dexcom", "cgm"],
+      "scope": "US user guides for Dexcom G7, G7 15 Day, G6, and G6 Pro CGM systems. Stelo guides are at stelo.com/guides.",
+      "verified_on": "2026-10-02",
+      "navigation": [
+        "US guides observed 2026-10-02: G7 AW00078-10 Rev 005 (05/2026), G7 15 Day AW-1000411-10 Rev 002 (05/2025), G6 AW-1000052-10 Rev 001 (11/2022), Stelo AW-1000421-10 Rev 004 (07/2026, stelo.com/guides). PDFs are on dexcompdf.s3.us-west-2.amazonaws.com/en-us/.",
+        "The MRI statement is in Contraindications near the front ('No MRI/CT/diathermy — MR unsafe'). G7, G7 15 Day, and Stelo allow CT with the sensor out of the scanned area and covered by a lead apron. G6 and G6 Pro say not to wear the CGM for CT at all.",
+        "US markers: 'U.S. law restricts the sale of' (prescription products), document numbers ending -10 (US English) or -88 (US Spanish), mg/dL, no EC REP or UK REP. The San Diego address also appears on UK and Canadian editions (e.g., UK G7 AW00046-05 Rev 006, mmol/L).",
+        "Safety summary pages can link older editions: stelo.com/safety-information linked Stelo Rev 002 (03/2025) and dexcom.com/en-us/safety-information links an older G6 edition. Start from the guides pages.",
+        "There is no single US notice index. Dexcom posts notices as FAQ pages (for example the 2025 G6/G7 receiver correction). Check FDA's recall lists."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "abbott-freestyle-libre-us",
+      "title": "FreeStyle Libre Support and Important Safety Information",
+      "publisher": "Abbott Diabetes Care",
+      "url": "https://www.freestyle.abbott/us-en/safety-information.html",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "diabetes", "abbott", "cgm"],
+      "scope": "US manuals and safety information for FreeStyle Libre 3 Plus, 3, 2 Plus, 2, 14 day, and Libre Duo systems.",
+      "verified_on": "2026-10-02",
+      "navigation": [
+        "With Python, scripts/find_documents.py redirect '<fxaa20 link>' shows which edition a 'version=latest' link currently serves.",
+        "Manuals are linked from /us-en/freestyle-libre-3-resources.html and /us-en/freestyle-libre-2-resources.html through freestyleserver.com/distribution/fxaa20.aspx?product=<code>&version=latest&region=us, which redirects to a fixed Payloads/IFU/... PDF. Record the ART number and revision from the PDF.",
+        "Current Libre app manuals (Libre 3: ART48742-103 Rev. A 03/26; Libre 2: ART47276-003 Rev. B 10/25) and Reader manuals give MR Conditional 1.5T/3T conditions for Libre 2, 2 Plus, 3, and 3 Plus sensors (sensor only; phone and Reader outside the exam room).",
+        "Conflict: the older FreeStyle Libre 3 app manual (ART49044-301 Rev. A 04/26) and FreeStyle Libre 2 app manual (ART43995-601 Rev. B 08/23), still linked under 'Other app versions', say the system must be removed before MRI, CT, or diathermy. Report the conflict and follow the manual for the app or Reader in use.",
+        "FreeStyle Libre 14 day (ART39764-401 Rev. A 05/26) must be removed before MRI, CT, or diathermy. Libre Duo 10 Day has its own MRI conditions (3T: 10 minutes between pelvis and sternum, head SAR 3.2 W/kg, no other implant within 2 cm) on the safety page.",
+        "US markers: 'CAUTION: Federal law restricts this device to sale by or on the order of a physician', mg/dL, region=us. Non-US PDF links (region=gb and others) returned 403 to tools on 2026-10-02. Recall check: freestylecheck.com/us-en/home.html."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "minimed-download-library-us",
+      "title": "Download Library",
+      "publisher": "MiniMed",
+      "url": "https://www.minimed.com/en-us/support/download-library",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "diabetes", "minimed", "insulin-pump", "cgm"],
+      "scope": "US user guides for MiniMed (formerly Medtronic Diabetes) pumps, sensors, transmitters, and apps.",
+      "verified_on": "2026-10-02",
+      "navigation": [
+        "MiniMed is now a separate company. medtronicdiabetes.com links redirect to minimed.com, but the PDFs still print Medtronic and Northridge, CA.",
+        "US 780G system user guide observed 2026-10-02: M072481C001_3 (2026-02-15, MMT-1884, MMT-1894), covering Simplera Sync and Guardian 4. Its MRI text: remove the pump and CGM device before entering a room with x-ray, MRI, diathermy, or CT equipment. A Guardian Sensor 3 edition (M010682C005_2) is also listed.",
+        "Each sensor has its own guide: Simplera (M052537C001_3), Simplera Sync (M058082C005_1), and Guardian 4 (M021376C005_3) carry the MR Unsafe symbol. The Instinct sensor manual (made by Abbott, M073988C001_4, 2026-04-22) says a 1.5T or 3T MRI is possible while wearing the sensor under the conditions on its package insert, which was not found online.",
+        "US markers: US model numbers (780G MMT-1884/MMT-1894; international MMT-1885/MMT-1895), 'Requires prescription in the USA' symbol, mg/dL, no CE 0459 or EU representative. No 'Federal law' sentence.",
+        "Older US editions remain at direct links (e.g., origin.medtronicdiabetes.com 780G M072481C001_2, 2025-08-29). Notices: minimed.com/en-us/safety-notices."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "omnipod-guides-us",
+      "title": "Product Guides",
+      "publisher": "Insulet",
+      "url": "https://www.omnipod.com/guides",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "diabetes", "insulet", "omnipod", "insulin-pump"],
+      "scope": "US user guides for Omnipod 5 and Omnipod DASH insulin pumps.",
+      "verified_on": "2026-10-02",
+      "navigation": [
+        "US Omnipod 5 Technical User Guide observed 2026-10-02: PT-002951-AW Rev. 03 2026-04-06 (Controller and Android). iPhone: PT-003135-AW Rev. 03 2026-03-16. DASH: 18296-ENG-AW Rev. 14 11/25.",
+        "Current Omnipod 5 text: the Pod must be removed before MRI, CT, or diathermy, with the Controller or phone outside the room. For the CGM it defers to the sensor's instructions and says not to use Automated Mode if a sensor approved for MRI stays on.",
+        "The 2022 US Omnipod 5 guide (PT-000369-AW Rev. 009 08/22, same Controller PDM-H001-G-XX), UK and Canadian guides (Controller PDM-M001-G-MM), and omnipod.com/safety still list the CGM sensor and transmitter for removal. Check the PT number and revision.",
+        "US markers: 'Caution: Federal (US) law restricts this device to sale by or on the order of a physician', US Controller model PDM-H001-G-XX (DASH PDM-USA1-D001-MG-USA1), Acton MA address only. PDF file names do not always match titles.",
+        "Notices: omnipod.com/insulet-alerts."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "tandem-documents-us",
+      "title": "Documents",
+      "publisher": "Tandem Diabetes Care",
+      "url": "https://www.tandemdiabetes.com/support/resources/documents",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "diabetes", "tandem", "insulin-pump"],
+      "scope": "US user guides and technical user guides for Tandem Mobi and t:slim X2 insulin pumps, by software version.",
+      "verified_on": "2026-10-02",
+      "navigation": [
+        "Current US editions observed 2026-10-02: Tandem Mobi User Guide AW-1017802_C (2026-MAY-04, Control-IQ+ 7.9) and t:slim X2 User Guide AW-1019077_B (2026-MAY-05, Control-IQ+ 7.10.4). Technical User Guides: AW-1014938_E and AW-1019079_B. PDFs are on assets.ctfassets.net.",
+        "Both pumps: 'The pump is magnetic resonance (MR) unsafe. You must take off your pump and leave it outside the procedure room.' The current guides defer to the CGM manufacturer for the sensor.",
+        "The cover shows only the main software version (7.10 for both 7.10.3 and 7.10.4). Match the AW number and date, and the patient's pump software version.",
+        "The older Mobi v7.7 guide (AW-1013341_B) and the Tandem Mobi safety information page say to take off the pump and CGM components. The non-US t:slim X2 guide AW-1020085_B (mmol/L) adds diathermy. US editions show MG/DL on the cover.",
+        "Some document links open a different document than labeled. Notices: tandemdiabetes.com/about-us/news-room/company-update."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "medtronic-strata-manuals",
+      "title": "Manual Library: Strata Valves",
+      "publisher": "Medtronic",
+      "url": "https://manuals.medtronic.com/manuals/main/en_US/home/index",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "shunt-valves", "medtronic"],
+      "scope": "US instructions for Medtronic Strata II, Strata NSC, StrataMR, and StrataMR II adjustable shunt valves and their tools.",
+      "verified_on": "2026-10-02",
+      "navigation": [
+        "With Python, scripts/find_documents.py medtronic --brand Strata lists the US Strata Products IFU (CONTRIB_250941) among the results.",
+        "US Strata II and Strata NSC IFU: 'Strata Products', M972510A001 B (2018-10), CONTRIB_250941.pdf, with 'Caution: U. S. federal law restricts...' and only the Minneapolis address. MRI: up to 3.0 T, 720 G/cm, SAR 3 W/kg for 15 minutes; MRI 'can change the performance level setting'; check before and after MRI.",
+        "MRI Resource Library model searches (42866, 42856, 92866, and others) return only the multilingual CE editions (Strata II M972504A001 B, Strata NSC M972505A001 B). The US edition appears there under the product name search 'Strata', or in the full Manual Library.",
+        "StrataMR II (models ending MR, such as 46955MR) is only in the full Manual Library: M020827CDOC4 Rev. A (2023-10), one global multilingual edition with the US Federal law sentence and CE markings. MRI: 1.5 or 3.0 T, 19 T/m, 4 W/kg First Level; mechanism resistant to unintended changes at 3 T; verify setting after MRI.",
+        "The US Strata IFU warns that debris may affect adjustability after 3.0 T and that tool readings may be reversed 180 degrees from X-ray. The older 3.0 Tesla addendum 17140-1E, still attached in the library, lacks this warning. Adjustment Kit 45805 and StrataVarius 45806 are MR Unsafe.",
+        "First-generation StrataMR (42955, 42965) had a 2017 Class I recall. Medtronic's US neurological shunts MR status page: /en-us/healthcare-professionals/mri-resources/neurological-shunts.html. PDFs may need browser-like headers (curl --http2 with sec-ch-ua and Sec-Fetch headers) or a host fetch tool."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "integra-eifu",
+      "title": "eIFU Portal",
+      "publisher": "Integra LifeSciences",
+      "url": "https://labeling.integralife.com/eifu/",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "shunt-valves", "integra", "codman"],
+      "scope": "Integra's eIFU portal, filtered by country, for CODMAN CERTAS Plus and HAKIM programmable valves and their tool kits.",
+      "verified_on": "2026-10-02",
+      "navigation": [
+        "With Python, scripts/find_documents.py integra '<product name>' searches the US portal and reads each document page for its most recent or superseded status (it takes about 15 seconds).",
+        "Choose Country = United States. Each document viewer page shows 'Most recent.' or 'Out of date. Superseded by ...'. Printed identity lines are more reliable than portal dates.",
+        "US CERTAS Plus (catalog numbers ending PL, such as 828801PL): 'CERTAS Plus Programmable Valves IFU (Rev B) USA', 209026001 Rev B 2024-05. MRI: 1.5 and 3 T, 2,000 Gauss/cm (20 T/m), First Level SAR; no transmit/receive head coils; 'resistant to unintended changes in the setting in a 3 Tesla MRI', but confirm the setting after MRI.",
+        "CERTAS Plus without PL (828800-828827) have INS editions 206521-001 Rev M and 208878-001 Rev D at 1,000 Gauss/cm (10 T/m). The outside-US twin 209027001 Rev A OUS also gives 10 T/m. Match the catalog number to the IFU.",
+        "HAKIM Programmable Valves IFU 200570001 Rev N (2024-02): up to 3 T, 720 gauss/cm, SAR 3 W/kg for 15 minutes; MR systems up to 3 T 'may change the setting of the valve'; verify after MRI by X-ray. The HAKIM lumboperitoneal valve has its own IFU (207384-001 Rev E) with different conditions.",
+        "CERTAS Tool Kit and Electronic Tool Kit are MR Unsafe. Recalls are on FDA's database (for example Z-0977-2025 for CERTAS Plus 828810)."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "aesculap-us-eifu",
+      "title": "Aesculap US eIFU Portal",
+      "publisher": "Aesculap",
+      "url": "https://www.aesculapusaifus.com/",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "shunt-valves", "aesculap", "miethke"],
+      "scope": "US instructions for Miethke shunt valves distributed by Aesculap Inc., including proGAV 2.0, M.blue, M.blue plus, proSA, and proGAV, and their tools.",
+      "verified_on": "2026-10-02",
+      "navigation": [
+        "Browse Category: Neurosurgery. US documents have SOP-AIC numbers and back-cover identities ending '_USA', for example proGAV 2.0 'TA013871 GBA_81_08_0217_USA' (SOP-AIC-5001399) and M.blue 'TA015577 GBA_11_01_0719_USA' (SOP-AIC-5002159). The item-number search is unreliable.",
+        "US proGAV 2.0: 3 T or less, 1,400 Gauss/cm (14.0 T/m), 4 W/kg First Level; setting 'will not change' at 1.5 or 3.0 T, but pressing on the valve in a magnetic field may adjust it. US M.blue: 1.5 or 3 Tesla only, 500 Gauss/cm, 4 W/kg; setting can be checked with the compass before and after MRI. US proSA: 1.5 and 3.0 T, 7.2 T/m, 4 W/kg, no local transmit coils over the implant.",
+        "TA numbers are shared between US and international editions. Confirm '_USA' and the SOP-AIC number. Some international Miethke documents print the Federal law sentence while stating they are not for US users.",
+        "Miethke's MRI Safety Information sheet (CMKG-MRISafetyInfo_DE_EN_V23, 2024-09-10) is 'not intended for United States users'. It applies 3 T and 1,400 Gauss/cm to all valves, including M.blue, and says verification after MRI is not required, which differs from the US M.blue IFU.",
+        "Tools (compasses, adjustment instruments) are MR Unsafe. Aesculap has no US notice page; check FDA's recall database."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "sophysa-polaris-us",
+      "title": "Polaris Product Page",
+      "publisher": "Sophysa",
+      "url": "https://www.sophysa.us/products/hydrocephalus/polaris/",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "shunt-valves", "sophysa", "polaris"],
+      "scope": "US instructions for Sophysa Polaris adjustable valves and the PAK2 and PAK3-ERI tools.",
+      "verified_on": "2026-10-02",
+      "navigation": [
+        "US Polaris valve IFU: back cover 'NT118_EN_US Rev000 - 2023-11', with 'Federal (USA) Law restricts...' and www.sophysa.us, no CE mark. Extracted cover text also contains an older code 'NT118 (EN-FR) Rev007' that does not show on the page.",
+        "MRI (section 7): MR Conditional up to 3 T, spatial gradient 19 T/m, whole body SAR 2 W/kg for 15 minutes at 1.5 and 3 T. Check the pressure setting before and after MRI. Rotational movement of the valve during exposure may change the setting.",
+        "The bilingual EN-FR edition NT118 Rev007 (2015-07) also has the Federal law sentence and a US address but shows the CE mark. Sophysa's US MRI Guide (DCGu-MG-01(USA) Rev000) adds a 4 W/kg First Level allowance not in the IFU. Report the difference.",
+        "PAK2 (NT140_EN_US Rev000) and PAK3-ERI (NT174_EN_US Rev001) are MR Unsafe. Sophy Mini SM8 adjustable valves are not sold in the US. The fixed-pressure Sophy Mini SM1 has its own newer MRI table.",
+        "Sophysa has no US notice page; check FDA's lists."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "abbvie-natrelle-expanders",
+      "title": "Natrelle 133S Directions for Use",
+      "publisher": "AbbVie",
+      "url": "https://www.rxabbvie.com/pdf/natrelle-plus_dfu.pdf",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "tissue-expanders"],
+      "scope": "US directions for use for NATRELLE 133S tissue expanders with MAGNA-SITE magnetic injection sites.",
+      "verified_on": "2026-10-02",
+      "navigation": [
+        "Current US edition on 2026-10-02: L3831rev05 01/2026, with the U.S. Federal law caution and the Irvine, CA address. MRI is contraindicated ('DO NOT perform diagnostic testing with Magnetic Resonance Imaging (MRI)'); the DFU does not use the term MR Unsafe, GUDID does.",
+        "Older editions remain hosted (LDOC-04824 Rev.01 2018 for 133S and 133 Plus; LDOC-04108 Rev.03 2015). Textured 133, 133 Plus, and 133-T expanders were recalled in 2019 (Z-2455/2456/2457-2019).",
+        "FDA's 2016 letter to health care providers warned about interference between magnetic expander ports and implanted pacemakers and ICDs."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "mentor-expanders-eifu",
+      "title": "Johnson & Johnson eIFU Portal: Mentor Tissue Expanders",
+      "publisher": "Mentor (Johnson & Johnson MedTech)",
+      "url": "https://www.e-ifu.com",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "tissue-expanders"],
+      "scope": "US instructions for MENTOR CPX4, CPX4 PLUS Enhance, and ARTOURA breast tissue expanders.",
+      "verified_on": "2026-10-02",
+      "navigation": [
+        "Choose HCP and US, then search the product. US editions on 2026-10-02: CPX4 LAB100835493v3, ARTOURA LAB100835497v3, CPX4 PLUS Enhance LAB101134431v1. Federal (U.S.A.) law caution, Irving, TX address, MR Unsafe symbol. 'MRI is not to be used on a patient implanted with these devices.'",
+        "The CE-marked multilingual CPX4 edition LAB100745420 appears in US search results with different reference numbers. MENTOR Smooth Tissue Expanders with a remote dome (scar revision, not breast) are MR Conditional. mentorwwllc.com redirects to jnjmedtech.com. Older v1 entries (LAB100835493v1, LAB100835497v1, 2021) are still listed in US results with the same product codes (seen 2026-10-12); use the highest version."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "sientra-expanders-tiger",
+      "title": "Tiger Aesthetics Instructions for Use: Sientra Tissue Expanders",
+      "publisher": "Tiger Aesthetics (Sientra)",
+      "url": "https://tiger-aesthetics.com/instructions-for-use/",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "tissue-expanders"],
+      "scope": "US directions for use for Sientra AlloX2 and Dermaspan tissue expanders.",
+      "verified_on": "2026-10-02",
+      "navigation": [
+        "AlloX/AlloX2 DFU-0016 R2 and Dermaspan DFU-0013 R3, with the Federal (USA) caution and MR Unsafe symbol: MRI 'is contraindicated in patients with magnetic injection/drain port expanders in place.'",
+        "AlloX2 Pro (510(k) K214124, 2023) is labeled MR Conditional per FDA, but no directions for use were found online; do not assume conditions. Remote port Dermaspan models are labeled differently from magnetic port models."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "motiva-flora-eifu",
+      "title": "Motiva eIFU Portal: Flora Tissue Expander",
+      "publisher": "Establishment Labs",
+      "url": "https://ifu.motiva.health",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "tissue-expanders"],
+      "scope": "US directions for use for the Motiva Flora SmoothSilk tissue expander, which uses an RFID port instead of a magnet.",
+      "verified_on": "2026-10-02",
+      "navigation": [
+        "Choose the 'US FDA cleared' Flora entry. US edition on 2026-10-02: DOC-001016 Rev. 3, NOV2024. MR Conditional: 1.5 T and 3 T only, 40 T/m, CP, Normal Operating Mode, whole-body SAR 2 W/kg and head SAR 3.2 W/kg for 15 minutes per sequence. The Flora Port Locator is MR Unsafe.",
+        "The 'Outside US' edition DOC-037 v7 also contains a Federal law sentence; its conditions differ slightly. The portal is a JavaScript app and downloads are time-limited links."
+      ],
+      "review_status": "source-checked"
+    },
+    {
+      "id": "advanced-bionics-mri-us",
+      "title": "MRI Safety Information (United States)",
+      "publisher": "Advanced Bionics",
+      "url": "https://www.advancedbionics.com/mri/us/en",
+      "kind": "manufacturer-portal",
+      "jurisdiction": "US",
+      "topics": ["devices", "manuals", "advanced-bionics", "cochlear-implant", "hearing"],
+      "scope": "US page with MRI safety information for Advanced Bionics HiRes implants. Device instructions are in a separate US library.",
+      "verified_on": "2026-10-01",
+      "navigation": [
+        "Open /mri/us/en directly; advancedbionics.com/mri opens a country picker. Advanced Bionics states: 'Conditions vary by geography.'",
+        "The numbered HiRes Ultra 3D MRI document ends with '029-Q721-03 Rev A 2021-10-20' (2026-10-01). Some per-implant pages are image-only captures without a number; compare them with the numbered document and the US instructions for use (https://www.advancedbionics.com/ifu/us/en).",
+        "HiRes Ultra and HiRes Ultra 3D have different MRI pathways; electrode variants have separate instructions. An older edition can differ by one character in its document number with the same revision letter."
+      ],
+      "review_status": "source-checked"
+    }
+  ]
+}

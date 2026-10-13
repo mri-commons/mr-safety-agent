@@ -1,0 +1,14 @@
+{
+  "name": "mr-safety-agent",
+  "description": "Open-source MR safety research: manufacturer MRI manuals, ACR and FDA guidance, and US MR safety certification.",
+  "owner": {
+    "name": "MR Safety Agent contributors"
+  },
+  "plugins": [
+    {
+      "name": "mr-safety-agent",
+      "source": "./",
+      "description": "Finds US manufacturer MRI manuals for implants and devices, answers MR safety questions and MRI suite emergencies from ACR and FDA guidance, and explains MRSO and other US MR safety credentials."
+    }
+  ]
+}

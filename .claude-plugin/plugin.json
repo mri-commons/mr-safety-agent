@@ -1,0 +1,14 @@
+{
+  "name": "mr-safety-agent",
+  "description": "Finds US manufacturer MRI manuals for implants and devices, answers MR safety questions and MRI suite emergencies from ACR and FDA guidance, and explains MRSO and other US MR safety credentials.",
+  "version": "0.1.0-alpha",
+  "author": {
+    "name": "MR Safety Agent contributors"
+  },
+  "homepage": "https://mri-commons.github.io/mr-safety-agent/",
+  "repository": "https://github.com/mri-commons/mr-safety-agent",
+  "license": "MIT",
+  "skills": [
+    "./skills/"
+  ]
+}

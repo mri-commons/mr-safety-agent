@@ -1,0 +1,40 @@
+id: insulet-omnipod
+order: 34
+category: Diabetes Devices
+manufacturer: Insulet
+devices: "Omnipod Insulin Pumps"
+title: Omnipod User Guides
+covers: Omnipod 5, with the Insulet Controller, Android, or iPhone, and Omnipod DASH tubeless insulin pumps.
+verified_on: "2026-10-02"
+summary: >-
+  Insulet publishes several US guides for each Omnipod system, and each one includes the MRI
+  statement. Its US product guides page links the current editions.
+where:
+  - label: Omnipod product guides (US)
+    url: https://www.omnipod.com/guides
+    note: Current US guides for Omnipod 5 and Omnipod DASH, in English and Spanish.
+steps:
+  - Find out which Omnipod system the patient uses, whether it runs on the Insulet Controller or a phone, and which CGM, if any, is paired with it.
+  - Open the US product guides page and download the Technical User Guide for that system and controller. It has the fullest MRI wording.
+  - Read the Contraindications and the "X-rays, MRIs, and CT Scans" section.
+  - For a paired CGM, open the CGM's own US user guide. The current Omnipod 5 guides defer to the sensor's instructions.
+check:
+  - 'The cover and back cover show the part number, revision, and date, for example "PT-002951-AW Rev. 03 2026-04-06" for the US Omnipod 5 Technical User Guide.'
+  - 'US editions state "Caution: Federal (US) law restricts this device to sale by or on the order of a physician."'
+  - US editions list the US Controller model, PDM-H001-G-XX for Omnipod 5 or PDM-USA1-D001-MG-USA1 for DASH.
+traps:
+  - The removal requirement changed between US editions with the same Controller model. The 2022 Omnipod 5 guide (PT-000369-AW Rev. 009 08/22) lists the Pod, CGM transmitter, and CGM sensor. The 2026 edition lists the Pod and defers to the sensor's instructions. Check the part number and revision.
+  - UK and Canadian guides use a different Controller model, PDM-M001-G-MM, and list the CGM sensors for removal. The omnipod.com/safety page also still uses the older wording. Use the current US guide.
+  - PDF file names do not always match the guide titles. Check the title and part number on the cover.
+also:
+  - label: Insulet alerts (US)
+    url: https://www.omnipod.com/insulet-alerts
+    note: Medical device corrections and field safety notices for Omnipod products.
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: FDA's list of recalls and early alerts.
+watch:
+- document: Omnipod 5 Technical User Guide (US)
+  type: pdf
+  url: https://www.omnipod.com/sites/default/files/Omnipod-5_User-guide.pdf
+  expect: PT-002951-AW Rev. 03

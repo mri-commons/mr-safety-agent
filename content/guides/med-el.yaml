@@ -1,0 +1,37 @@
+id: med-el
+order: 22
+category: Hearing Implants
+manufacturer: MED-EL
+devices: "Cochlear and Hearing Implants"
+title: MED-EL Hearing Implant MRI Documents
+covers: MED-EL cochlear implants such as SYNCHRONY 2, SYNCHRONY, and MED-EL CONCERT, plus other MED-EL hearing implants
+verified_on: "2026-10-01"
+summary: >-
+  MED-EL publishes US MRI documents on its US Important Safety Information page. After you choose
+  a system, the page links the US Medical Procedures manual, an MRI checklist, and an MRI safety
+  status overview.
+where:
+  - label: Important Safety Information (US)
+    url: https://www.medel.com/en-us/important-safety-information
+    note: Confirm the country is United States, then choose a system such as Cochlear Implant Systems. Document links appear only after you choose. The page needs JavaScript.
+  - label: MRI and cochlear implants (US)
+    url: https://www.medel.com/en-us/hearing-solutions/cochlear-implants/mri-and-cochlear-implants
+    note: Background page whose "Info for Radiologists" link leads to the US safety information page.
+steps:
+  - Get the exact implant model, including any PIN variant, from the patient ID card. MED-EL also suggests contacting the implanting clinic if the model is unclear.
+  - Open the US Important Safety Information page, confirm United States, and choose the system type.
+  - Open the Medical Procedures manual listed for the US. Its MRI checklist and status overview are companion documents.
+  - In the manual, go to the section for the exact model and read its MRI subsection. Each model has its own section.
+check:
+  - 'US documents say "(English US)" next to the document number, for example "AW33290_9.0 (English US)".'
+  - 'The back page states the revision and issue date, for example "Document revision 9.0 (issued 2024-08)".'
+  - The companion documents have their own revisions and dates. Open each one from the US page rather than from a saved copy.
+traps:
+  - The short link medel.com/isi, printed in some documents, opens the international page, which serves European editions. Navigate to the US page instead.
+  - Model names differ by region. European documents use names such as CONCERTO, while US documents use MED-EL CONCERT. Searching a European name can lead to a European document.
+  - SYNCHRONY, SYNCHRONY 2, and PIN variants have separate sections. Do not read across them.
+  - Older revisions linger in search results, and some of their links no longer work. Start from the US page.
+also:
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: MED-EL does not post a separate US safety-notice page. Check FDA's lists.

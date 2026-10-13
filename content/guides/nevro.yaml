@@ -1,0 +1,34 @@
+id: nevro
+order: 13
+category: Neuromodulation
+manufacturer: Nevro
+devices: "Spinal Cord Stimulation"
+title: Nevro Senza MRI Guidelines
+covers: Senza, Senza II, Senza Omnia, and Senza HFX iQ spinal cord stimulation systems
+verified_on: "2026-10-01"
+summary: >-
+  Nevro publishes separate US MRI guidelines for different generator families. Its Product
+  Manuals page lists the current edition for each region.
+where:
+  - label: Product Manuals for healthcare professionals
+    url: https://www.nevro.com/providers/product-manuals/
+    note: Choose the United States, "MRI Guidelines", and English. The list loads with JavaScript. The older nevro.com/manuals address redirects here.
+steps:
+  - Get the generator (IPG) model and every lead, extension, adaptor, and anchor model from the patient ID card or implant records.
+  - Open Product Manuals and select United States, MRI Guidelines, and English.
+  - Pick the document for the generator family. On 2026-10-01 the US list showed one guideline for Senza HFX iQ (NIPG3000) and another for Senza, Senza II, and Senza Omnia (NIPG1000, NIPG1500, NIPG2000, NIPG2500).
+  - Note the revision shown in the list, then confirm the PDF footer shows the same revision.
+  - Check the component tables to make sure every implanted lead and accessory is listed for that generator's document.
+check:
+  - 'The cover says "For United States of America only" and gives an effective date, for example "Effective July 2024".'
+  - 'The footer shows the document number and revision, for example "10001162 Rev D".'
+  - A CE mark statement inside a US document does not make it a European edition. Rely on the "United States of America" line and the US document number.
+traps:
+  - The Senza HFX name spans several product generations, but the US guidelines are split by generator model. Choose the document by IPG model, not by brand name.
+  - The same page also returns European and Australian editions with similar titles.
+  - Superseded US editions still load from old web addresses and appear in search results. Use the revision listed on the Product Manuals page.
+  - "Nevro states: \"Use only product literature from the region where the patient procedure was performed.\""
+also:
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: Nevro does not post a separate safety-notice page. Check FDA's list.

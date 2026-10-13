@@ -1,0 +1,30 @@
+id: motiva
+order: 54
+category: Breast Tissue Expanders
+manufacturer: Establishment Labs
+devices: "Motiva Flora Expander"
+title: Motiva Flora Tissue Expander Directions for Use
+covers: Motiva Flora SmoothSilk tissue expander, which uses an RFID port locator instead of a magnet, and its port locator.
+verified_on: "2026-10-02"
+summary: >-
+  Establishment Labs publishes the US directions for use for the Motiva Flora tissue expander on
+  its eIFU portal. Unlike magnetic port expanders, it has MR Conditional labeling at 1.5 T and 3 T.
+where:
+  - label: Motiva eIFU portal
+    url: https://ifu.motiva.health
+    note: Choose the product type that starts with "US FDA cleared", not "Outside US". The portal needs JavaScript.
+steps:
+  - Confirm from the operative note or implant card that the patient has a Motiva Flora expander, not a magnetic port expander from another manufacturer.
+  - Open the Motiva eIFU portal, choose the US FDA cleared Flora tissue expander, and download the directions for use.
+  - Read the MRI section, including field strength, spatial gradient, SAR, and the patient conditions.
+check:
+  - 'The document shows its number, revision, and date, "DOC-001016 Rev. 3, NOV2024", for the US directions for use.'
+  - US editions give the Motiva USA address in Santa Barbara, California.
+traps:
+  - The portal also lists an "Outside US" edition, DOC-037. Its conditions differ slightly, and it also contains a Federal law sentence, so that sentence alone does not identify the US edition.
+  - '"Motiva Flora Port Locator is MR Unsafe and should not be brought into an MR Scanner."'
+  - Its MR Conditional labeling does not extend to magnetic port expanders. Identify the manufacturer and model before using these conditions.
+also:
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: FDA's list of recalls and early alerts.

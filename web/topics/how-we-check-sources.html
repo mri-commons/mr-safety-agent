@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How We Check Sources — MR Safety Agent</title>
+  <meta name="description" content="What MR Safety Agent is, how each guide is researched and kept current, and what the site and the agent do not do.">
+  <link rel="icon" type="image/svg+xml" href="../assets/mr-safety-agent-logo.svg">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="guide-page topic-page">
+  <a class="skip" href="#content">Skip to content</a>
+  <header><div class="nav wrap">
+    <a class="brand" href="../index.html"><img class="brand-mark" src="../assets/mr-safety-agent-logo.svg" alt="" width="40" height="40"><span><b>MR Safety</b> Agent</span></a>
+    <nav aria-label="Main navigation"><a href="../index.html#topics">Learn</a><a href="../index.html#guides">Guides</a><a href="../index.html#resources">References</a><a href="../index.html#agent">Use the Agent</a></nav>
+  </div></header>
+  <main>
+    <section class="guide-hero"><div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a><span aria-hidden="true">/</span><span>About</span></nav>
+      <div class="eyebrow">ABOUT</div>
+      <h1 class="topic-title">How We Check Sources</h1>
+      <p class="guide-summary">What MR Safety Agent is, how each guide is researched and kept current, and what the site and the agent do not do.</p>
+      
+    </div></section>
+    <div class="guide-layout wrap" id="content">
+      <article class="guide-main">
+        <section class="guide-section topic-section" id="what-this-site-is"><h2>What This Site Is</h2><p>MR Safety Agent helps you find the manufacturer&#x27;s MRI document for an implant or device, understand MR safety guidance, and plan US MR safety certification. It points to primary sources and explains how to confirm you have the right one. It does not decide whether a person can be scanned. That decision belongs to the facility&#x27;s MRMD and MR safety team.</p></section><section class="guide-section topic-section" id="how-a-guide-is-researched"><h2>How a Guide Is Researched</h2><ul class="topic-list"><li>We start from the manufacturer&#x27;s US website or document library, not from search results or copies on other sites.</li><li>We open each document and read its identity, such as the document number, revision, date, and market, usually on the cover or back page.</li><li>We confirm the US edition from markers in the document itself, such as a US law caution, US model numbers, or a US address, and we note which markers are not reliable.</li><li>We look for editions for other markets and older editions that are still online, because these are the documents most often used by mistake. They become the traps listed in each guide.</li><li>We check the manufacturer&#x27;s and FDA&#x27;s safety notices for the device family.</li><li>Quotations in the guides are copied from the documents. Where a guide or reference answer relies on a table, the table is checked against an image of the page.</li></ul></section><section class="guide-section topic-section" id="who-checks-the-work"><h2>Who Checks the Work</h2><p>The research is assisted by AI. Each document identity and quoted statement is checked against the downloaded document before a guide is published. The content has not been reviewed by clinical experts. If you find an error, please report it so it can be corrected.</p></section><section class="guide-section topic-section" id="keeping-guides-current"><h2>Keeping Guides Current</h2><p>Manufacturers update their documents, sometimes at the same web address. Each guide records the document editions it was written against, and an automated check compares them with what the manufacturer&#x27;s site serves today. When an edition changes, the guide is reviewed and updated. Some manufacturers generate documents on request or load their libraries with JavaScript, and those guides are checked by hand.</p></section><section class="guide-section topic-section" id="how-the-agent-is-tested"><h2>How the Agent Is Tested</h2><p>The agent is tested with written cases that describe the expected behavior, such as finding the US edition, reporting safety notices, and not giving scan clearance. Many cases have a reference answer checked against the manufacturer&#x27;s document. The same cases are run with and without the agent to see what it adds. Testing so far has been in Claude Code, with limited testing in ChatGPT Work.</p></section><section class="guide-section topic-section" id="what-the-agent-does-not-do"><h2>What the Agent Does Not Do</h2><ul class="topic-list"><li>It does not approve scans or say that a person is safe to scan.</li><li>It does not set scanner parameters for a specific patient.</li><li>It does not replace the manufacturer&#x27;s labeling, your site&#x27;s MR safety policy, or the judgment of your facility&#x27;s MRMD and MR safety team.</li><li>It does not store or need patient names, dates of birth, or medical records.</li></ul></section>
+        <aside class="guide-note" role="note"><strong>About This Page.</strong> This page describes how the content is made. It is not a quality certification, and documents can change after a guide is checked. Always confirm the edition on the document itself.</aside>
+        
+      </article>
+      <aside class="guide-side" aria-label="On this page"><nav class="side-box toc" aria-label="On this page"><div class="eyebrow">ON THIS PAGE</div><a href="#what-this-site-is">What This Site Is</a><a href="#how-a-guide-is-researched">How a Guide Is Researched</a><a href="#who-checks-the-work">Who Checks the Work</a><a href="#keeping-guides-current">Keeping Guides Current</a><a href="#how-the-agent-is-tested">How the Agent Is Tested</a><a href="#what-the-agent-does-not-do">What the Agent Does Not Do</a></nav></aside>
+    </div>
+  </main>
+  <footer><div class="wrap footer-bottom"><p>For research and education. Individual MRI decisions belong with the facility's MRMD and MR safety team. Links go to the publishers' own sites. No affiliation or endorsement is implied.</p><a href="how-we-check-sources.html">How We Check Sources</a><a href="../index.html">Back to MR Safety Agent →</a></div></footer>
+  <script>(()=>{const links=[...document.querySelectorAll('.toc a')];const items=links.map(a=>[a,document.querySelector(a.getAttribute('href'))]).filter(x=>x[1]);let lock=0,idle;const set=link=>links.forEach(a=>a.classList.toggle('active',a===link));const update=()=>{if(Date.now()<lock)return;const line=Math.min(innerHeight*0.35,320);let cur=items[0],best=-Infinity;for(const it of items){const top=it[1].getBoundingClientRect().top;if(top<=line&&top>best+1){cur=it;best=top;}}if(innerHeight+scrollY>=document.documentElement.scrollHeight-4)cur=items[items.length-1];set(cur&&cur[0]);};links.forEach(a=>a.addEventListener('click',()=>{set(a);lock=Date.now()+1500;}));addEventListener('scroll',()=>{update();clearTimeout(idle);idle=setTimeout(()=>{lock=0;},180);},{passive:true});addEventListener('resize',update);update();})();</script>
+</body>
+</html>

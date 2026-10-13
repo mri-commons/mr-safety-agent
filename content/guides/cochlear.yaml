@@ -1,0 +1,36 @@
+id: cochlear
+order: 21
+category: Hearing Implants
+manufacturer: Cochlear
+devices: "Nucleus Cochlear Implants"
+title: Cochlear Nucleus MRI Guidelines
+covers: Cochlear Nucleus cochlear implants, including the CI1000, CI600, CI500, and CI24 series
+verified_on: "2026-10-01"
+summary: >-
+  Cochlear publishes one MRI guidelines document for health professionals in each region. The
+  US edition covers all current and older Nucleus implant models.
+where:
+  - label: MRI guidelines for professionals (US)
+    url: https://www.cochlear.com/us/en/professionals/resources-and-training/mri-guidelines
+    note: Links the "Nucleus System MRI Guidelines (US)" document.
+steps:
+  - Get the exact implant model from the patient's implant card or clinic records. The guidelines also describe how to identify a model.
+  - Open the US professionals page and download the Nucleus System MRI Guidelines (US).
+  - Find the section and tables for the exact model. Magnet, kit, and SAR conditions can differ between models in the same series.
+  - Check whether the patient has implants on both sides or other implants. The guidelines explain how to handle bilateral recipients.
+check:
+  - The cover reads "United States of America" and "For Professionals".
+  - The back cover shows the document number and date, for example "D2044134-V2 2025-05".
+traps:
+  - Cochlear publishes separate editions for other regions, such as Canada and Asia Pacific. Make sure the cover says United States of America.
+  - Older editions and third-party copies remain online. Use the document linked from the US professionals page.
+  - Read the row for the exact model. Limits that apply to one model in a series may not apply to another.
+also:
+  - label: FDA - Cochlear Implants and MRI Safety
+    url: https://www.fda.gov/medical-devices/cochlear-implants/cochlear-implants-and-mri-safety
+    note: General FDA information for patients and providers.
+watch:
+- document: Nucleus MRI guidelines (US)
+  type: pdf
+  url: https://assets.cochlear.com/api/public/content/D2044134_2_2025-07-21
+  expect: D2044134

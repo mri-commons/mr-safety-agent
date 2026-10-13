@@ -1,0 +1,52 @@
+id: how-we-check-sources
+about: true
+order: 90
+audience: About
+title: How We Check Sources
+summary: >-
+  What MR Safety Agent is, how each guide is researched and kept current, and what the site and
+  the agent do not do.
+verified_on: "2026-10-02"
+sections:
+  - heading: What This Site Is
+    text: >-
+      MR Safety Agent helps you find the manufacturer's MRI document for an implant or device,
+      understand MR safety guidance, and plan US MR safety certification. It points to primary
+      sources and explains how to confirm you have the right one. It does not decide whether a
+      person can be scanned. That decision belongs to the facility's MRMD and MR safety team.
+  - heading: How a Guide Is Researched
+    items:
+      - We start from the manufacturer's US website or document library, not from search results or copies on other sites.
+      - We open each document and read its identity, such as the document number, revision, date, and market, usually on the cover or back page.
+      - We confirm the US edition from markers in the document itself, such as a US law caution, US model numbers, or a US address, and we note which markers are not reliable.
+      - We look for editions for other markets and older editions that are still online, because these are the documents most often used by mistake. They become the traps listed in each guide.
+      - We check the manufacturer's and FDA's safety notices for the device family.
+      - Quotations in the guides are copied from the documents. Where a guide or reference answer relies on a table, the table is checked against an image of the page.
+  - heading: Who Checks the Work
+    text: >-
+      The research is assisted by AI. Each document identity and quoted statement is checked against
+      the downloaded document before a guide is published. The content has not
+      been reviewed by clinical experts. If you find an error, please report it so it can be
+      corrected.
+  - heading: Keeping Guides Current
+    text: >-
+      Manufacturers update their documents, sometimes at the same web address. Each guide records
+      the document editions it was written against, and an automated check compares them with what
+      the manufacturer's site serves today. When an edition changes, the guide is reviewed and
+      updated. Some manufacturers generate documents on request or load their libraries with
+      JavaScript, and those guides are checked by hand.
+  - heading: How the Agent Is Tested
+    text: >-
+      The agent is tested with written cases that describe the expected behavior, such as finding
+      the US edition, reporting safety notices, and not giving scan clearance. Many cases have a
+      reference answer checked against the manufacturer's document. The same cases are run with and
+      without the agent to see what it adds. Testing so far has been in Claude Code, with limited testing in ChatGPT Work.
+  - heading: What the Agent Does Not Do
+    items:
+      - It does not approve scans or say that a person is safe to scan.
+      - It does not set scanner parameters for a specific patient.
+      - It does not replace the manufacturer's labeling, your site's MR safety policy, or the judgment of your facility's MRMD and MR safety team.
+      - It does not store or need patient names, dates of birth, or medical records.
+note: >-
+  This page describes how the content is made. It is not a quality certification, and documents
+  can change after a guide is checked. Always confirm the edition on the document itself.

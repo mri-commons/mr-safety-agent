@@ -1,0 +1,46 @@
+id: boston-scientific
+order: 3
+category: Cardiac Devices
+manufacturer: Boston Scientific
+devices: "Pacemakers · ICDs · CRT · Leads"
+title: Boston Scientific ImageReady MRI Technical Guides
+covers: ImageReady MR Conditional transvenous pacing and defibrillation systems. The S-ICD and Boston Scientific neuromodulation systems have separate guides.
+verified_on: "2026-10-01"
+summary: >-
+  Boston Scientific publishes an MRI Technical Guide for each therapy type. The US ImageReady
+  pages and Model Lookup lead to the guide for your generator and lead combination.
+where:
+  - label: ImageReady MR-Conditional Systems (US)
+    url: https://www.bostonscientific.com/imageready/en-US/home.html
+    note: Resources, checklists, and links to MRI technical guides.
+  - label: ImageReady Model Lookup (US)
+    url: https://www.bostonscientific.com/imageready/en-US/model-lookup.html
+    note: Lists generator and lead models with their 1.5 T and 3 T system configurations.
+  - label: Product literature library
+    url: https://www.bostonscientific.com/elabeling.html
+    note: Searchable manual library. It needs JavaScript.
+steps:
+  - Get the generator model and every lead model from the device ID card or device clinic records.
+  - Use the US Model Lookup to see which system configurations include your models.
+  - Find the MRI Technical Guide for the therapy type, such as pacing or defibrillation. The guides are separate.
+  - Read the guide's identity line on the back cover before using any of its content.
+check:
+  - 'The back cover ends with a document number, language, market, and date, for example "51897537-001 EN US 2024-10".'
+  - The first page carries the "CAUTION - Federal law (USA)" statement for US labeling.
+  - Every generator and lead model in the patient's system appears in the guide's configuration tables.
+traps:
+  - 'European editions are hosted on the same site. A search can return a guide whose back cover reads "EN Europe", such as "359259-037 EN Europe 2020-01".'
+  - A newer US edition can have a new document number. The US pacing guide moved from 360167-003 (2019-07) to 51897537-001 (2024-10), so searching only for the old number misses the update.
+  - The product literature library can look empty to tools that do not run JavaScript.
+also:
+  - label: Product advisories (US)
+    url: https://www.bostonscientific.com/en-US/pprc/product-advisories.html
+    note: Device notices, including corrections that can affect MRI readiness.
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: FDA's list of recalls and early alerts.
+watch:
+- document: Pacing MRI Technical Guide (US)
+  type: pdf
+  url: https://www.bostonscientific.com/content/dam/elabeling/crm/51897537-001_Brady_MRI_TG_EN_S.pdf
+  expect: 51897537-001

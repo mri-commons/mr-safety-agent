@@ -1,0 +1,70 @@
+id: us-certification
+order: 3
+audience: Certification
+title: "US MR Safety Certification: MRMD, MRSO, MRSE, and MRST"
+summary: >-
+  The International Board of Magnetic Resonance Safety (IBMRS) offers four MR safety credentials.
+  Here is what each role does and how certification works, summarized from IBMRS's own pages.
+verified_on: "2026-10-01"
+sources:
+  - key: types
+    label: IBMRS, "Certification Types"
+    url: https://ibmrs.org/choosing-the-right-certification-type-for-you/
+  - key: faq
+    label: IBMRS, "Certification FAQs"
+    url: https://ibmrs.org/faqs/
+  - key: register
+    label: IBMRS, US exam information and registration
+    url: https://ibmrs.org/exam-registration/
+  - key: content
+    label: IBMRS, "Examination Content"
+    url: https://ibmrs.org/examination-content-syllabus/
+  - key: acr
+    label: ACR Manual on MR Safety (2026), Chapter 4, MR Personnel
+    url: https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/Clinical/Radiology-Safety/Manual-on-MR-Safety.pdf
+sections:
+  - heading: Four Credentials, Four Roles
+    table:
+      columns: [Credential, Role as IBMRS describes it]
+      rows:
+        - [MRMD, "MR Medical Director or MR Physician. Responsible for establishing the site's MR safety policies and overseeing safety decisions."]
+        - [MRSO, "MR Safety Officer. Carries out the site's MR safety practices as set by the MRMD, and advises the MRMD as needed."]
+        - [MRSE, "MR Safety Expert. An advisory resource for the MRMD and MRSO, with greater depth in MR physics and safety."]
+        - [MRST, "MR Safety Tech. Assists the scanning technologist, including during remote scanning. At sites without a full technologist on site, oversees access, emergency response, and cryogens."]
+    text: >-
+      IBMRS expects most MRSOs to be MR technologists and most MRSEs to be MR physicists, but this
+      is not a requirement.
+    sources: [types, faq]
+  - heading: A Course Certificate Is Not a Credential
+    text: >-
+      An IBMRS credential is earned by passing the IBMRS examination. A course completion certificate
+      documents a course you took. IBMRS "does not require participation in any test preparation
+      course" and "has not developed, nor endorsed" any training or exam-preparation courses.
+    tip: A credential is also separate from your job. Under the ACR manual, the facility's MR Medical Director appoints the MRSO and defines the training for Level 1 and Level 2 MR personnel.
+    sources: [faq, acr]
+  - heading: The Exam
+    items:
+      - Only the MRMD exam has a prerequisite, a physician license. Anyone may take the MRSO, MRSE, or MRST exam.
+      - 100 multiple-choice, true-false, and multiple-answer questions
+      - "Seven domains: static magnetic fields, time-varying gradient fields, radiofrequency fields, gadolinium and pregnancy, facilities and cryogens, standards and regulations, and clinical applications"
+      - US and international versions of each exam. Choose the one for where you live or work.
+      - Taken at Prometric testing centers in North America, with government-issued photo ID that includes a signature
+    sources: [faq, register]
+  - heading: Attempts, Fees, and Renewal
+    items:
+      - "US exam fee: $350 for each credential, as listed on 2026-10-01"
+      - Three attempts per credential, at least 60 days apart
+      - Valid for 10 years from the date you pass. Renewal is by re-examination.
+      - Continuing education is not required to renew.
+    tip: Fees and policies change. Check the registration page before you apply.
+    sources: [register, faq]
+  - heading: Plan Your Study
+    text: >-
+      Start from the exam content syllabus for the credential you want, then compare its topics with
+      your experience. IBMRS lists learning resources it recommends in its FAQ, while noting that it
+      cannot endorse specific study materials. MR Safety Agent can turn the current syllabus into a
+      suggested study plan.
+    sources: [content, faq]
+note: >-
+  This page summarizes public IBMRS pages and is not affiliated with IBMRS. Requirements, fees, and
+  exam details can change. Confirm them with IBMRS before you apply.

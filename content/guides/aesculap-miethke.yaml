@@ -1,0 +1,45 @@
+id: aesculap-miethke
+order: 43
+category: Shunt Valves
+manufacturer: Aesculap
+devices: "proGAV 2.0 · M.blue · proSA"
+title: Aesculap Miethke Valve Instructions for Use
+covers: Miethke adjustable valves distributed in the US by Aesculap, including proGAV 2.0, M.blue, M.blue plus, proSA, and the original proGAV, and their tools.
+verified_on: "2026-10-02"
+summary: >-
+  Aesculap Inc. publishes the US instructions for use for Miethke shunt valves on a US-only eIFU
+  portal. Miethke in Germany publishes international editions that are not for US users.
+where:
+  - label: Aesculap US eIFU portal
+    url: https://www.aesculapusaifus.com/?category=2
+    note: Browse the Neurosurgery category. Each US document has an SOP-AIC number. The item-number search can miss documents.
+steps:
+  - Get the valve name and article number from the operative record or the patient's valve card, such as FX410T for proGAV 2.0, and any gravitational unit or combined system.
+  - Open the Aesculap US eIFU portal and browse the Neurosurgery category for that valve.
+  - Read the MRI and artifact sections of the valve IFU. For combined systems such as M.blue plus, the IFU gives conditions for each valve.
+  - Open the IFU for the adjustment and compass tools as well. The tools are MR Unsafe.
+check:
+  - 'The back cover identity ends in "_USA", for example "TA013871 GBA_81_08_0217_USA" for the US proGAV 2.0 IFU.'
+  - 'US editions state "CAUTION Federal law restricts this device to sale by or on order of a physician!" and list Aesculap Inc. in Center Valley, Pennsylvania.'
+  - The portal lists each US document with its SOP-AIC number, for example SOP-AIC-5001399 for proGAV 2.0.
+traps:
+  - US and international editions share the same TA number. TA013871 appears on the US proGAV 2.0 IFU and on German editions. Confirm the "_USA" suffix and the SOP-AIC number.
+  - Miethke's MRI Safety Information sheet (CMKG-MRISafetyInfo_DE_EN_V23) states "This information is not intended for United States users." Its conditions and its statement that verification after MRI is not required differ from the US M.blue IFU, which allows 1.5 or 3 Tesla only, at 500 Gauss/cm.
+  - Some international documents also print the Federal law sentence while stating they are not intended for US users. That sentence alone does not prove a US edition.
+  - 'The US proGAV 2.0 IFU warns: "When using a magnetic field and simultaneous pressing on the valve an adjustment of the valve cannot be excluded."'
+also:
+  - label: FDA recall database
+    url: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm
+    note: Aesculap has no US notice page. Search FDA records by product name.
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: FDA's list of recalls and early alerts.
+watch:
+- document: proGAV 2.0 US IFU (portal listing)
+  type: page
+  url: https://www.aesculapusaifus.com/?category=2
+  expect: SOP-AIC-5001399
+- document: M.blue US IFU (portal listing)
+  type: page
+  url: https://www.aesculapusaifus.com/?category=2
+  expect: SOP-AIC-5002159

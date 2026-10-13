@@ -1,0 +1,20 @@
+{
+  "name": "mr-safety-agent",
+  "interface": {
+    "displayName": "MR Safety Agent"
+  },
+  "plugins": [
+    {
+      "name": "mr-safety-agent",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

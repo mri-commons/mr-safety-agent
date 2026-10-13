@@ -1,0 +1,51 @@
+id: medtronic
+order: 1
+category: Cardiac Devices
+manufacturer: Medtronic
+devices: "Pacemakers · ICDs · Leads"
+title: Medtronic MRI Technical Manuals
+covers: MRI SureScan pacemakers, defibrillators, and leads (cardiac rhythm devices), including the Aurora EV-ICD extravascular defibrillator. Medtronic neuromodulation systems and shunt valves have separate guides.
+verified_on: "2026-10-01"
+summary: >-
+  Medtronic publishes an MRI technical manual for each MRI SureScan system. Its US MRI Resource
+  Library finds the manual by device model number.
+where:
+  - label: MRI Resource Library (US)
+    url: https://manuals.medtronic.com/manuals/mri/en_US/home/index
+    note: Search by model number. Confirm that the United States region is selected.
+  - label: MRI Resources for healthcare professionals (US)
+    url: https://www.medtronic.com/en-us/healthcare-professionals/mri-resources.html
+    note: Overview pages, the MR Conditional Search Tool, and patient resources.
+steps:
+  - Get the model number of the device and of every lead from the patient's device ID card or the device clinic's records.
+  - Open the MRI Resource Library, confirm the US region, and search for the device model number.
+  - Open the MRI technical manual the library lists for that model. It covers the whole SureScan system, not only the device.
+  - Confirm each lead. Medtronic requires a complete SureScan system, and some leads are MR Conditional only in specific versions or lengths.
+check:
+  - The back cover shows the manual's document number and date, for example "M964377A001 B, 2016-10-19".
+  - The cover carries the "Caution - Federal law (USA)" statement, which marks US labeling.
+  - Your device model appears in the manual's model list.
+  - A manual can be several years old and still current. The library's listing for your model, not the date alone, shows which manual applies.
+traps:
+  - The MR-Conditional Cardiac Device Summary Chart and similar overviews are dated secondary documents. Use the technical manual for conditions.
+  - The MR Conditional Search Tool needs JavaScript and may look empty in some browsers or tools.
+  - "Medtronic states: \"Do not use magnetic resonance imaging (MRI) on patients who have non-MR conditional versions/lengths of these leads implanted as part of a complete SureScan System.\""
+  - The automatic SureScan time-out differs by device. The Azure pacemaker manual states that SureScan mode turns off 24 hours after it is turned on, while the Aurora EV-ICD manual (M000022C001 C) states 6 hours. Check the manual for the patient's device.
+also:
+  - label: Product advisories and performance (US)
+    url: https://www.medtronic.com/en-us/healthcare-professionals/product-resources/product-advisories-performance.html
+    note: Device notices that can affect MRI preparation.
+  - label: SureScan pacing leads - indications, safety, and warnings
+    url: https://www.medtronic.com/en-us/l/isw/surescan-mri-pacing-leads-indications-safety-warnings.html
+    note: Source of the complete-system and lead-length warnings quoted above.
+watch:
+- document: Azure/Astra MRI SureScan MRI Technical Manual (US library, W1DR01)
+  type: medtronic
+  by: model
+  query: W1DR01
+  expect: CONTRIB_260118
+- document: Aurora EV-ICD MRI Technical Manual (US library, DVEA3E4)
+  type: medtronic
+  by: model
+  query: DVEA3E4
+  expect: M000022C001C

@@ -1,0 +1,7 @@
+interface:
+  display_name: "MR Safety Agent"
+  short_description: "Your AI Companion for MR Safety"
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon-256.png"
+  brand_color: "#255BE6"
+  default_prompt: "Use $mr-safety-agent to research my MR safety question and explain the evidence, missing information, and next steps."

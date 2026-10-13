@@ -1,0 +1,70 @@
+id: before-your-mri
+order: 1
+audience: Patient Preparation
+title: "Before Your MRI: Implants, Devices, and What to Bring"
+summary: >-
+  If you have an implant or a medical device, the MRI team needs to know exactly what it is before
+  your scan. Here is what to gather, what to tell them, and what to ask.
+verified_on: "2026-10-01"
+sources:
+  - key: fda
+    label: FDA, "What Patients Should Know Before Having an MRI Exam"
+    url: https://www.fda.gov/radiation-emitting-products/mri-magnetic-resonance-imaging/what-patients-should-know-having-mri-exam
+  - key: radiologyinfo
+    label: RadiologyInfo.org (ACR and RSNA), "MRI Safety"
+    url: https://www.radiologyinfo.org/en/info/safety-mr
+sections:
+  - heading: Bring Your Implant Card
+    text: >-
+      If you have an implant card for a device, bring it to your exam. It helps the doctor or MRI
+      technologist identify exactly what you have. Some pacemakers, defibrillators,
+      neurostimulators, cochlear implants, and medication pumps can be scanned, but only if the team
+      knows the exact type and follows special procedures for it.
+    tip: If you cannot find the card, ask the clinic that placed or follows the device for the manufacturer and model numbers. Do this before the day of the scan.
+    sources: [fda, radiologyinfo]
+  - heading: Tell the Team About These
+    text: Mention any of the following on the screening form and to the technologist, even if you think it does not matter.
+    items:
+      - Pacemakers or implantable defibrillators (ICDs)
+      - Neurostimulators, such as spinal cord or vagus nerve stimulators
+      - Cochlear implants
+      - Medication pumps, implanted or worn, such as insulin pumps
+      - Clips placed on blood vessels, and stents
+      - Joint replacements, plates, pins, or screws
+      - Bullets, shrapnel, or other metal fragments, especially anything in or near the eye
+    sources: [fda, radiologyinfo]
+  - heading: Answer the Screening Form Carefully
+    text: >-
+      Before the exam you will usually fill out a screening questionnaire. The FDA calls answering it
+      accurately "extremely important." If you are unsure about an answer, say so rather than guess.
+    sources: [fda]
+  - heading: Remove Metal and Electronics
+    text: "The magnet can pull on some metals, and some items can heat up or be damaged. Before entering the scanner room, remove:"
+    items:
+      - External hearing aids, watches, and jewelry
+      - Phones, tablets, wallets, and cards with magnetic strips
+      - Hair clips and pins
+      - Clothing with metal threads, zippers, snaps, or underwire. Some athletic wear contains metal threads that can heat up and burn.
+      - Makeup or nail polish that may contain metal, if the team asks
+    sources: [radiologyinfo]
+  - heading: Also Let the Team Know
+    items:
+      - If you have tattoos, especially new ones
+      - If you are pregnant or might be, or if you are breastfeeding
+      - If you expect to feel anxious or closed in
+    sources: [fda, radiologyinfo]
+  - heading: Questions You Can Ask
+    items:
+      - What information will the MRI provide, and how might it change my treatment?
+      - Is there any reason I should not have an MRI?
+      - Will my exam use contrast, and why?
+      - Where is the call button if I need help?
+    sources: [fda]
+  - heading: If the Clinic Says You Cannot Have the MRI
+    text: >-
+      Ask why, and whether another test such as CT or ultrasound could answer the same question.
+      Your doctor and the imaging team can explain the options.
+    sources: [radiologyinfo]
+note: >-
+  This page is for education. Whether and how you can be scanned is decided by your MRI team, who
+  review your devices and health history.

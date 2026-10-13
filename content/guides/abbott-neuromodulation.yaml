@@ -1,0 +1,43 @@
+id: abbott-neuromodulation
+order: 11
+category: Neuromodulation
+manufacturer: Abbott
+devices: "Spinal Cord and DRG Stimulation"
+title: Abbott Neuromodulation MRI Manuals
+covers: Spinal cord stimulation and DRG systems such as Eterna, Proclaim, Prodigy MRI, and Protégé MRI. Abbott cardiac devices use other resources.
+verified_on: "2026-10-01"
+summary: >-
+  Abbott publishes a separate "MRI Procedure Information" clinician's manual for each
+  neuromodulation system family in its electronic instructions-for-use library.
+where:
+  - label: MRI Support for healthcare professionals (US)
+    url: https://www.neuromodulation.abbott/us/en/healthcare-professionals/mri-support.html
+    note: Lists MR Conditional systems and links to per-system summary pages.
+  - label: Abbott eIFU manual library
+    url: https://manuals.eifu.abbott/en/index.html
+    note: Choose the United States, then search for "MRI Procedure Information" and the system name. The older manuals.sjm.com address redirects here.
+steps:
+  - Get the generator model, lead models, and implant locations. Abbott states that this information is included on the Abbott Patient ID card.
+  - Open the MRI Support page and find the system family, such as Proclaim or Eterna.
+  - In the eIFU library, select the United States and search for "MRI Procedure Information" with the system name.
+  - Open the clinician's manual for that system family and confirm your generator and lead models are listed.
+check:
+  - US editions are stored under a /global/US/en/ path in the library. Other country codes are other markets' editions.
+  - The back page shows the document number, revision, and date, for example "ARTEN600340310 A, 2025-12".
+  - The library records when each edition became effective and which earlier edition it replaced.
+traps:
+  - Copies of Abbott manuals circulate on third-party sites and may be superseded. Use the copy from the eIFU library.
+  - "Abbott states: \"If the implanted system contains components or models not listed in the following table, then the system is considered MR Unsafe.\""
+  - The eIFU library builds its search results with JavaScript and may look empty in some tools.
+also:
+  - label: Product advisories (US neuromodulation)
+    url: https://www.neuromodulation.abbott/us/en/product-advisories.html
+    note: Notices that can affect MRI preparation, such as notices about exiting MRI Mode.
+  - label: MRI scans with your neurostimulation device (patients)
+    url: https://www.neuromodulation.abbott/us/en/chronic-pain/support/mri-cpt.html
+    note: Patient-facing page explaining the implant card and MRI Mode.
+watch:
+- document: Proclaim MRI Procedure Information (US eIFU)
+  type: pdf
+  url: https://manuals.eifu.abbott/content/dam/av/manuals-eifu/global/US/en/ARTEN600340310_A.PDF
+  expect: ARTEN600340310 A

@@ -1,0 +1,43 @@
+id: minimed
+order: 33
+category: Diabetes Devices
+manufacturer: MiniMed
+devices: "Insulin Pumps · CGMs"
+title: MiniMed Pump and Sensor User Guides
+covers: MiniMed 780G, 770G, 630G, and Flex insulin pumps, and Simplera, Simplera Sync, Guardian 4, and Instinct sensors. MiniMed was formerly Medtronic Diabetes.
+verified_on: "2026-10-02"
+summary: >-
+  MiniMed publishes a system user guide for each pump and sensor combination, plus a separate guide
+  for each sensor and transmitter. Its US download library has one page per product.
+where:
+  - label: Download library (US)
+    url: https://www.minimed.com/en-us/support/download-library
+    note: One page per product, with the current user guides. Old medtronicdiabetes.com links redirect here.
+  - label: Instinct sensor support (US)
+    url: https://www.minimed.com/en-us/support/product-support/sensors/instinct-sensor
+    note: Support page and manual for the Instinct sensor, which is made by Abbott.
+steps:
+  - Get the pump model and the CGM sensor the patient uses, such as a MiniMed 780G pump with a Simplera Sync, Guardian 4, or Instinct sensor, and any separate transmitter.
+  - Open the US download library and choose the product page for the pump.
+  - Download the system user guide for that pump and sensor combination. Read "Exposure to magnetic fields and radiation" in its safety chapter.
+  - Download the sensor's own guide as well. The 780G guide states, "For the most current warnings, see the user guide that came with the device."
+check:
+  - 'The back cover shows the document number, revision, and date, for example "© 2026 Medtronic M072481C001_3 2026-02-15 MMT-1884, MMT-1894" for the US 780G guide.'
+  - US editions list US model numbers, such as MMT-1884 and MMT-1894 for the 780G, show the "Requires prescription in the USA" symbol, and use mg/dL. They do not carry a "Federal law" sentence.
+  - The PDFs still print Medtronic and the Northridge, California address after the company split. That is expected for US editions.
+traps:
+  - Sensors used with the same pump have different labeling. Simplera, Simplera Sync, and Guardian 4 carry the MR Unsafe symbol. The Instinct manual says, "You can safely have a 1.5T or 3T MRI exam while wearing your sensor, under the conditions provided on the insert that came with your sensor." Check each component's own guide.
+  - International 780G guides have the same title but different model numbers (MMT-1885 and MMT-1895), mmol/L, and a CE 0459 mark. Use the US edition.
+  - Older US editions remain online at direct links. One 780G guide on an old medtronicdiabetes.com address is M072481C001_2, dated 2025-08-29, which _3 replaced. Start from the download library.
+also:
+  - label: Safety notices (US)
+    url: https://www.minimed.com/en-us/safety-notices
+    note: MiniMed's US notices for pumps, sensors, and apps.
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: FDA's list of recalls and early alerts.
+watch:
+- document: MiniMed 780G System User Guide (US)
+  type: pdf
+  url: https://www.minimed.com/content/dam/documents/user-guides/us/en-us/minimed-780g-system-user-guide.pdf
+  expect: M072481C001_3

@@ -1,0 +1,38 @@
+id: sophysa
+order: 44
+category: Shunt Valves
+manufacturer: Sophysa
+devices: "Polaris Adjustable Valves"
+title: Sophysa Polaris Instructions for Use
+covers: Polaris adjustable valves (SPV, SPVA, and SPVB, including SiphonX versions) and their adjustment and reading tools. Older Sophy adjustable valves are not sold in the US.
+verified_on: "2026-10-02"
+summary: >-
+  Sophysa USA posts the Polaris valve instructions for use, and the instructions for its adjustment
+  and reading tools, as PDFs on its US product page. The MRI section is in the valve IFU.
+where:
+  - label: Polaris product page (US)
+    url: https://www.sophysa.us/products/hydrocephalus/polaris/
+    note: Links the current US instructions for the valve, the PAK2 adjustment kit, and the PAK3-ERI reading instrument.
+steps:
+  - Get the valve model and implant date from the operative record or the patient's valve card, such as SPVA or SPV-SX, and the last recorded pressure setting.
+  - Open the US Polaris product page and download the valve instructions for use.
+  - Read section 7 on MRI, and the section on reading the operating pressure after implantation.
+  - If the setting will be read or adjusted around the scan, open the instructions for the PAK2 kit or PAK3-ERI instrument as well. Both tools are MR Unsafe.
+check:
+  - 'The back cover shows the document code, revision, and date, "NT118_EN_US Rev000 - 2023-11", for the US valve IFU.'
+  - 'US editions state "Federal (USA) Law restricts this device to sale by or on the order of a physician." and point to www.sophysa.us without a CE mark.'
+  - Text extracted from the US IFU cover also contains an older code, "NT118 (EN-FR) Rev007", which does not show on the page. Use the identity on the back cover.
+traps:
+  - The bilingual English-French edition "NT118 (EN-FR) Rev007 - 2015-07" also has the Federal law sentence and a US address, but shows the CE mark. Its MRI wording matches, yet it is not the current US edition.
+  - Sophysa's US MRI Guide (DCGu-MG-01(USA) Rev000) lists a 4 W/kg First Level Controlled Mode allowance that the IFU does not give. The IFU is the labeling. Report the difference.
+  - 'Sophysa states: "it is recommended that the pressure setting of the valve is checked before and after the MRI examination or following exposure to a powerful magnetic field."'
+  - The fixed-pressure Sophy Mini SM1 has its own, newer MRI table. Do not apply it to Polaris.
+also:
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: Sophysa has no US notice page. Check FDA's lists.
+watch:
+- document: Polaris valve IFU (US)
+  type: pdf
+  url: https://www.sophysa.us/wp-content/uploads/2023/11/Polaris%C2%AE-Instructions-for-Use.pdf
+  expect: NT118_EN_US Rev000

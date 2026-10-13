@@ -1,0 +1,47 @@
+id: inspire
+order: 15
+category: Neuromodulation
+manufacturer: Inspire
+devices: "Hypoglossal Nerve Stimulation"
+title: Inspire MRI Guidelines
+covers: Inspire IV (generator 3028, with a sensing lead) and Inspire V (generator 3150, without a sensing lead) systems for obstructive sleep apnea, and the older Inspire II generator 3024.
+verified_on: "2026-10-02"
+summary: >-
+  Inspire publishes one MRI guidelines manual for its current systems on its e-labeling portal.
+  The manual sets out numbered scan conditions, and which ones apply depends on the generator,
+  the body region, and the coil.
+where:
+  - label: Inspire e-labeling portal
+    url: https://manuals.inspiresleep.com/
+    note: Choose "English - US" and open the MRI guidelines. Older revisions are under the archived manuals.
+steps:
+  - Get the generator model and serial number from the patient ID card, the implant record, or an X-ray, and every lead, including any abandoned lead or lead fragment from an earlier system.
+  - Open the e-labeling portal with "English - US" selected and download the current MRI guidelines.
+  - Use the manual's tables in order. Check generator eligibility, the implant location, the scan condition for the body region and coil, and any abandoned leads.
+  - Have the patient confirm a working system with the sleep remote and turn therapy off before the scan, as the manual describes.
+check:
+  - 'The back cover shows the document number, revision, and date, for example "200-556-101 REV E 2026 01" for the US guidelines.'
+  - US documents end in -101 and list only the Golden Valley, Minnesota address. Editions ending in -008 or -010 are for the UK and Europe.
+  - 'Inspire states: "Before conducting an MRI scan, always ensure that you are using the most recent version of these MRI procedures."'
+traps:
+  - Older US revisions allow 1.5 T only. 3 T was added in Rev E (2026), and only for some scan conditions. Copies of Rev B and earlier still rank high in search results. Download the guidelines from the portal.
+  - The UK edition, "200-239-008 REV F 2022-10", covers only the 3028 generator and lists "MR Conditional at 1.5T". Use the US edition.
+  - 'The Inspire II generator 3024 is "Not eligible for MRI." The manual also states: "An abandoned Inspire generator is MR Unsafe."'
+  - Inspire V has no sensing lead, but a patient upgraded from Inspire IV may still have an abandoned sensing lead. The manual's lead tables decide which scans remain possible.
+  - 'The manual states: "Do not perform an MRI scan on patients who cannot confirm a functioning system."'
+also:
+  - label: FDA recall database (product code MNQ)
+    url: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm
+    note: Inspire has no US notice page. Search FDA records by product name or the code MNQ.
+  - label: FDA Medical Device Recalls and Early Alerts
+    url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
+    note: FDA's list of recalls and early alerts.
+watch:
+- document: Inspire MRI Guidelines, English US (portal link)
+  type: pdf
+  url: https://manuals.inspiresleep.com/content/widgets/manual.php?NjUwfDF8MQ==
+  expect: 200-556-101 REV E
+- document: Inspire MRI Guidelines, revision listed on the English US portal
+  type: page
+  url: https://manuals.inspiresleep.com/
+  expect: 200-556-101_EN</td><td>E</td>

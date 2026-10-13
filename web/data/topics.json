@@ -1,0 +1,31 @@
+{
+  "topics": [
+    {
+      "id": "before-your-mri",
+      "order": 1,
+      "audience": "Patient Preparation",
+      "title": "Before Your MRI: Implants, Devices, and What to Bring",
+      "summary": "If you have an implant or a medical device, the MRI team needs to know exactly what it is before your scan. Here is what to gather, what to tell them, and what to ask.",
+      "verified_on": "2026-10-01",
+      "url": "topics/before-your-mri.html"
+    },
+    {
+      "id": "mr-safety-basics",
+      "order": 2,
+      "audience": "Fundamentals",
+      "title": "MR Safety Basics",
+      "summary": "The core concepts of MR safety, using the definitions in the ACR Manual on MR Safety and FDA guidance.",
+      "verified_on": "2026-10-01",
+      "url": "topics/mr-safety-basics.html"
+    },
+    {
+      "id": "us-certification",
+      "order": 3,
+      "audience": "Certification",
+      "title": "US MR Safety Certification: MRMD, MRSO, MRSE, and MRST",
+      "summary": "The International Board of Magnetic Resonance Safety (IBMRS) offers four MR safety credentials. Here is what each role does and how certification works, summarized from IBMRS's own pages.",
+      "verified_on": "2026-10-01",
+      "url": "topics/us-certification.html"
+    }
+  ]
+}
