@@ -1,10 +1,10 @@
 name: Validate skill package
 
-# Pushes to main are validated by the website deploy workflow.
+# Pushes to main are validated by the website deploy workflow; stats holds only data.
 on:
   pull_request:
   push:
-    branches-ignore: [main]
+    branches-ignore: [main, stats]
   workflow_dispatch:
 
 permissions:

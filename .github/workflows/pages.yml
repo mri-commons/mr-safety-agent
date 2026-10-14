@@ -11,7 +11,7 @@ on:
 
 permissions:
   actions: read
-  contents: read
+  contents: write   # to save the daily star count on the stats branch
   pages: write
   id-token: write
 
@@ -35,11 +35,24 @@ jobs:
         run: |
           cp -R web _site
           rm _site/build.py
-      - name: Render star history chart
+      - uses: actions/checkout@v7
+        continue-on-error: true
+        with:
+          ref: stats
+          path: stats
+      - name: Record star count and render the chart
         continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/star_history.py --out _site/assets
+        run: python scripts/star_history.py --record stats/star-history.csv --out _site/assets
+      - name: Save the star count
+        continue-on-error: true
+        working-directory: stats
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898900+github-actions[bot]@users.noreply.github.com'
+          git add star-history.csv
+          git diff --cached --quiet || { git commit -m 'Record star count'; git push; }
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:
