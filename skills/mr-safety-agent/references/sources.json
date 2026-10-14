@@ -131,7 +131,7 @@
         "Manual PDFs under www.medtronic.com/content/dam/emanuals/ may return an 'Incorrect Browser' HTML page to command-line downloads; a host fetch tool may retrieve the PDF. Check that the file is a PDF before extracting.",
         "The MR Conditional Search Tool renders with JavaScript and may show no table to non-browser tools.",
         "Summary charts and B1+rms overviews are dated secondary documents (some are years old); use the model-specific MRI technical manual for conditions.",
-        "Aurora EV-ICD (DVEA3E4): US MRI Technical Manual M000022C001 C (2023-04-28), found by model search. 1.5 T SAR limits in Normal Operating Mode; at 3 T, B1+RMS <= 2.0 uT when the isocenter is inferior to C7; SureScan mode turns off automatically after 6 hours (the Azure pacemaker manual states 24 hours). The en_GB library serves M000016C001 D (CE). FDA correction Z-0726-2026 (delayed high-voltage therapy) was open when checked."
+        "Aurora EV-ICD (DVEA3E4): US MRI Technical Manual M000022C001 C (2023-04-28), found by model search. 1.5T SAR limits in Normal Operating Mode; at 3T, B1+RMS <= 2.0 uT when the isocenter is inferior to C7; SureScan mode turns off automatically after 6 hours (the Azure pacemaker manual states 24 hours). The en_GB library serves M000016C001 D (CE). FDA correction Z-0726-2026 (delayed high-voltage therapy) was open when checked."
       ],
       "review_status": "source-checked"
     },
@@ -191,9 +191,9 @@
         "The Manuals link redirects to the JavaScript-rendered product literature portal (/elabeling.html); it may show no list to non-browser tools.",
         "Technical guide PDFs are hosted under https://www.bostonscientific.com/content/dam/elabeling/crm/ for several markets. Read the back-cover identity line (for example 'EN US 2024-10' versus 'EN Europe 2020-01') before use.",
         "Newer US editions have used new document numbers (the pacing guide moved from 360167-003, 2019-07, to 51897537-001, 2024-10). Search the domain by guide title, 'EN US', and recent years; do not only probe the old number's revisions.",
-        "The ImageReady Model Lookup page (/imageready/en-US/model-lookup.html) lists 1.5 T/3 T configurations and states its own as-of date; use it for navigation, not conditions.",
+        "The ImageReady Model Lookup page (/imageready/en-US/model-lookup.html) lists 1.5T/3T configurations and states its own as-of date; use it for navigation, not conditions.",
         "Check device advisories as well as MRI labeling: Boston Scientific posts letters under its Recent Product Advisories documents and FDA lists corrections on its recalls pages.",
-        "S-ICD: the US MRI Technical Guide is 92346926-001 (back cover '92346926-001 EN US 2019-07', filename ..._en-USA_S.pdf, Federal law caution), covering EMBLEM A209 (only with firmware 3.1.529 or later) and EMBLEM MRI A219 with all Boston Scientific and Cameron Health S-ICD electrodes. It is 1.5 T only, 30 T/m, Normal Operating Mode SAR limits, MRI Protection Mode with a programmable time-out. The copy found first by web search, 92346927-001 'EN Europe 2020-09', is not US labeling. In the US library, search 'EMBLEM'; 'MRI Technical Guide' returns nothing.",
+        "S-ICD: the US MRI Technical Guide is 92346926-001 (back cover '92346926-001 EN US 2019-07', filename ..._en-USA_S.pdf, Federal law caution), covering EMBLEM A209 (only with firmware 3.1.529 or later) and EMBLEM MRI A219 with all Boston Scientific and Cameron Health S-ICD electrodes. It is 1.5T only, 30 T/m, Normal Operating Mode SAR limits, MRI Protection Mode with a programmable time-out. The copy found first by web search, 92346927-001 'EN Europe 2020-09', is not US labeling. In the US library, search 'EMBLEM'; 'MRI Technical Guide' returns nothing.",
         "The SQ-RX Model 1010 generator is not in the S-ICD component table; electrode manuals calling an electrode compatible with it describe the connection, not MRI status. EMBLEM 3501 electrode recall: FDA Z-0879-2021 (terminated 2024)."
       ],
       "review_status": "source-checked"
@@ -481,10 +481,10 @@
       "verified_on": "2026-10-02",
       "navigation": [
         "With Python, scripts/find_documents.py medtronic --brand Strata lists the US Strata Products IFU (CONTRIB_250941) among the results.",
-        "US Strata II and Strata NSC IFU: 'Strata Products', M972510A001 B (2018-10), CONTRIB_250941.pdf, with 'Caution: U. S. federal law restricts...' and only the Minneapolis address. MRI: up to 3.0 T, 720 G/cm, SAR 3 W/kg for 15 minutes; MRI 'can change the performance level setting'; check before and after MRI.",
+        "US Strata II and Strata NSC IFU: 'Strata Products', M972510A001 B (2018-10), CONTRIB_250941.pdf, with 'Caution: U. S. federal law restricts...' and only the Minneapolis address. MRI: up to 3.0T, 720 G/cm, SAR 3 W/kg for 15 minutes; MRI 'can change the performance level setting'; check before and after MRI.",
         "MRI Resource Library model searches (42866, 42856, 92866, and others) return only the multilingual CE editions (Strata II M972504A001 B, Strata NSC M972505A001 B). The US edition appears there under the product name search 'Strata', or in the full Manual Library.",
-        "StrataMR II (models ending MR, such as 46955MR) is only in the full Manual Library: M020827CDOC4 Rev. A (2023-10), one global multilingual edition with the US Federal law sentence and CE markings. MRI: 1.5 or 3.0 T, 19 T/m, 4 W/kg First Level; mechanism resistant to unintended changes at 3 T; verify setting after MRI.",
-        "The US Strata IFU warns that debris may affect adjustability after 3.0 T and that tool readings may be reversed 180 degrees from X-ray. The older 3.0 Tesla addendum 17140-1E, still attached in the library, lacks this warning. Adjustment Kit 45805 and StrataVarius 45806 are MR Unsafe.",
+        "StrataMR II (models ending MR, such as 46955MR) is only in the full Manual Library: M020827CDOC4 Rev. A (2023-10), one global multilingual edition with the US Federal law sentence and CE markings. MRI: 1.5 or 3.0T, 19 T/m, 4 W/kg First Level; mechanism resistant to unintended changes at 3T; verify setting after MRI.",
+        "The US Strata IFU warns that debris may affect adjustability after 3.0T and that tool readings may be reversed 180 degrees from X-ray. The older 3.0 Tesla addendum 17140-1E, still attached in the library, lacks this warning. Adjustment Kit 45805 and StrataVarius 45806 are MR Unsafe.",
         "First-generation StrataMR (42955, 42965) had a 2017 Class I recall. Medtronic's US neurological shunts MR status page: /en-us/healthcare-professionals/mri-resources/neurological-shunts.html. PDFs may need browser-like headers (curl --http2 with sec-ch-ua and Sec-Fetch headers) or a host fetch tool."
       ],
       "review_status": "source-checked"
@@ -502,9 +502,9 @@
       "navigation": [
         "With Python, scripts/find_documents.py integra '<product name>' searches the US portal and reads each document page for its most recent or superseded status (it takes about 15 seconds).",
         "Choose Country = United States. Each document viewer page shows 'Most recent.' or 'Out of date. Superseded by ...'. Printed identity lines are more reliable than portal dates.",
-        "US CERTAS Plus (catalog numbers ending PL, such as 828801PL): 'CERTAS Plus Programmable Valves IFU (Rev B) USA', 209026001 Rev B 2024-05. MRI: 1.5 and 3 T, 2,000 Gauss/cm (20 T/m), First Level SAR; no transmit/receive head coils; 'resistant to unintended changes in the setting in a 3 Tesla MRI', but confirm the setting after MRI.",
+        "US CERTAS Plus (catalog numbers ending PL, such as 828801PL): 'CERTAS Plus Programmable Valves IFU (Rev B) USA', 209026001 Rev B 2024-05. MRI: 1.5 and 3T, 2,000 Gauss/cm (20 T/m), First Level SAR; no transmit/receive head coils; 'resistant to unintended changes in the setting in a 3 Tesla MRI', but confirm the setting after MRI.",
         "CERTAS Plus without PL (828800-828827) have INS editions 206521-001 Rev M and 208878-001 Rev D at 1,000 Gauss/cm (10 T/m). The outside-US twin 209027001 Rev A OUS also gives 10 T/m. Match the catalog number to the IFU.",
-        "HAKIM Programmable Valves IFU 200570001 Rev N (2024-02): up to 3 T, 720 gauss/cm, SAR 3 W/kg for 15 minutes; MR systems up to 3 T 'may change the setting of the valve'; verify after MRI by X-ray. The HAKIM lumboperitoneal valve has its own IFU (207384-001 Rev E) with different conditions.",
+        "HAKIM Programmable Valves IFU 200570001 Rev N (2024-02): up to 3T, 720 gauss/cm, SAR 3 W/kg for 15 minutes; MR systems up to 3T 'may change the setting of the valve'; verify after MRI by X-ray. The HAKIM lumboperitoneal valve has its own IFU (207384-001 Rev E) with different conditions.",
         "CERTAS Tool Kit and Electronic Tool Kit are MR Unsafe. Recalls are on FDA's database (for example Z-0977-2025 for CERTAS Plus 828810)."
       ],
       "review_status": "source-checked"
@@ -521,9 +521,9 @@
       "verified_on": "2026-10-02",
       "navigation": [
         "Browse Category: Neurosurgery. US documents have SOP-AIC numbers and back-cover identities ending '_USA', for example proGAV 2.0 'TA013871 GBA_81_08_0217_USA' (SOP-AIC-5001399) and M.blue 'TA015577 GBA_11_01_0719_USA' (SOP-AIC-5002159). The item-number search is unreliable.",
-        "US proGAV 2.0: 3 T or less, 1,400 Gauss/cm (14.0 T/m), 4 W/kg First Level; setting 'will not change' at 1.5 or 3.0 T, but pressing on the valve in a magnetic field may adjust it. US M.blue: 1.5 or 3 Tesla only, 500 Gauss/cm, 4 W/kg; setting can be checked with the compass before and after MRI. US proSA: 1.5 and 3.0 T, 7.2 T/m, 4 W/kg, no local transmit coils over the implant.",
+        "US proGAV 2.0: 3T or less, 1,400 Gauss/cm (14.0 T/m), 4 W/kg First Level; setting 'will not change' at 1.5 or 3.0T, but pressing on the valve in a magnetic field may adjust it. US M.blue: 1.5 or 3 Tesla only, 500 Gauss/cm, 4 W/kg; setting can be checked with the compass before and after MRI. US proSA: 1.5 and 3.0T, 7.2 T/m, 4 W/kg, no local transmit coils over the implant.",
         "TA numbers are shared between US and international editions. Confirm '_USA' and the SOP-AIC number. Some international Miethke documents print the Federal law sentence while stating they are not for US users.",
-        "Miethke's MRI Safety Information sheet (CMKG-MRISafetyInfo_DE_EN_V23, 2024-09-10) is 'not intended for United States users'. It applies 3 T and 1,400 Gauss/cm to all valves, including M.blue, and says verification after MRI is not required, which differs from the US M.blue IFU.",
+        "Miethke's MRI Safety Information sheet (CMKG-MRISafetyInfo_DE_EN_V23, 2024-09-10) is 'not intended for United States users'. It applies 3T and 1,400 Gauss/cm to all valves, including M.blue, and says verification after MRI is not required, which differs from the US M.blue IFU.",
         "Tools (compasses, adjustment instruments) are MR Unsafe. Aesculap has no US notice page; check FDA's recall database."
       ],
       "review_status": "source-checked"
@@ -540,7 +540,7 @@
       "verified_on": "2026-10-02",
       "navigation": [
         "US Polaris valve IFU: back cover 'NT118_EN_US Rev000 - 2023-11', with 'Federal (USA) Law restricts...' and www.sophysa.us, no CE mark. Extracted cover text also contains an older code 'NT118 (EN-FR) Rev007' that does not show on the page.",
-        "MRI (section 7): MR Conditional up to 3 T, spatial gradient 19 T/m, whole body SAR 2 W/kg for 15 minutes at 1.5 and 3 T. Check the pressure setting before and after MRI. Rotational movement of the valve during exposure may change the setting.",
+        "MRI (section 7): MR Conditional up to 3T, spatial gradient 19 T/m, whole body SAR 2 W/kg for 15 minutes at 1.5 and 3T. Check the pressure setting before and after MRI. Rotational movement of the valve during exposure may change the setting.",
         "The bilingual EN-FR edition NT118 Rev007 (2015-07) also has the Federal law sentence and a US address but shows the CE mark. Sophysa's US MRI Guide (DCGu-MG-01(USA) Rev000) adds a 4 W/kg First Level allowance not in the IFU. Report the difference.",
         "PAK2 (NT140_EN_US Rev000) and PAK3-ERI (NT174_EN_US Rev001) are MR Unsafe. Sophy Mini SM8 adjustable valves are not sold in the US. The fixed-pressure Sophy Mini SM1 has its own newer MRI table.",
         "Sophysa has no US notice page; check FDA's lists."
@@ -607,7 +607,7 @@
       "scope": "US directions for use for the Motiva Flora SmoothSilk tissue expander, which uses an RFID port instead of a magnet.",
       "verified_on": "2026-10-02",
       "navigation": [
-        "Choose the 'US FDA cleared' Flora entry. US edition on 2026-10-02: DOC-001016 Rev. 3, NOV2024. MR Conditional: 1.5 T and 3 T only, 40 T/m, CP, Normal Operating Mode, whole-body SAR 2 W/kg and head SAR 3.2 W/kg for 15 minutes per sequence. The Flora Port Locator is MR Unsafe.",
+        "Choose the 'US FDA cleared' Flora entry. US edition on 2026-10-02: DOC-001016 Rev. 3, NOV2024. MR Conditional: 1.5T and 3T only, 40 T/m, CP, Normal Operating Mode, whole-body SAR 2 W/kg and head SAR 3.2 W/kg for 15 minutes per sequence. The Flora Port Locator is MR Unsafe.",
         "The 'Outside US' edition DOC-037 v7 also contains a Federal law sentence; its conditions differ slightly. The portal is a JavaScript app and downloads are time-limited links."
       ],
       "review_status": "source-checked"

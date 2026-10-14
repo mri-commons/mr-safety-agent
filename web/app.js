@@ -63,7 +63,7 @@ const topicGrid=document.querySelector('#topic-grid');
 fetch('data/topics.json').then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{topicGrid.replaceChildren();for(const t of data.topics){const a=node('a','','topic-card');a.href=t.url;const foot=node('span','','card-foot');foot.append(node('b','Read →'));a.append(node('span',t.audience,'audience-tag'),node('h3',t.title.split(':')[0]),node('p',t.summary),foot);topicGrid.append(a);}}).catch(()=>{topicGrid.replaceChildren(node('p','Topics could not be loaded. Please refresh the page.'));});
 const examples=[
  ['Device Manual','Find the current US MRI technical guide for a Boston Scientific ACCOLADE MRI L311 pacemaker with INGEVITY MRI 7741 and 7742 leads. Confirm the edition, check for safety notices, and list what is still unverified.'],
- ['Hearing Implant','Our patient has a Cochlear Nucleus CI612 cochlear implant with the magnet in place and is scheduled for a 3 T brain MRI. Which current US Cochlear document applies, and what does it require?'],
+ ['Hearing Implant','Our patient has a Cochlear Nucleus CI612 cochlear implant with the magnet in place and is scheduled for a 3T brain MRI. Which current US Cochlear document applies, and what does it require?'],
  ['Patient','My dad has a pacemaker and an MRI next week. What should we bring, and what should we ask the imaging team?'],
  ['ACR Guidance','According to the current ACR Manual on MR Safety, what is Zone III, and who controls access to it?'],
  ['Certification','I am a US MRI technologist. Compare the MRSO and MRSE credentials, then suggest a six-week study plan based on the current exam syllabus.'],

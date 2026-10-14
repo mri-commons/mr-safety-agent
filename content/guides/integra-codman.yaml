@@ -25,7 +25,7 @@ check:
   - Each document page on the portal shows "Most recent" or names the edition that supersedes it.
 traps:
   - CERTAS Plus valves without the PL suffix have other instructions, 206521-001 and 208878-001, with a lower spatial gradient limit. The outside-US twin of the US IFU, 209027001 Rev A OUS, also gives 1,000 Gauss/cm (10 T/m) instead of 20 T/m. Match the catalog number to the IFU.
-  - 'HAKIM and CERTAS Plus behave differently in MRI. The HAKIM IFU states that MR systems up to 3 T "may change the setting of the valve." The CERTAS Plus IFU states the mechanism "is resistant to unintended changes in the setting in a 3 Tesla MRI." Both require confirming the setting after MRI.'
+  - 'HAKIM and CERTAS Plus behave differently in MRI. The HAKIM IFU states that MR systems up to 3T "may change the setting of the valve." The CERTAS Plus IFU states the mechanism "is resistant to unintended changes in the setting in a 3 Tesla MRI." Both require confirming the setting after MRI.'
   - The HAKIM lumboperitoneal valve has its own IFU with different MRI conditions from the HAKIM ventricular valves.
   - The tool kits and programmers are MR Unsafe and must stay out of the MR suite.
 also:

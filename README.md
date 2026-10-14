@@ -24,29 +24,29 @@ MR Safety Agent is an open-source [Agent Skill](https://agentskills.io): a set o
 
 ## What It Does
 
-| | Task | What You Get |
-| :---: | --- | --- |
-| 📄 | **Device MRI Labeling** | The applicable manufacturer manual, matched to the exact model, market, and revision, with safety notices checked, conditions cited by page, and gaps listed. |
-| 🧲 | **MR Safety Questions** | Answers grounded in ACR, FDA, and other primary sources, including MRI suite emergencies, in plain language for patients and families or in depth for the MR safety team. |
-| 🎓 | **US Certification** | MRSO, MRSE, MRMD, and MRST pathways from the credentialing body, with course certificates, credentials, and job roles kept distinct, and study plans built from the current exam syllabus. |
+| Task | What You Get |
+| :---: | --- |
+| 📄<br>**Device MRI Labeling** | The applicable manufacturer manual, matched to the exact model, market, and revision, with safety notices checked, conditions cited by page, and gaps listed. |
+| 🧲<br>**MR Safety Questions** | Answers grounded in ACR, FDA, and other primary sources, including MRI suite emergencies, in plain language for patients and families or in depth for the MR safety team. |
+| 🎓<br>**US Certification** | MRSO, MRSE, MRMD, and MRST pathways from the credentialing body, with course certificates, credentials, and job roles kept distinct, and study plans built from the current exam syllabus. |
 
 ## Same AI, With and Without the Skill
 
 Two examples, each the same question asked of the same model with and without the skill:
 
-| Question | Without the Skill | With MR Safety Agent |
+| Question | ❌ Without the Skill | ✅ With MR Safety Agent |
 | --- | --- | --- |
-| ACCOLADE MRI L311 pacemaker with INGEVITY MRI 7741/7742 leads: what are the current US 3 T conditions? | Found the current US guide and its 3 T conditions, but missed the May 2026 FDA Class I correction listing the L311, a Safety Mode risk | Same guide, each condition cited by page; found the FDA correction and flagged Safety Mode status to confirm |
-| Abbott Proclaim XR SCS with two 3228 leads: what does the current US manual say for a 3 T lumbar MRI? | Right conclusion (1.5 T only), but read an older third-party copy and offered its outdated limits as the stricter option | Used the current official manual (December 2025) and documented which edition it replaced |
+| *"ACCOLADE MRI L311 pacemaker with INGEVITY MRI 7741/7742 leads: what are the current US 3T conditions?"* | Found the current US guide and its 3T conditions, but missed the May 2026 FDA Class I correction listing the L311, a Safety Mode risk | Same guide, each condition cited by page; found the FDA correction and flagged Safety Mode status to confirm |
+| *"Abbott Proclaim XR SCS with two 3228 leads: what does the current US manual say for a 3T lumbar MRI?"* | Right conclusion (1.5T only), but read an older third-party copy and offered its outdated limits as the stricter option | Used the current official manual (December 2025) and documented which edition it replaced |
 
 ## Who It's For
 
 | If You Are… | Use It To… |
-| --- | --- |
-| **A Patient or Family Member** | Learn what device information the imaging team needs and what to ask, in plain language. |
-| **An MR Technologist or MR Safety Officer** | Find the right manual and revision, get page-cited conditions, and see what still needs checking before the scan. |
-| **A Radiologist or Referring Physician** | Review the evidence behind a device's MR labeling and the open questions. |
-| **A Student or Learner** | Understand MR safety concepts and plan US certification from the exam syllabus. |
+| :---: | --- |
+| 👪<br>**A Patient or Family Member** | Learn what device information the imaging team needs and what to ask, in plain language. |
+| 🩻<br>**An MR Technologist or MR Safety Officer** | Find the right manual and revision, get page-cited conditions, and see what still needs checking before the scan. |
+| 🩺<br>**A Radiologist or Referring Physician** | Review the evidence behind a device's MR labeling and the open questions. |
+| 📚<br>**A Student or Learner** | Understand MR safety concepts and plan US certification from the exam syllabus. |
 
 ### Built to Catch What Is Easy to Miss
 
@@ -68,9 +68,9 @@ Two examples, each the same question asked of the same model with and without th
 
    | App | Where to Upload (October 2026) |
    | --- | --- |
-   | Claude (web, desktop, mobile) | Turn on **Settings → Capabilities → Code execution and file creation**, then upload in **Customize → Skills**. |
-   | ChatGPT | Paid plans, including Plus, Pro, Business, Enterprise, Healthcare, and Edu: **Plugins → Skills → Create → Upload from your computer**. Uploaded skills work only in **Work**, not in regular chat. Enterprise and Edu admins may need to enable skills. |
-   | Gemini | Skills began rolling out in October 2026. When **Skills** appears, upload the zip. |
+   | **Claude** (web, desktop, mobile) | Turn on **Settings → Capabilities → Code execution and file creation**, then upload in **Customize → Skills**. |
+   | **ChatGPT** | Paid plans, including Plus, Pro, Business, Enterprise, Healthcare, and Edu: **Plugins → Skills → Create → Upload from your computer**. Uploaded skills work only in **Work**, not in regular chat. Enterprise and Edu admins may need to enable skills. |
+   | **Gemini** | Skills began rolling out in October 2026. When **Skills** appears, upload the zip. |
 
 3. **Make Sure the Skill Is Turned On**, then ask normally or name it. In ChatGPT, use it in **Work**.
 
@@ -80,21 +80,13 @@ Two examples, each the same question asked of the same model with and without th
 npx skills add mri-commons/mr-safety-agent --skill mr-safety-agent
 ```
 
-## Examples
+## Try Asking
 
-Give exact model numbers for device questions. For example:
-
-```text
-Find the current US MRI technical guide for a Boston Scientific ACCOLADE MRI
-L311 pacemaker with INGEVITY MRI 7741 and 7742 leads, and list its 3 T conditions.
-
-My father has a Medtronic pacemaker from around 2018. Can he have a 3 T MRI
-tomorrow? Give me a yes or no.
-
-According to the current ACR Manual on MR Safety, who controls access to Zone III?
-```
-
-A professional answer leads with the finding and its source, then lists what remains unknown, the safety notices checked, and the sources opened. A patient or family member gets a short answer instead: what is unresolved, what to find (usually the implant card), and whom to call.
+| | Ask | What You Get |
+| :---: | --- | --- |
+| 🦻<br>**Device** | *"Cochlear Nucleus CI612 with the magnet in place, 3T brain MRI: which current US document applies, and what does it require?"* | The matched US Cochlear guidelines, the 3T conditions with the magnet in place cited by page, and what remains unknown. |
+| 👪<br>**Patient** | *"My father has a Medtronic pacemaker from around 2018. Can he have a 3T MRI tomorrow?"* | A short, plain-language answer: why the exact model matters, where to find it (usually the implant card), and whom to call. No yes-or-no guess. |
+| 📘<br>**Guidance** | *"Per the current ACR Manual on MR Safety, who controls access to Zone III?"* | The answer from the current ACR manual, with its citation. |
 
 ## Website
 

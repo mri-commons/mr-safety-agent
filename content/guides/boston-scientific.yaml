@@ -15,7 +15,7 @@ where:
     note: Resources, checklists, and links to MRI technical guides.
   - label: ImageReady Model Lookup (US)
     url: https://www.bostonscientific.com/imageready/en-US/model-lookup.html
-    note: Lists generator and lead models with their 1.5 T and 3 T system configurations.
+    note: Lists generator and lead models with their 1.5T and 3T system configurations.
   - label: Product literature library
     url: https://www.bostonscientific.com/elabeling.html
     note: Searchable manual library. It needs JavaScript.

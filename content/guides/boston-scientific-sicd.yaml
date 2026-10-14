@@ -8,7 +8,7 @@ covers: EMBLEM S-ICD (A209) and EMBLEM MRI S-ICD (A219) pulse generators with Bo
 verified_on: "2026-10-02"
 summary: >-
   Boston Scientific publishes one MRI Technical Guide for its subcutaneous ICD systems. The
-  US edition covers 1.5 T scanning of the complete system, with the pulse generator in MRI
+  US edition covers 1.5T scanning of the complete system, with the pulse generator in MRI
   Protection Mode.
 where:
   - label: Product literature library (United States)

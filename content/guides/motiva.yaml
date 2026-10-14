@@ -8,7 +8,7 @@ covers: Motiva Flora SmoothSilk tissue expander, which uses an RFID port locator
 verified_on: "2026-10-02"
 summary: >-
   Establishment Labs publishes the US directions for use for the Motiva Flora tissue expander on
-  its eIFU portal. Unlike magnetic port expanders, it has MR Conditional labeling at 1.5 T and 3 T.
+  its eIFU portal. Unlike magnetic port expanders, it has MR Conditional labeling at 1.5T and 3T.
 where:
   - label: Motiva eIFU portal
     url: https://ifu.motiva.health

@@ -33,7 +33,7 @@ traps:
   - Manuals for older apps give different MRI labeling for the same sensors. On the US Libre 3 support page, the FreeStyle Libre 3 app manual (ART49044-301 Rev. A 04/26) says the system "must be removed prior to" MRI. The Libre app and Reader manuals give MR Conditional conditions. Use the manual for the app or Reader the patient actually uses, and resolve conflicts with the MR safety team.
   - Similar names have different labeling. The FreeStyle Libre 14 day system "must be removed prior to" MRI, CT, or diathermy, while the current Libre app and Reader manuals give MR Conditional conditions for Libre 2, 2 Plus, 3, and 3 Plus sensors.
   - 'MR Conditional labeling covers the sensor only. Abbott states: "Leave your phone and Reader outside of the exam room."'
-  - The Libre Duo 10 Day system has its own MRI conditions on the Important Safety Information page, with a shorter 3 T scan time. Do not apply the Libre 3 table to it.
+  - The Libre Duo 10 Day system has its own MRI conditions on the Important Safety Information page, with a shorter 3T scan time. Do not apply the Libre 3 table to it.
 also:
   - label: Sensor recall check (US)
     url: https://www.freestylecheck.com/us-en/home.html

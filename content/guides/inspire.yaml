@@ -24,7 +24,7 @@ check:
   - US documents end in -101 and list only the Golden Valley, Minnesota address. Editions ending in -008 or -010 are for the UK and Europe.
   - 'Inspire states: "Before conducting an MRI scan, always ensure that you are using the most recent version of these MRI procedures."'
 traps:
-  - Older US revisions allow 1.5 T only. 3 T was added in Rev E (2026), and only for some scan conditions. Copies of Rev B and earlier still rank high in search results. Download the guidelines from the portal.
+  - Older US revisions allow 1.5T only. 3T was added in Rev E (2026), and only for some scan conditions. Copies of Rev B and earlier still rank high in search results. Download the guidelines from the portal.
   - The UK edition, "200-239-008 REV F 2022-10", covers only the 3028 generator and lists "MR Conditional at 1.5T". Use the US edition.
   - 'The Inspire II generator 3024 is "Not eligible for MRI." The manual also states: "An abandoned Inspire generator is MR Unsafe."'
   - Inspire V has no sensing lead, but a patient upgraded from Inspire IV may still have an abandoned sensing lead. The manual's lead tables decide which scans remain possible.
