@@ -1,8 +1,11 @@
 name: Validate skill package
 
+# Pushes to main are validated by the website deploy workflow.
 on:
-  push:
   pull_request:
+  push:
+    branches-ignore: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
