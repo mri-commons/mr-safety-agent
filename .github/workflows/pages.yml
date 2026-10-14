@@ -5,6 +5,8 @@ name: Deploy website
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '23 6 * * *'   # daily, to refresh the star history chart
   workflow_dispatch:
 
 permissions:
@@ -33,6 +35,11 @@ jobs:
         run: |
           cp -R web _site
           rm _site/build.py
+      - name: Render star history chart
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/star_history.py --out _site/assets
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:

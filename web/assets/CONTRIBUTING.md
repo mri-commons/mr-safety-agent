@@ -48,7 +48,7 @@ Repository Layout:
 skills/mr-safety-agent/   The skill: SKILL.md, workflows, source directory, icons
 content/guides/           Device document guides (YAML), rendered into web/guides by build.py
 web/                      Static website and build script
-scripts/                  Validator, link and edition checkers, and live-reload preview server
+scripts/                  Validator, link and edition checkers, star history chart, and live-reload preview server
 plugin.json               Portable plugin manifest (Agent Plugins)
 .claude-plugin/           Claude Code plugin marketplace
 .agents/plugins/          Codex plugin marketplace

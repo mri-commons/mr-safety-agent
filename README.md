@@ -125,9 +125,9 @@ MR Safety Agent is part of [MRI Commons](https://github.com/mri-commons), a home
 
 ## Star History
 
-<a href="https://www.star-history.com/#mri-commons/mr-safety-agent&Date">
+<a href="https://github.com/mri-commons/mr-safety-agent/stargazers">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=mri-commons/mr-safety-agent&type=Date&theme=dark">
-    <img alt="Star history chart for mri-commons/mr-safety-agent" src="https://api.star-history.com/svg?repos=mri-commons/mr-safety-agent&type=Date">
+    <source media="(prefers-color-scheme: dark)" srcset="https://mri-commons.github.io/mr-safety-agent/assets/star-history-dark.svg">
+    <img alt="GitHub star history for mri-commons/mr-safety-agent" src="https://mri-commons.github.io/mr-safety-agent/assets/star-history.svg" width="800">
   </picture>
 </a>
