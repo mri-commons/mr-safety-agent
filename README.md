@@ -4,7 +4,7 @@
 
 # MR Safety Agent
 
-**MRI Safety Research for Implants, Devices, and MR Safety Questions, with Each Claim Tied to a Source It Opened.**
+**Your AI Companion for MR Safety**
 
 <a href="https://mri-commons.github.io/mr-safety-agent/"><img src="assets/open-website-button.svg" width="420" alt="Open the website: mri-commons.github.io/mr-safety-agent"></a>
 
