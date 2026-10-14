@@ -46,7 +46,7 @@ Two examples, each the same question asked of the same model with and without th
 | 👪<br>**A Patient or Family Member** | Learn what device information the imaging team needs and what to ask, in plain language. |
 | 🩻<br>**An MR Technologist or MR Safety Officer** | Find the right manual and revision, get page-cited conditions, and see what still needs checking before the scan. |
 | 🩺<br>**A Radiologist or Referring Physician** | Review the evidence behind a device's MR labeling and the open questions. |
-| 📚<br>**A Student or Learner** | Understand MR safety concepts and plan US certification from the exam syllabus. |
+| 📚<br>**A Student or Learner** | Understand MR safety concepts from primary sources. |
 
 ### Built to Catch What Is Easy to Miss
 

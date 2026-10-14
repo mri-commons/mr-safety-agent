@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MR Safety Agent — Find Your Next Step</title>
-  <meta name="description" content="Find manufacturer MRI documents for implants and devices, explore MR safety resources, and plan US certification with an open-source research skill.">
+  <meta name="description" content="Find manufacturer MRI documents for implants and devices and explore MR safety resources with an open-source AI skill.">
   <link rel="icon" type="image/svg+xml" href="assets/mr-safety-agent-logo.svg">
   <link rel="stylesheet" href="style.css?v=palette-1"><script src="app.js?v=palette-1" defer></script>
 </head>
@@ -19,9 +19,9 @@
       <div class="hero-copy">
         <div class="eyebrow"><span class="small-line"></span> MAKING EVERY MRI A SAFER MRI</div>
         <h1>Your AI Companion<br>for <span>MR Safety</span></h1>
-        <p class="intro">Prepare for an MRI, find the right MRI manual for a device, and plan your MR safety certification. Browse the guides here, or add the agent to your own AI tool for answers grounded in primary sources.</p>
+        <p class="intro">Prepare for an MRI, find the right MRI manual for a device, and learn the basics of MR safety. Browse the guides here, or add the agent to your own AI tool for answers grounded in primary sources.</p>
         <form class="hero-search" role="search"><label class="sr-only" for="search">Search guides and references</label><span class="search-symbol" aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search a manufacturer, device, or topic…"><button type="submit" aria-label="Search resources">→</button></form>
-        <div class="suggestions"><span>Try</span><button data-query="Medtronic">Medtronic</button><a href="topics/before-your-mri.html">Before Your MRI</a><button data-query="MRSO">MRSO Certification</button></div>
+        <div class="suggestions"><span>Try</span><button data-query="Medtronic">Medtronic</button><a href="topics/before-your-mri.html">Before Your MRI</a><a href="topics/mr-safety-basics.html">MR Safety Basics</a></div>
       </div>
       <figure class="hero-art"><img src="assets/mr-safety-agent.png" alt="MR Safety Agent mascot holding a blue shield in front of an MRI scanner" width="1254" height="1254"><figcaption class="install-card"><div class="install-heading"><strong>Install With One Command</strong><span>Claude Code · Codex · Gemini CLI</span></div><div class="install-cmd"><code id="install-command" tabindex="0">npx skills add mri-commons/mr-safety-agent --skill mr-safety-agent</code><button class="copy-cmd" id="copy-install" type="button">Copy</button></div><p class="install-alt">Using a chat app? <a href="assets/mr-safety-agent.zip" download>Download the skill</a> and upload it. <button type="button" data-install-help>See install options</button></p><span id="install-status" role="status" aria-live="polite"></span></figcaption></figure>
     </section>
@@ -44,7 +44,7 @@
       <div id="active-query" hidden></div>
       <div id="guide-matches" class="guide-matches" hidden></div>
       <div id="resource-grid" class="resource-grid"></div>
-      <div id="empty" hidden><h3>No Matches Yet</h3><p>Try a manufacturer, “screening,” “FDA,” or “certification.”</p><button class="button outline" id="reset">Show All References</button></div>
+      <div id="empty" hidden><h3>No Matches Yet</h3><p>Try a manufacturer, “screening,” or “FDA.”</p><button class="button outline" id="reset">Show All References</button></div>
       <p class="library-note"><span aria-hidden="true">ⓘ</span> These links help you find evidence. A listing does not establish device eligibility for an MRI scan.</p>
     </section>
 

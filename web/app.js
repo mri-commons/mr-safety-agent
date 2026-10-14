@@ -66,7 +66,6 @@ const examples=[
  ['Hearing Implant','Our patient has a Cochlear Nucleus CI612 cochlear implant with the magnet in place and is scheduled for a 3T brain MRI. Which current US Cochlear document applies, and what does it require?'],
  ['Patient','My dad has a pacemaker and an MRI next week. What should we bring, and what should we ask the imaging team?'],
  ['ACR Guidance','According to the current ACR Manual on MR Safety, what is Zone III, and who controls access to it?'],
- ['Certification','I am a US MRI technologist. Compare the MRSO and MRSE credentials, then suggest a six-week study plan based on the current exam syllabus.'],
 ];
 const tabs=document.querySelector('#prompt-tabs'),promptText=document.querySelector('#prompt-text');
 examples.forEach(([label,text],i)=>{const b=node('button',label,'prompt-tab');b.type='button';b.setAttribute('role','tab');b.setAttribute('aria-selected',i===0);b.addEventListener('click',()=>{promptText.textContent=text;document.querySelector('#copy-status').textContent='';tabs.querySelectorAll('button').forEach(x=>x.setAttribute('aria-selected',x===b));});tabs.append(b);});
