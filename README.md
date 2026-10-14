@@ -4,7 +4,7 @@
 
 # MR Safety Agent
 
-**MRI Safety Research for Implants, Devices, and MR Safety Questions, With Each Claim Tied to a Source It Opened.**
+**MRI Safety Research for Implants, Devices, and MR Safety Questions, with Each Claim Tied to a Source It Opened.**
 
 <a href="https://mri-commons.github.io/mr-safety-agent/"><img src="assets/open-website-button.svg" width="420" alt="Open the website: mri-commons.github.io/mr-safety-agent"></a>
 
@@ -13,7 +13,7 @@
 [![Agent Skills](https://img.shields.io/badge/Agent_Skills-compatible-255BE6)](https://agentskills.io)
 [![Scope](https://img.shields.io/badge/scope-US--first-255BE6)](#scope-and-limits)
 
-[Install](#install) · [With and without the skill](#same-ai-with-and-without-the-skill) · [Website](https://mri-commons.github.io/mr-safety-agent/) · [Feedback](#feedback) · [Contributing](CONTRIBUTING.md)
+[Install](#install) · [With and Without the Skill](#same-ai-with-and-without-the-skill) · [Website](https://mri-commons.github.io/mr-safety-agent/) · [Feedback](#feedback) · [Contributing](CONTRIBUTING.md)
 
 </div>
 
@@ -80,30 +80,6 @@ Two examples, each the same question asked of the same model with and without th
 npx skills add mri-commons/mr-safety-agent --skill mr-safety-agent
 ```
 
-<details>
-<summary><b>More Options: Claude Code Plugin, ChatGPT and Codex Plugin, Manual Copy, and Tools Without Skills</b></summary>
-
-**Claude Code Plugin**
-
-```sh
-claude plugin marketplace add mri-commons/mr-safety-agent
-claude plugin install mr-safety-agent@mr-safety-agent
-```
-
-**ChatGPT and Codex Plugin.** Add the marketplace, then install **MR Safety Agent** from the Codex plugin browser. The portable manifest is [`plugin.json`](plugin.json). The plugin is not yet listed in the shared Plugin Directory.
-
-```sh
-codex plugin marketplace add mri-commons/mr-safety-agent
-```
-
-**Manual Copy.** Place `skills/mr-safety-agent` in `~/.claude/skills/` (Claude Code), `.agents/skills/` (Codex), or `~/.gemini/skills/` (Gemini CLI). Do not overwrite an existing skill with the same name.
-
-**Tools Without Skill Support**, such as the free ChatGPT plan: create a project or custom assistant, add `SKILL.md` and the files in `references/`, and instruct it to follow `SKILL.md`. This approximates the skill, but the AI may consult the reference files less reliably.
-
-**Telemetry.** The skills CLI reports installs to its maintainers. See its documentation.
-
-</details>
-
 ## Examples
 
 Give exact model numbers for device questions. For example:
@@ -130,18 +106,16 @@ A static companion site lets anyone use the project without installing an AI too
 
 <img src="assets/readme-website.png" alt="The website's guides, grouped into cardiac devices, neuromodulation, hearing implants, diabetes devices, shunt valves, and breast tissue expanders">
 
-Open it at **<https://mri-commons.github.io/mr-safety-agent/>**. To preview a local copy, follow the development setup in [CONTRIBUTING.md](CONTRIBUTING.md); `scripts/dev.py` serves it with live reload. Guide content lives in [`content/guides/`](content/guides/).
-
 ## How It Works
 
 The AI reads only the workflow it needs. A [source directory](skills/mr-safety-agent/references/sources.json) gives curated starting points and verified notes on how each manufacturer's library finds the current revision. Every current claim must come from a source opened during the task, and the answer lists only the sources actually opened. The package has no model, hosted service, or clinical integration. Search and PDF reading come from your AI tool.
 
 ## Scope and Limits
 
-- **US-First.** Other regions need their own applicable sources.
+- **US-First.** Other regions are not yet covered. Regional contributions are welcome.
 - **Not a Database.** The directory lists starting points, not stored device labels. Manuals are linked, not redistributed.
 - **Tool-Dependent.** As of October 2026, behavior has been evaluated in Claude Code, with limited testing in ChatGPT Work. Other hosts are untested.
-- **Privacy.** Do not enter patient names, dates of birth, or record numbers. Use device details only.
+- **Privacy.** Never enter patient identifiers. Device details are all it needs.
 
 ## Feedback
 
