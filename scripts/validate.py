@@ -200,6 +200,11 @@ def validate(root: Path) -> list[str]:
             ok = ok and all(nonempty(entry.get(k)) for k in watch_needs[kind])
             ok = ok and (kind == "medtronic" or urlsplit(entry["url"]).scheme == "https")
             require(ok, f"{path.name}: watch entries need document, expect, a known type, and its url or query")
+            if ok and ("post" in entry or "headers" in entry):
+                headers = entry.get("headers", {})
+                require(kind == "page" and isinstance(entry.get("post", ""), str) and isinstance(headers, dict)
+                        and all(isinstance(v, str) for v in headers.values()),
+                        f"{path.name}: watch post and headers apply to page entries (a string and a mapping)")
 
     # Topic pages: every section must cite at least one declared source.
     for path in sorted((root / "content/topics").glob("*.yaml")):

@@ -9,6 +9,8 @@ the document and update the guide.
 Entry types:
   pdf       Download the PDF and confirm its text still contains `expect` (catches in-place updates).
   page      Fetch a listing page and confirm it still contains `expect` (a file name or number).
+            Optional `post` sends a form body, and optional `headers` adds request headers,
+            for portals whose listings come from a form or an API.
   redirect  Follow a "latest version" link and confirm the final URL contains `expect`.
   medtronic Search Medtronic's US MRI Resource Library (`by`: model or brand) and confirm the
             results still link `expect`.
@@ -99,7 +101,10 @@ def check(entry):
         _, data = fetch(entry['url'])
         found = squash(expect) in squash(pdf_text(data))
     elif kind == 'page':
-        _, data = fetch(entry['url'])
+        op = opener()
+        op.addheaders += list((entry.get('headers') or {}).items())
+        post = entry.get('post')
+        _, data = fetch(entry['url'], op, post.encode() if post else None)
         found = squash(expect) in squash(data.decode('utf-8', 'ignore'))
     elif kind == 'redirect':
         final, _ = fetch(entry['url'])
