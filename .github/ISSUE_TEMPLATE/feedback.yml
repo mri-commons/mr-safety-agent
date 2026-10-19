@@ -1,5 +1,5 @@
-name: Answer Problem or Idea
-description: The skill gave a misleading answer, or you have an idea or comment.
+name: Feedback
+description: A misleading answer, an idea, or any other comment.
 body:
   - type: markdown
     attributes:
@@ -10,7 +10,7 @@ body:
     attributes:
       label: Type
       options:
-        - Misleading or Wrong Answer
+        - Misleading Answer
         - Idea or Suggestion
         - Other
     validations:
