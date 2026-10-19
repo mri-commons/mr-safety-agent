@@ -396,7 +396,7 @@
       "id": "abbott-freestyle-libre-us",
       "title": "FreeStyle Libre Support and Important Safety Information",
       "publisher": "Abbott Diabetes Care",
-      "url": "https://www.freestyle.abbott/us-en/safety-information.html",
+      "url": "https://www.freestyle.abbott/en-us/safety-information.html",
       "kind": "manufacturer-portal",
       "jurisdiction": "US",
       "topics": ["devices", "manuals", "diabetes", "abbott", "cgm"],
@@ -404,7 +404,7 @@
       "verified_on": "2026-10-02",
       "navigation": [
         "With Python, scripts/find_documents.py redirect '<fxaa20 link>' shows which edition a 'version=latest' link currently serves.",
-        "Manuals are linked from /us-en/freestyle-libre-3-resources.html and /us-en/freestyle-libre-2-resources.html through freestyleserver.com/distribution/fxaa20.aspx?product=<code>&version=latest&region=us, which redirects to a fixed Payloads/IFU/... PDF. Record the ART number and revision from the PDF.",
+        "Manuals are linked from /en-us/freestyle-libre-3-resources.html and /en-us/freestyle-libre-2-resources.html through freestyleserver.com/distribution/fxaa20.aspx?product=<code>&version=latest&region=us, which redirects to a fixed Payloads/IFU/... PDF. Record the ART number and revision from the PDF.",
         "Current Libre app manuals (Libre 3: ART48742-103 Rev. A 03/26; Libre 2: ART47276-003 Rev. B 10/25) and Reader manuals give MR Conditional 1.5T/3T conditions for Libre 2, 2 Plus, 3, and 3 Plus sensors (sensor only; phone and Reader outside the exam room).",
         "Conflict: the older FreeStyle Libre 3 app manual (ART49044-301 Rev. A 04/26) and FreeStyle Libre 2 app manual (ART43995-601 Rev. B 08/23), still linked under 'Other app versions', say the system must be removed before MRI, CT, or diathermy. Report the conflict and follow the manual for the app or Reader in use.",
         "FreeStyle Libre 14 day (ART39764-401 Rev. A 05/26) must be removed before MRI, CT, or diathermy. Libre Duo 10 Day has its own MRI conditions (3T: 10 minutes between pelvis and sternum, head SAR 3.2 W/kg, no other implant within 2 cm) on the safety page.",

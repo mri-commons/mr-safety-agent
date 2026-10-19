@@ -12,13 +12,13 @@ summary: >-
   sensor generations and apps.
 where:
   - label: FreeStyle Libre 3 system support (US)
-    url: https://www.freestyle.abbott/us-en/freestyle-libre-3-resources.html
+    url: https://www.freestyle.abbott/en-us/freestyle-libre-3-resources.html
     note: Manuals for the Libre app and the Reader, with older app versions further down the page.
   - label: FreeStyle Libre 2 system support (US)
-    url: https://www.freestyle.abbott/us-en/freestyle-libre-2-resources.html
+    url: https://www.freestyle.abbott/en-us/freestyle-libre-2-resources.html
     note: The same layout for Libre 2 and Libre 2 Plus sensors.
   - label: Important Safety Information (US)
-    url: https://www.freestyle.abbott/us-en/safety-information.html
+    url: https://www.freestyle.abbott/en-us/safety-information.html
     note: Safety text for each current US system, including the MRI tables.
 steps:
   - Find out which sensor the patient wears, such as Libre 3 Plus, Libre 3, Libre 2 Plus, Libre 2, or Libre 14 day, and whether they read it with the Libre app, an older FreeStyle Libre app, or a Reader.
