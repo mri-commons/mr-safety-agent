@@ -5,7 +5,7 @@ manufacturer: Nevro
 devices: "Spinal Cord Stimulation"
 title: Nevro Senza MRI Guidelines
 covers: Senza, Senza II, Senza Omnia, and Senza HFX iQ spinal cord stimulation systems
-verified_on: "2026-10-01"
+verified_on: "2026-10-19"
 summary: >-
   Nevro publishes separate US MRI guidelines for different generator families. Its Product
   Manuals page lists the current edition for each region.
@@ -16,7 +16,7 @@ where:
 steps:
   - Get the generator (IPG) model and every lead, extension, adaptor, and anchor model from the patient ID card or implant records.
   - Open Product Manuals and select United States, MRI Guidelines, and English.
-  - Pick the document for the generator family. On 2026-10-01 the US list showed one guideline for Senza HFX iQ (NIPG3000) and another for Senza, Senza II, and Senza Omnia (NIPG1000, NIPG1500, NIPG2000, NIPG2500).
+  - Pick the document for the generator family. On 2026-10-19 the US list showed 10001162 Rev D for Senza HFX iQ (NIPG3000) and 11096 Rev R for Senza, Senza II, and Senza Omnia (NIPG1000, NIPG1500, NIPG2000, NIPG2500).
   - Note the revision shown in the list, then confirm the PDF footer shows the same revision.
   - Check the component tables to make sure every implanted lead and accessory is listed for that generator's document.
 check:
@@ -32,3 +32,14 @@ also:
   - label: FDA Medical Device Recalls and Early Alerts
     url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
     note: Nevro does not post a separate safety-notice page. Check FDA's list.
+watch:
+- document: MRI Guidelines for Senza HFX iQ (US Product Manuals list)
+  type: page
+  url: https://www.nevro.com/wp/wp-admin/admin-ajax.php
+  post: region=us&type=mri&lang=en&action=manuals_filter&page=product-manuals
+  expect: 10001162-Senza-HFX-iQ-System-1-5T-3T-MRI-Guidelines-US-Rev-D
+- document: MRI Guidelines for Senza, Senza II, and Senza Omnia (US Product Manuals list)
+  type: page
+  url: https://www.nevro.com/wp/wp-admin/admin-ajax.php
+  post: region=us&type=mri&lang=en&action=manuals_filter&page=product-manuals
+  expect: 11096-Rev-R_Nevro-MRI-Guidelines-for-Senza-Systems-US

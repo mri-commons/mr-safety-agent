@@ -104,7 +104,7 @@
       "devices": "Spinal Cord Stimulation",
       "title": "Nevro Senza MRI Guidelines",
       "covers": "Senza, Senza II, Senza Omnia, and Senza HFX iQ spinal cord stimulation systems",
-      "verified_on": "2026-10-01",
+      "verified_on": "2026-10-19",
       "initials": "N",
       "url": "guides/nevro.html"
     },
@@ -116,7 +116,7 @@
       "devices": "Vagus Nerve Stimulation",
       "title": "LivaNova VNS Therapy MRI Guidance",
       "covers": "VNS Therapy generators such as SenTiva, AspireSR, AspireHC, DemiPulse, and Pulse, with Model 300-series leads",
-      "verified_on": "2026-10-01",
+      "verified_on": "2026-10-19",
       "initials": "L",
       "url": "guides/livanova.html"
     },
@@ -152,7 +152,7 @@
       "devices": "Cochlear and Hearing Implants",
       "title": "MED-EL Hearing Implant MRI Documents",
       "covers": "MED-EL cochlear implants such as SYNCHRONY 2, SYNCHRONY, and MED-EL CONCERT, plus other MED-EL hearing implants",
-      "verified_on": "2026-10-01",
+      "verified_on": "2026-10-19",
       "initials": "ME",
       "url": "guides/med-el.html"
     },
@@ -296,7 +296,7 @@
       "devices": "CPX4 \u00b7 ARTOURA Expanders",
       "title": "Mentor Tissue Expander Instructions for Use",
       "covers": "MENTOR CPX4, CPX4 with Suture Tabs, CPX4 PLUS Enhance, and ARTOURA breast tissue expanders (Johnson & Johnson MedTech).",
-      "verified_on": "2026-10-02",
+      "verified_on": "2026-10-19",
       "initials": "M",
       "url": "guides/mentor.html"
     },
@@ -320,7 +320,7 @@
       "devices": "Motiva Flora Expander",
       "title": "Motiva Flora Tissue Expander Directions for Use",
       "covers": "Motiva Flora SmoothSilk tissue expander, which uses an RFID port locator instead of a magnet, and its port locator.",
-      "verified_on": "2026-10-02",
+      "verified_on": "2026-10-19",
       "initials": "EL",
       "url": "guides/motiva.html"
     }

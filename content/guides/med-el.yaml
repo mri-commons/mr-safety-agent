@@ -5,7 +5,7 @@ manufacturer: MED-EL
 devices: "Cochlear and Hearing Implants"
 title: MED-EL Hearing Implant MRI Documents
 covers: MED-EL cochlear implants such as SYNCHRONY 2, SYNCHRONY, and MED-EL CONCERT, plus other MED-EL hearing implants
-verified_on: "2026-10-01"
+verified_on: "2026-10-19"
 summary: >-
   MED-EL publishes US MRI documents on its US Important Safety Information page. After you choose
   a system, the page links the US Medical Procedures manual, an MRI checklist, and an MRI safety
@@ -35,3 +35,16 @@ also:
   - label: FDA Medical Device Recalls and Early Alerts
     url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
     note: MED-EL does not post a separate US safety-notice page. Check FDA's lists.
+watch:
+- document: Medical Procedures manual, CI systems (US Important Safety Information)
+  type: page
+  url: https://www.medel.com/api/isi/contentitems?%24select=Content&%24filter=Title%20eq%20%27EN%2FUS%20-%20English%20US%20Cochlear%20Implant%20Systems%27&sf_provider=contentProvider2&sf_culture=en
+  expect: aw33290_90_manual-medical-procedures-ci-systems-en-english-us
+- document: MRI Checklist (US Important Safety Information)
+  type: page
+  url: https://www.medel.com/api/isi/contentitems?%24select=Content&%24filter=Title%20eq%20%27EN%2FUS%20-%20English%20US%20Cochlear%20Implant%20Systems%27&sf_provider=contentProvider2&sf_culture=en
+  expect: aw36944_40_mri-checklist
+- document: MRI Safety Status Overview (US Important Safety Information)
+  type: page
+  url: https://www.medel.com/api/isi/contentitems?%24select=Content&%24filter=Title%20eq%20%27EN%2FUS%20-%20English%20US%20Cochlear%20Implant%20Systems%27&sf_provider=contentProvider2&sf_culture=en
+  expect: aw34131_50_mri-safety-status-overview-en-english-us

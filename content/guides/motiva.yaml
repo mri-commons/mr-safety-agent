@@ -5,7 +5,7 @@ manufacturer: Establishment Labs
 devices: "Motiva Flora Expander"
 title: Motiva Flora Tissue Expander Directions for Use
 covers: Motiva Flora SmoothSilk tissue expander, which uses an RFID port locator instead of a magnet, and its port locator.
-verified_on: "2026-10-02"
+verified_on: "2026-10-19"
 summary: >-
   Establishment Labs publishes the US directions for use for the Motiva Flora tissue expander on
   its eIFU portal. Unlike magnetic port expanders, it has MR Conditional labeling at 1.5T and 3T.
@@ -28,3 +28,10 @@ also:
   - label: FDA Medical Device Recalls and Early Alerts
     url: https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls-and-early-alerts
     note: FDA's list of recalls and early alerts.
+watch:
+- document: Flora SmoothSilk Tissue Expander Directions for Use (US FDA cleared, portal listing)
+  type: page
+  url: https://api-public.qarad.eifu.online/api/v1/business-units/1/product-types/23/product?audience=HCP&keycode=IFU+Flora%C2%AE+SmoothSilk%C2%AE+Tissue+Expander&country=US
+  headers:
+    Referer: https://ifu.motiva.health/
+  expect: '"number":"DOC-001016","latestVersion":true,"date":"2024-11-27","version":"3"'

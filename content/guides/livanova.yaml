@@ -5,7 +5,7 @@ manufacturer: LivaNova
 devices: "Vagus Nerve Stimulation"
 title: LivaNova VNS Therapy MRI Guidance
 covers: VNS Therapy generators such as SenTiva, AspireSR, AspireHC, DemiPulse, and Pulse, with Model 300-series leads
-verified_on: "2026-10-01"
+verified_on: "2026-10-19"
 summary: >-
   LivaNova publishes its US MRI guidance for the VNS Therapy System as a physician's manual in an
   e-labeling portal. The PDFs and decision tool on its website are summaries.
@@ -23,7 +23,7 @@ steps:
   - Confirm the generator and lead models are listed in the manual's applicability section, then follow the manual for that setup.
   - Check the field safety notices listed in the same English-US portal view.
 check:
-  - The edition label on the cover and in each page footer should end in "(US)", together with a month and year.
+  - The cover gives a month and year, and the cover and each page footer give the document number ending in "(US)". On 2026-10-19 the US MRI manual was "26-0011-0800/4 (US)", dated September 2026.
   - The portal offers no version history or fixed link, so the identity line printed on the PDF is the way to tell editions apart.
 traps:
   - Other regions' editions of the same manual share its title. An English-EU view serves a "(CE)" edition. Make sure the label says "(US)".
