@@ -1,0 +1,35 @@
+name: Wrong or Outdated Source
+description: A guide or source points to the wrong document, an old revision, or a broken page.
+title: "Source: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping keep the sources current. This is a public page. Do not include patient names, dates of birth, record numbers, images, or other identifiers. Device details are all we need.
+  - type: input
+    id: where
+    attributes:
+      label: Guide or Source
+      description: The website guide, the source directory entry, or the answer that used it.
+      placeholder: e.g. Abbott FreeStyle Libre guide
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What Is Wrong
+      description: For example a superseded revision, a non-US edition, a broken link, or a missed safety notice.
+    validations:
+      required: true
+  - type: input
+    id: correct
+    attributes:
+      label: Correct Source
+      description: A link hosted by the publisher itself, with the document number and revision if you have them.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: This report contains no patient information.
+          required: true

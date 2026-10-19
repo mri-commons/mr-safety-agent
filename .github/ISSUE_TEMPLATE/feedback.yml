@@ -1,0 +1,50 @@
+name: Answer Problem or Idea
+description: The skill gave a misleading answer, or you have an idea or comment.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Every comment, correction, and suggestion is welcome. This is a public page. Do not include patient names, dates of birth, record numbers, images, or other identifiers. Device details are all we need.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type
+      options:
+        - Misleading or Wrong Answer
+        - Idea or Suggestion
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: tool
+    attributes:
+      label: AI Tool
+      description: Where you used the skill, if anywhere.
+      options:
+        - Claude
+        - ChatGPT
+        - Gemini
+        - Claude Code
+        - Codex
+        - Gemini CLI
+        - Website Only
+        - Other
+  - type: textarea
+    id: question
+    attributes:
+      label: Question Asked
+      description: The question you asked, with device details only.
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What happened, what you expected, or your idea.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: This report contains no patient information.
+          required: true

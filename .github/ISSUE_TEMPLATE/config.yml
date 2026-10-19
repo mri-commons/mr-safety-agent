@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Website
+    url: https://mri-commons.github.io/mr-safety-agent/
+    about: Device guides, key references, and the skill download.
